@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 88bbae880592a6542b0661810e7334f6
+timeCreated: 1463140817
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group1
+    100004: Group4
+    100006: Group5
+    100008: Jt_head
+    100010: Jt_l_ear
+    100012: Jt_l_leg_1_
+    100014: Jt_l_leg_1_1
+    100016: Jt_l_leg_1_2
+    100018: Jt_l_leg_1_3
+    100020: Jt_l_leg_2_
+    100022: Jt_l_leg_2_1
+    100024: Jt_l_leg_2_2
+    100026: Jt_l_leg_2_3
+    100028: Jt_l_leg_3_
+    100030: Jt_l_leg_3_1
+    100032: Jt_l_leg_3_2
+    100034: Jt_l_leg_3_3
+    100036: Jt_neck
+    100038: Jt_r_ear
+    100040: Jt_r_leg_1_
+    100042: Jt_r_leg_1_1
+    100044: Jt_r_leg_1_2
+    100046: Jt_r_leg_1_3
+    100048: Jt_r_leg_2_
+    100050: Jt_r_leg_2_1
+    100052: Jt_r_leg_2_2
+    100054: Jt_r_leg_2_3
+    100056: Jt_r_leg_3_
+    100058: Jt_r_leg_3_1
+    100060: Jt_r_leg_3_2
+    100062: Jt_r_leg_3_3
+    100064: Jt_spline_
+    100066: Jt_spline_1
+    100068: Jt_spline_2
+    100070: Jt_tail
+    100072: Mesh
+    100074: pSphere1
+    400000: //RootNode
+    400002: Group1
+    400004: Group4
+    400006: Group5
+    400008: Jt_head
+    400010: Jt_l_ear
+    400012: Jt_l_leg_1_
+    400014: Jt_l_leg_1_1
+    400016: Jt_l_leg_1_2
+    400018: Jt_l_leg_1_3
+    400020: Jt_l_leg_2_
+    400022: Jt_l_leg_2_1
+    400024: Jt_l_leg_2_2
+    400026: Jt_l_leg_2_3
+    400028: Jt_l_leg_3_
+    400030: Jt_l_leg_3_1
+    400032: Jt_l_leg_3_2
+    400034: Jt_l_leg_3_3
+    400036: Jt_neck
+    400038: Jt_r_ear
+    400040: Jt_r_leg_1_
+    400042: Jt_r_leg_1_1
+    400044: Jt_r_leg_1_2
+    400046: Jt_r_leg_1_3
+    400048: Jt_r_leg_2_
+    400050: Jt_r_leg_2_1
+    400052: Jt_r_leg_2_2
+    400054: Jt_r_leg_2_3
+    400056: Jt_r_leg_3_
+    400058: Jt_r_leg_3_1
+    400060: Jt_r_leg_3_2
+    400062: Jt_r_leg_3_3
+    400064: Jt_spline_
+    400066: Jt_spline_1
+    400068: Jt_spline_2
+    400070: Jt_tail
+    400072: Mesh
+    400074: pSphere1
+    4300000: Group4
+    4300002: Group5
+    4300004: Group1
+    4300006: pSphere1
+    9500000: //RootNode
+    13700000: Group1
+    13700002: Group4
+    13700004: Group5
+    13700006: pSphere1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
