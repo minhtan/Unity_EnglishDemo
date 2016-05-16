@@ -61,6 +61,8 @@ namespace Vuforia
 
         #endregion // PUBLIC_METHODS
 
+
+
         #region PRIVATE_METHODS
 
 
