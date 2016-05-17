@@ -21,6 +21,7 @@ namespace Vuforia
 		#endregion // PRIVATE_MEMBER_VARIABLES
 
 		public GameObject go;
+		public GameObject canvas;
 		public AudioClip clip;
 
 		#region UNTIY_MONOBEHAVIOUR_METHODS
@@ -70,6 +71,7 @@ namespace Vuforia
 		private void OnTrackingFound()
 		{
 			go.SetActive (true);
+			canvas.SetActive (true);
 			SoundManager.Instance.PlaySound (clip);
 		}
 
@@ -77,6 +79,7 @@ namespace Vuforia
 		private void OnTrackingLost()
 		{
 			go.SetActive (false);
+			canvas.SetActive (false);
 			SoundManager.Instance.Stop ();
 		}
 
