@@ -3,26 +3,30 @@ using System.Collections;
 using Lean;
 using UnityEngine.UI;
 
-public class Controller : MonoBehaviour {
+public class ModelController : MonoBehaviour {
 	int currentIncorrect;
 	int currentCorrect;
-	public Transform pnlLivesImg;
+
+	public string letter;
 	public GameObject particle;
-	public GameObject pnlResult;
+	public AudioClip questionSound;
 	public AudioClip wrongSound;
 
 	void OnEnable(){
+		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter);
 		Init ();
 		LeanTouch.OnFingerTap += OnFingerTap;
+		Messenger.AddListener (MyEvents.Game.RESET, _Reset);
 	}
 
 	void OnDisable(){
 		Remove ();
 		LeanTouch.OnFingerTap -= OnFingerTap;
+		Messenger.RemoveListener (MyEvents.Game.RESET, _Reset);
 	}
 
 	void OnFingerTap(LeanFinger fg){
-		if(pnlResult.activeSelf){
+		if(GUIManager.Instance.IsResultActive()){
 			return;
 		}
 
@@ -57,7 +61,7 @@ public class Controller : MonoBehaviour {
 				}
 
 				currentIncorrect++;
-				pnlLivesImg.GetChild (currentIncorrect - 1).gameObject.GetComponent<Image> ().color = Color.black;
+				GUIManager.Instance.ShowLostLive (currentIncorrect);
 				if(currentIncorrect == 3){
 					GameOver ();
 				}
@@ -66,22 +70,19 @@ public class Controller : MonoBehaviour {
 	}
 		
 	void GameOver(){
-		pnlResult.SetActive (true);
-		pnlResult.GetComponentInChildren<Text> ().text = "Try again.";
+		GUIManager.Instance.ShowResult (GUIManager.LOSE_TEXT);
 	}
 
 	void Win(){
-		pnlResult.SetActive (true);
-		pnlResult.GetComponentInChildren<Text> ().text = "Correct!";
+		GUIManager.Instance.ShowResult (GUIManager.WIN_TEXT);
 	}
 
 	void Init(){
 		currentCorrect = 0;
 		currentIncorrect = 0;
-		foreach(Transform t in pnlLivesImg){
-			t.gameObject.GetComponent<Image> ().color = Color.white;
-		}
-		pnlResult.SetActive (false);
+
+		GUIManager.Instance.ResetUI ();
+
 		foreach(Transform t in gameObject.transform){
 			GameObject pref = Resources.Load (t.gameObject.name) as GameObject;
 			GameObject go = Instantiate (pref);
@@ -98,6 +99,5 @@ public class Controller : MonoBehaviour {
 	public void _Reset(){
 		Remove ();
 		Init ();
-		pnlResult.SetActive (false);
 	}
 }

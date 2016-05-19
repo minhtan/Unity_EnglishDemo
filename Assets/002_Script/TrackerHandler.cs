@@ -20,9 +20,7 @@ namespace Vuforia
 
 		#endregion // PRIVATE_MEMBER_VARIABLES
 
-		public GameObject go;
-		public GameObject canvas;
-		public AudioClip clip;
+		GameObject go;
 
 		#region UNTIY_MONOBEHAVIOUR_METHODS
 
@@ -33,6 +31,7 @@ namespace Vuforia
 			{
 				mTrackableBehaviour.RegisterTrackableEventHandler(this);
 			}
+			go = transform.GetChild (0).gameObject;
 		}
 
 		#endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -71,16 +70,16 @@ namespace Vuforia
 		private void OnTrackingFound()
 		{
 			go.SetActive (true);
-			canvas.SetActive (true);
-			SoundManager.Instance.PlaySound (clip);
+			SoundManager.Instance.PlaySound (go.GetComponent<ModelController> ().questionSound);
+			GUIManager.Instance.SetActive (true);
 		}
 
 
 		private void OnTrackingLost()
 		{
 			go.SetActive (false);
-			canvas.SetActive (false);
 			SoundManager.Instance.Stop ();
+			GUIManager.Instance.SetActive (false);
 		}
 
 		#endregion // PRIVATE_METHODS
