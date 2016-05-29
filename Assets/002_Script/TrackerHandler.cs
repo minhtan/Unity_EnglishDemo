@@ -70,7 +70,6 @@ namespace Vuforia
 		private void OnTrackingFound()
 		{
 			go.SetActive (true);
-			SoundManager.Instance.PlaySound (go.GetComponent<ModelController> ().questionSound);
 			GUIManager.Instance.SetActive (true);
 		}
 
@@ -78,7 +77,6 @@ namespace Vuforia
 		private void OnTrackingLost()
 		{
 			go.SetActive (false);
-			SoundManager.Instance.Stop ();
 			GUIManager.Instance.SetActive (false);
 		}
 

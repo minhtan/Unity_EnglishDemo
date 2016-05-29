@@ -2,6 +2,5 @@
 using System.Collections;
 
 public class Mark : MonoBehaviour {
-	public bool correct;
 	public AudioClip clip;
 }

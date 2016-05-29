@@ -3,26 +3,34 @@ using System.Collections;
 using Lean;
 using UnityEngine.UI;
 
-public class ModelController : MonoBehaviour {
+public class ModelsManager : MonoBehaviour {
 	int currentIncorrect;
 	int currentCorrect;
 
 	public string letter;
-	public GameObject particle;
-	public AudioClip questionSound;
-	public AudioClip wrongSound;
+
+	public Models[] models;
 
 	void OnEnable(){
-		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter);
 		Init ();
+		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter);
 		LeanTouch.OnFingerTap += OnFingerTap;
 		Messenger.AddListener (MyEvents.Game.RESET, _Reset);
 	}
 
 	void OnDisable(){
-		Remove ();
+		End ();
 		LeanTouch.OnFingerTap -= OnFingerTap;
 		Messenger.RemoveListener (MyEvents.Game.RESET, _Reset);
+	}
+
+	bool CompareAnswer(string name){
+		for(int i = 0; i < models.Length; i++){
+			if(models[i].name.ToString() == name){
+				return true;
+			}
+		}
+		return false;
 	}
 
 	void OnFingerTap(LeanFinger fg){
@@ -36,11 +44,10 @@ public class ModelController : MonoBehaviour {
 		if(Physics.Raycast(ray, out hitInfo)){
 			GameObject go = hitInfo.collider.gameObject;
 			go.GetComponent<Collider> ().enabled = false;
-			Mark m = go.GetComponent<Mark> ();
-			if (m.correct) {
-				SoundManager.Instance.PlaySound (m.clip);
+			if (CompareAnswer(go.name)) {
+				SoundManager.Instance.PlaySound (go.GetComponent<Mark> ().clip);
 
-				GameObject par = Instantiate (particle);
+				GameObject par = Instantiate (GameManager.Instance.particle);
 				par.transform.SetParent (go.transform.parent, false);
 				LeanTween.scale (go, Vector3.zero, 1.0f).setEase (LeanTweenType.easeOutCubic);
 
@@ -49,7 +56,7 @@ public class ModelController : MonoBehaviour {
 					Win ();
 				}
 			} else {
-				SoundManager.Instance.PlaySound (wrongSound);
+				SoundManager.Instance.PlayWrongSound ();
 
 				Renderer[] rd = go.GetComponentsInChildren<Renderer> ();
 				for (int i = 0; i < rd.Length; i++) {
@@ -81,23 +88,24 @@ public class ModelController : MonoBehaviour {
 		currentCorrect = 0;
 		currentIncorrect = 0;
 
-		GUIManager.Instance.ResetUI ();
+		SoundManager.Instance.PlaySound (Resources.Load<AudioClip>("Q_Sound/" + letter));
 
-		foreach(Transform t in gameObject.transform){
-			GameObject pref = Resources.Load (t.gameObject.name) as GameObject;
-			GameObject go = Instantiate (pref);
-			go.transform.SetParent (t, false);
+		for (int i = 0; i < models.Length; i++) {
+			GameObject go = Instantiate (Resources.Load<GameObject> (models[i].name.ToString()));
+			go.transform.localPosition = GameManager.Instance.GetPos (i);
+			go.transform.SetParent (transform, false);
 		}
 	}
 
-	void Remove(){
+	void End(){
 		foreach(Transform t in gameObject.transform){
-			Destroy (t.GetChild (0).gameObject);
+			Destroy (t.gameObject);
 		}
+		SoundManager.Instance.Stop ();
 	}
 
 	public void _Reset(){
-		Remove ();
+		End ();
 		Init ();
 	}
 }

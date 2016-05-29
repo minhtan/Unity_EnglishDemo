@@ -11,6 +11,14 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	public Transform pnlLivesImg;
 	public GameObject pnlResult;
 
+	void OnEnable(){
+		ResetUI ();
+	}
+
+	void OnDisable(){
+		
+	}
+
 	void Start(){
 		go = transform.GetChild (0).gameObject;
 		Messenger.AddListener<string> (MyEvents.Game.TARGETFOUND, TargetFound);
