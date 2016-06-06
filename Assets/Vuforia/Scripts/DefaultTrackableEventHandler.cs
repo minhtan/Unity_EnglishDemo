@@ -5,6 +5,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Vuforia
 {
@@ -20,7 +21,8 @@ namespace Vuforia
     
         #endregion // PRIVATE_MEMBER_VARIABLES
 
-		public GameObject go;
+		public Text txt;
+		public string targetNo;
 
         #region UNTIY_MONOBEHAVIOUR_METHODS
     
@@ -68,13 +70,13 @@ namespace Vuforia
 
         private void OnTrackingFound()
         {
-			go.SetActive (true);
+			txt.text = targetNo;
         }
 
 
         private void OnTrackingLost()
         {
-			go.SetActive (false);
+			txt.text = "";
         }
 
         #endregion // PRIVATE_METHODS
