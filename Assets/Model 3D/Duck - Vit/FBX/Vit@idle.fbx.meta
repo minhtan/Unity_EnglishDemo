@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: dde28b7f4f3077e42af170dc5c6f5714
+timeCreated: 1465443528
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vit_l_Alula_01_01SHJnt
+    100004: Vit_l_Alula_01_02SHJnt
+    100006: Vit_l_Digit_01_01SHJnt
+    100008: Vit_l_Digit_01_02SHJnt
+    100010: Vit_l_Leg_AnkleSHJnt
+    100012: Vit_l_Leg_BallSHJnt
+    100014: Vit_l_Leg_HipSHJnt
+    100016: Vit_l_Leg_KneeSHJnt
+    100018: Vit_l_Leg_ToeSHJnt
+    100020: Vit_l_Wing_ClavicleSHJnt
+    100022: Vit_l_Wing_Elbow1SHJnt
+    100024: Vit_l_Wing_Elbow2SHJnt
+    100026: Vit_l_Wing_ShoulderSHJnt
+    100028: Vit_l_Wing_WristSHJnt
+    100030: Vit_MAINSHJnt
+    100032: Vit_Neck_01SHJnt
+    100034: Vit_Neck_02SHJnt
+    100036: Vit_Neck_03SHJnt
+    100038: Vit_Neck_04SHJnt
+    100040: Vit_Neck_05SHJnt
+    100042: Vit_Neck_06SHJnt
+    100044: Vit_Neck_TopSHJnt
+    100046: Vit_r_Alula_01_01SHJnt
+    100048: Vit_r_Alula_01_02SHJnt
+    100050: Vit_r_Digit_01_01SHJnt
+    100052: Vit_r_Digit_01_02SHJnt
+    100054: Vit_r_Leg_AnkleSHJnt
+    100056: Vit_r_Leg_BallSHJnt
+    100058: Vit_r_Leg_HipSHJnt
+    100060: Vit_r_Leg_KneeSHJnt
+    100062: Vit_r_Leg_ToeSHJnt
+    100064: Vit_r_Wing_ClavicleSHJnt
+    100066: Vit_r_Wing_Elbow1SHJnt
+    100068: Vit_r_Wing_Elbow2SHJnt
+    100070: Vit_r_Wing_ShoulderSHJnt
+    100072: Vit_r_Wing_WristSHJnt
+    100074: Vit_ROOTSHJnt
+    100076: Vit_Spine_01SHJnt
+    100078: Vit_Spine_02SHJnt
+    100080: Vit_Spine_TopSHJnt
+    100082: Vit_Tail_01_01SHJnt
+    100084: Vit_Tail_01_02SHJnt
+    100086: Vit_Tail_01_03SHJnt
+    100088: Vit_Tail_01_04SHJnt
+    400000: //RootNode
+    400002: Vit_l_Alula_01_01SHJnt
+    400004: Vit_l_Alula_01_02SHJnt
+    400006: Vit_l_Digit_01_01SHJnt
+    400008: Vit_l_Digit_01_02SHJnt
+    400010: Vit_l_Leg_AnkleSHJnt
+    400012: Vit_l_Leg_BallSHJnt
+    400014: Vit_l_Leg_HipSHJnt
+    400016: Vit_l_Leg_KneeSHJnt
+    400018: Vit_l_Leg_ToeSHJnt
+    400020: Vit_l_Wing_ClavicleSHJnt
+    400022: Vit_l_Wing_Elbow1SHJnt
+    400024: Vit_l_Wing_Elbow2SHJnt
+    400026: Vit_l_Wing_ShoulderSHJnt
+    400028: Vit_l_Wing_WristSHJnt
+    400030: Vit_MAINSHJnt
+    400032: Vit_Neck_01SHJnt
+    400034: Vit_Neck_02SHJnt
+    400036: Vit_Neck_03SHJnt
+    400038: Vit_Neck_04SHJnt
+    400040: Vit_Neck_05SHJnt
+    400042: Vit_Neck_06SHJnt
+    400044: Vit_Neck_TopSHJnt
+    400046: Vit_r_Alula_01_01SHJnt
+    400048: Vit_r_Alula_01_02SHJnt
+    400050: Vit_r_Digit_01_01SHJnt
+    400052: Vit_r_Digit_01_02SHJnt
+    400054: Vit_r_Leg_AnkleSHJnt
+    400056: Vit_r_Leg_BallSHJnt
+    400058: Vit_r_Leg_HipSHJnt
+    400060: Vit_r_Leg_KneeSHJnt
+    400062: Vit_r_Leg_ToeSHJnt
+    400064: Vit_r_Wing_ClavicleSHJnt
+    400066: Vit_r_Wing_Elbow1SHJnt
+    400068: Vit_r_Wing_Elbow2SHJnt
+    400070: Vit_r_Wing_ShoulderSHJnt
+    400072: Vit_r_Wing_WristSHJnt
+    400074: Vit_ROOTSHJnt
+    400076: Vit_Spine_01SHJnt
+    400078: Vit_Spine_02SHJnt
+    400080: Vit_Spine_TopSHJnt
+    400082: Vit_Tail_01_01SHJnt
+    400084: Vit_Tail_01_02SHJnt
+    400086: Vit_Tail_01_03SHJnt
+    400088: Vit_Tail_01_04SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

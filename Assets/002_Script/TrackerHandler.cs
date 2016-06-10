@@ -70,14 +70,12 @@ namespace Vuforia
 		private void OnTrackingFound()
 		{
 			go.SetActive (true);
-			GUIManager.Instance.SetActive (true);
 		}
 
 
 		private void OnTrackingLost()
 		{
 			go.SetActive (false);
-			GUIManager.Instance.SetActive (false);
 		}
 
 		#endregion // PRIVATE_METHODS

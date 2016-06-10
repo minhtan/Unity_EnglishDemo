@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 8887d8d849c82354f8574479c68e8a16
+timeCreated: 1465443540
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Alsatian
+    100002: //RootNode
+    100004: cho1
+    100006: Cho_l_Clavicle_01_01SHJnt
+    100008: Cho_l_FrontLeg_AnkleSHJnt
+    100010: Cho_l_FrontLeg_BallSHJnt
+    100012: Cho_l_FrontLeg_HipSHJnt
+    100014: Cho_l_FrontLeg_KneeSHJnt
+    100016: Cho_l_FrontLeg_ToeSHJnt
+    100018: Cho_l_HindLeg_AnkleSHJnt
+    100020: Cho_l_HindLeg_BallSHJnt
+    100022: Cho_l_HindLeg_HipSHJnt
+    100024: Cho_l_HindLeg_Knee1SHJnt
+    100026: Cho_l_HindLeg_Knee2SHJnt
+    100028: Cho_l_HindLeg_ToeSHJnt
+    100030: Cho_MAINSHJnt
+    100032: Cho_Neck_01SHJnt
+    100034: Cho_Neck_02SHJnt
+    100036: Cho_Neck_TopSHJnt
+    100038: Cho_r_Clavicle_01_01SHJnt
+    100040: Cho_r_FrontLeg_AnkleSHJnt
+    100042: Cho_r_FrontLeg_BallSHJnt
+    100044: Cho_r_FrontLeg_HipSHJnt
+    100046: Cho_r_FrontLeg_KneeSHJnt
+    100048: Cho_r_FrontLeg_ToeSHJnt
+    100050: Cho_r_HindLeg_AnkleSHJnt
+    100052: Cho_r_HindLeg_BallSHJnt
+    100054: Cho_r_HindLeg_HipSHJnt
+    100056: Cho_r_HindLeg_Knee1SHJnt
+    100058: Cho_r_HindLeg_Knee2SHJnt
+    100060: Cho_r_HindLeg_ToeSHJnt
+    100062: Cho_ROOTSHJnt
+    100064: Cho_Spine_01SHJnt
+    100066: Cho_Spine_02SHJnt
+    100068: Cho_Spine_03SHJnt
+    100070: Cho_Spine_04SHJnt
+    100072: Cho_Spine_TopSHJnt
+    100074: Cho_Tail_01_01SHJnt
+    100076: Cho_Tail_01_02SHJnt
+    100078: Cho_Tail_01_03SHJnt
+    400000: Alsatian
+    400002: //RootNode
+    400004: cho1
+    400006: Cho_l_Clavicle_01_01SHJnt
+    400008: Cho_l_FrontLeg_AnkleSHJnt
+    400010: Cho_l_FrontLeg_BallSHJnt
+    400012: Cho_l_FrontLeg_HipSHJnt
+    400014: Cho_l_FrontLeg_KneeSHJnt
+    400016: Cho_l_FrontLeg_ToeSHJnt
+    400018: Cho_l_HindLeg_AnkleSHJnt
+    400020: Cho_l_HindLeg_BallSHJnt
+    400022: Cho_l_HindLeg_HipSHJnt
+    400024: Cho_l_HindLeg_Knee1SHJnt
+    400026: Cho_l_HindLeg_Knee2SHJnt
+    400028: Cho_l_HindLeg_ToeSHJnt
+    400030: Cho_MAINSHJnt
+    400032: Cho_Neck_01SHJnt
+    400034: Cho_Neck_02SHJnt
+    400036: Cho_Neck_TopSHJnt
+    400038: Cho_r_Clavicle_01_01SHJnt
+    400040: Cho_r_FrontLeg_AnkleSHJnt
+    400042: Cho_r_FrontLeg_BallSHJnt
+    400044: Cho_r_FrontLeg_HipSHJnt
+    400046: Cho_r_FrontLeg_KneeSHJnt
+    400048: Cho_r_FrontLeg_ToeSHJnt
+    400050: Cho_r_HindLeg_AnkleSHJnt
+    400052: Cho_r_HindLeg_BallSHJnt
+    400054: Cho_r_HindLeg_HipSHJnt
+    400056: Cho_r_HindLeg_Knee1SHJnt
+    400058: Cho_r_HindLeg_Knee2SHJnt
+    400060: Cho_r_HindLeg_ToeSHJnt
+    400062: Cho_ROOTSHJnt
+    400064: Cho_Spine_01SHJnt
+    400066: Cho_Spine_02SHJnt
+    400068: Cho_Spine_03SHJnt
+    400070: Cho_Spine_04SHJnt
+    400072: Cho_Spine_TopSHJnt
+    400074: Cho_Tail_01_01SHJnt
+    400076: Cho_Tail_01_02SHJnt
+    400078: Cho_Tail_01_03SHJnt
+    4300000: Alsatian
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Alsatian
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

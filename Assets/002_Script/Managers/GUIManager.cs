@@ -12,23 +12,28 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	public GameObject pnlResult;
 
 	void OnEnable(){
-		ResetUI ();
+		go = transform.GetChild (0).gameObject;
+		Messenger.AddListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
+		Messenger.AddListener (MyEvents.Game.TARGETLOST, HandleTargetLost);
+
 	}
 
 	void OnDisable(){
-		
+		Messenger.RemoveListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
+		Messenger.RemoveListener (MyEvents.Game.TARGETLOST, HandleTargetLost);
 	}
 
-	void Start(){
-		go = transform.GetChild (0).gameObject;
-		Messenger.AddListener<string> (MyEvents.Game.TARGETFOUND, TargetFound);
-	}
-
-	void TargetFound(string letter){
+	void HandleTargetFound(string letter){
+		SetGUIActive (true);
+		ResetUI ();
 		txtQuestionLetter.text = letter;
 	}
 
-	public void SetActive(bool state){
+	void HandleTargetLost(){
+		SetGUIActive (false);
+	}
+
+	public void SetGUIActive(bool state){
 		go.SetActive (state);
 	}
 
@@ -53,6 +58,7 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	}
 
 	public void _Reset(){
+		ResetUI ();
 		Messenger.Broadcast (MyEvents.Game.RESET);
 	}
 }

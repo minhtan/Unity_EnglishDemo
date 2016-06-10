@@ -5,6 +5,8 @@ public class MyEvents : MonoBehaviour {
 
 	public enum Game{
 		RESET,
-		TARGETFOUND
+		TARGETFOUND,
+		MODEL_TAP,
+		TARGETLOST
 	}
 }

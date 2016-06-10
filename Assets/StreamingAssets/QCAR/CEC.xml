@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Page6" size="1.000000 0.845659" />
-    <ImageTarget name="Page5" size="1.000000 0.844051" />
-    <ImageTarget name="Page4" size="1.000000 0.850242" />
-    <ImageTarget name="Page3" size="1.000000 0.844051" />
-    <ImageTarget name="Page2" size="1.000000 0.852090" />
-    <ImageTarget name="Page1" size="1.000000 0.856913" />
+    <ImageTarget name="Page8" size="1.000000 1.402889" />
+    <ImageTarget name="Page26" size="1.000000 1.402889" />
+    <ImageTarget name="Page25" size="1.000000 1.402889" />
+    <ImageTarget name="Page24" size="1.000000 1.402889" />
+    <ImageTarget name="Page23" size="1.000000 1.402889" />
+    <ImageTarget name="Page22" size="1.000000 1.402889" />
+    <ImageTarget name="Page21" size="1.000000 1.402889" />
+    <ImageTarget name="Page20" size="1.000000 1.402889" />
+    <ImageTarget name="Page19" size="1.000000 1.402889" />
+    <ImageTarget name="Page18" size="1.000000 1.402889" />
+    <ImageTarget name="Page17" size="1.000000 1.402889" />
+    <ImageTarget name="Page16" size="1.000000 1.402889" />
+    <ImageTarget name="Page15" size="1.000000 1.402889" />
+    <ImageTarget name="Page14" size="1.000000 1.402889" />
+    <ImageTarget name="Page13" size="1.000000 1.402889" />
+    <ImageTarget name="Page12" size="1.000000 1.402889" />
+    <ImageTarget name="Page11" size="1.000000 1.402889" />
+    <ImageTarget name="Page10" size="1.000000 1.402889" />
+    <ImageTarget name="Page9" size="1.000000 1.402889" />
+    <ImageTarget name="Page7" size="1.000000 1.402889" />
+    <ImageTarget name="Page6" size="1.000000 1.402889" />
+    <ImageTarget name="Page5" size="1.000000 1.402889" />
+    <ImageTarget name="Page4" size="1.000000 1.402889" />
+    <ImageTarget name="Page3" size="1.000000 1.402889" />
+    <ImageTarget name="Page2" size="1.000000 1.402889" />
+    <ImageTarget name="Page1" size="1.000000 1.402889" />
   </Tracking>
 </QCARConfig>
