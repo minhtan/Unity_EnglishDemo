@@ -19,7 +19,11 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	public Vector3[] posVector;
 
 	public enum modelsName{
-		ant,apple,baby,banana,bear,car,cat,croc
+		ant,apple,baby,banana,bear,car,cat,
+		croc,axe,bee,cookie,dino,dog,duck, 
+		egg,elephant,fish,fox,gorila,guitar,
+		hippo,ninja,pig,pirate,rabbit,lion, 
+		train,truck,violin
 	}
 
 	public Vector3 GetPos(int pos){
@@ -35,7 +39,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	}
 
 	void OnFingerTap(LeanFinger fg){
-		if(GUIManager.Instance.IsResultActive()){
+		if(GUIManager.Instance.IsResultActive() || LeanTouch.GuiInUse){
 			return;
 		}
 

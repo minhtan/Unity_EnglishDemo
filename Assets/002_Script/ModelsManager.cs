@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ModelsManager : MonoBehaviour {
 	int currentIncorrect;
 	int currentCorrect;
+	int totalCorrect;
 
 	public string letter;
 
@@ -27,7 +28,7 @@ public class ModelsManager : MonoBehaviour {
 
 	bool CompareAnswer(string name){
 		for(int i = 0; i < models.Length; i++){
-			if(models[i].Name == name){
+			if(models[i].Name == name && models[i].isCorrect){
 				return true;
 			}
 		}
@@ -37,14 +38,15 @@ public class ModelsManager : MonoBehaviour {
 	void HandleModelTap(GameObject go){
 		go.GetComponent<Collider> ().enabled = false;
 		if (CompareAnswer(go.name)) {
-			SoundManager.Instance.PlaySound (go.GetComponent<Mark> ().clip);
+			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
+			if(clip != null){
+				SoundManager.Instance.PlaySound (clip);
+			}
 
-			GameObject par = Instantiate (GameManager.Instance.particle);
-			par.transform.SetParent (go.transform.parent, false);
-			LeanTween.scale (go, Vector3.zero, 1.0f).setEase (LeanTweenType.easeOutCubic);
+			go.GetComponentInChildren<Animator> ().SetTrigger ("tap");
 
 			currentCorrect++;
-			if(currentCorrect == 3){
+			if(currentCorrect == totalCorrect){
 				Win ();
 			}
 		} else {
@@ -75,16 +77,33 @@ public class ModelsManager : MonoBehaviour {
 		GUIManager.Instance.ShowResult (GUIManager.WIN_TEXT);
 	}
 
+	void CalculateTotalCorrect(){
+		totalCorrect = 0;
+		for(int i = 0; i < models.Length; i++){
+			if (models [i].isCorrect) {
+				totalCorrect++;
+			}
+		}
+	}
+
 	void Init(){
 		currentCorrect = 0;
 		currentIncorrect = 0;
+		CalculateTotalCorrect ();
 
-		SoundManager.Instance.PlaySound (Resources.Load<AudioClip>("Q_Sound/" + letter));
+		AudioClip clip = Resources.Load<AudioClip> ("Q_Sound/" + letter);
+		if(clip != null){
+			SoundManager.Instance.PlaySound (clip);
+		}
 
 		for (int i = 0; i < models.Length; i++) {
-			GameObject go = Instantiate (Resources.Load<GameObject> ("Models/" + models[i].Name));
-			go.transform.localPosition = GameManager.Instance.GetPos (i);
-			go.transform.SetParent (transform, false);
+			GameObject origin = Resources.Load<GameObject> ("Models/" + models [i].Name);
+			if(origin != null){
+				GameObject go = Instantiate (origin);
+				go.name = models [i].Name;
+				go.transform.localPosition = GameManager.Instance.GetPos (i);
+				go.transform.SetParent (transform, false);
+			}
 		}
 	}
 
