@@ -24,6 +24,10 @@ namespace Vuforia
 
 		#region UNTIY_MONOBEHAVIOUR_METHODS
 
+		void Awake(){
+			go = transform.GetChild (0).gameObject;
+		}
+
 		void Start()
 		{
 			mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -31,7 +35,6 @@ namespace Vuforia
 			{
 				mTrackableBehaviour.RegisterTrackableEventHandler(this);
 			}
-			go = transform.GetChild (0).gameObject;
 		}
 
 		#endregion // UNTIY_MONOBEHAVIOUR_METHODS
