@@ -23,7 +23,9 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 		croc,axe,bee,cookie,dino,dog,duck, 
 		egg,elephant,fish,fox,gorila,guitar,
 		hippo,ninja,pig,pirate,rabbit,lion, 
-		train,truck,violin
+		train,truck,violin,ear,flower,girl,
+		hat,house,iguana,insect,igloo,
+		jellyfish,juice,jump
 	}
 
 	public Vector3 GetPos(int pos){
