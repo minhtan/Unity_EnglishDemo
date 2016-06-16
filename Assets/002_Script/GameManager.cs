@@ -18,14 +18,25 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	public GameObject particle;
 	public Vector3[] posVector;
 
+	public enum letters{
+		a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+	}
+
 	public enum modelsName{
 		ant,apple,baby,banana,bear,car,cat,
 		croc,axe,bee,cookie,dino,dog,duck, 
 		egg,elephant,fish,fox,gorila,guitar,
 		hippo,ninja,pig,pirate,rabbit,lion, 
-		train,truck,violin,ear,flower,girl,
+		train,van,violin,ear,flower,girl,
 		hat,house,iguana,insect,igloo,
-		jellyfish,juice,jump
+		jellyfish,juice,jump,key,kite,kangaroo,
+		lemon,leaf,monkey,monster,mouse,nose,
+		nap,orange,octopus,ostrich,panda,
+		quack,quite,queen,robot,rainbow,
+		spider,superman,snake,ten,tiger,
+		up,unicorn,umbrella,vampire,witch,whale,
+		watch,box,yellow,yeti,yoyo,zebra,
+		zombie,zip
 	}
 
 	public Vector3 GetPos(int pos){

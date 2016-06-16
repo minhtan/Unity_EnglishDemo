@@ -8,13 +8,13 @@ public class ModelsManager : MonoBehaviour {
 	int currentCorrect;
 	int totalCorrect;
 
-	public string letter;
+	public GameManager.letters letter;
 
 	public Models[] models;
 
 	void OnEnable(){
 		Init ();
-		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter);
+		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter.ToString().ToUpper());
 		Messenger.AddListener (MyEvents.Game.RESET, HandleReset);
 		Messenger.AddListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
 	}
@@ -91,7 +91,7 @@ public class ModelsManager : MonoBehaviour {
 		currentIncorrect = 0;
 		CalculateTotalCorrect ();
 
-		AudioClip clip = Resources.Load<AudioClip> ("Q_Sound/" + letter);
+		AudioClip clip = Resources.Load<AudioClip> ("Q_Sound/" + letter.ToString().ToUpper());
 		if(clip != null){
 			SoundManager.Instance.PlaySound (clip);
 		}
@@ -112,6 +112,7 @@ public class ModelsManager : MonoBehaviour {
 			Destroy (t.gameObject);
 		}
 		SoundManager.Instance.Stop ();
+		Resources.UnloadUnusedAssets ();
 	}
 
 	public void HandleReset(){
