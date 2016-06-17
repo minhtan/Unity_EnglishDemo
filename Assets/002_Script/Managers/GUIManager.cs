@@ -15,7 +15,7 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 		go = transform.GetChild (0).gameObject;
 		Messenger.AddListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
 		Messenger.AddListener (MyEvents.Game.TARGETLOST, HandleTargetLost);
-
+		HandleTargetLost ();
 	}
 
 	void OnDisable(){
