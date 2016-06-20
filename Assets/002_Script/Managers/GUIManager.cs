@@ -3,13 +3,16 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class GUIManager : UnitySingletonPersistent<GUIManager> {
-	public const string WIN_TEXT = "Correct";
-	public const string LOSE_TEXT = "Try again";
-
 	GameObject go;
 	public Text txtQuestionLetter;
-	public Transform pnlLivesImg;
-	public GameObject pnlResult;
+	
+	public Animator[] livesAnim;
+	public Text txtLives;
+
+	public GameObject pnlWin;
+	public Transform pnlWinStars;
+
+	public GameObject pnlLost;
 
 	void OnEnable(){
 		go = transform.GetChild (0).gameObject;
@@ -38,23 +41,41 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	}
 
 	public void ShowLostLive(int index){
-		pnlLivesImg.GetChild (index - 1).gameObject.GetComponent<Image> ().color = Color.black;
+		foreach(Animator a in livesAnim){
+			a.SetTrigger ("lostLive");
+		}
+		txtLives.text = index + "";
 	}
 
 	public void ResetUI(){
-		foreach(Transform t in pnlLivesImg){
-			t.gameObject.GetComponent<Image> ().color = Color.white;
+		pnlWin.SetActive (false);
+		pnlLost.SetActive (false);
+		txtLives.text = "3";
+		foreach(Animator a in livesAnim){
+			a.SetTrigger ("reset");
 		}
-		pnlResult.SetActive (false);
+		foreach(Transform t in pnlWinStars){
+			t.gameObject.SetActive (false);
+		}
 	}
 
 	public bool IsResultActive(){
-		return pnlResult.activeSelf;
+		if (pnlWin.activeSelf || pnlLost.activeSelf) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 
-	public void ShowResult(string msg){
-		pnlResult.SetActive (true);
-		pnlResult.GetComponentInChildren<Text> ().text = msg;
+	public void ShowWinPnl(int numOfCorrect){
+		pnlWin.SetActive (true);
+		for (int i = 0; i < numOfCorrect; i++) {
+			pnlWinStars.GetChild (i).gameObject.SetActive (true);
+		}
+	}
+
+	public void ShowLostPnl(){
+		pnlLost.SetActive (true);
 	}
 
 	public void _Reset(){

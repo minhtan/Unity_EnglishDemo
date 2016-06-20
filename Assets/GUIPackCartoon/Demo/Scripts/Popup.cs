@@ -37,7 +37,7 @@ public class Popup : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         Destroy(m_background);
-        Destroy(gameObject);
+		Destroy(gameObject.transform.parent.gameObject);
     }
 
     private void AddBackground()
@@ -61,7 +61,7 @@ public class Popup : MonoBehaviour
         m_background.transform.localScale = new Vector3(1, 1, 1);
         m_background.GetComponent<RectTransform>().sizeDelta = canvas.GetComponent<RectTransform>().sizeDelta;
         m_background.transform.SetParent(canvas.transform, false);
-        m_background.transform.SetSiblingIndex(transform.GetSiblingIndex());
+		m_background.transform.SetSiblingIndex(transform.parent.GetSiblingIndex());
     }
 
     private void RemoveBackground()

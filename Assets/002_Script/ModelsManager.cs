@@ -4,6 +4,7 @@ using Lean;
 using UnityEngine.UI;
 
 public class ModelsManager : MonoBehaviour {
+	
 	int currentIncorrect;
 	int currentCorrect;
 	int totalCorrect;
@@ -13,7 +14,7 @@ public class ModelsManager : MonoBehaviour {
 	public Models[] models;
 
 	void OnEnable(){
-		Init ();
+		StartCoroutine( Init () );
 		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter.ToString().ToUpper());
 		Messenger.AddListener (MyEvents.Game.RESET, HandleReset);
 		Messenger.AddListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
@@ -62,7 +63,7 @@ public class ModelsManager : MonoBehaviour {
 			}
 
 			currentIncorrect++;
-			GUIManager.Instance.ShowLostLive (currentIncorrect);
+			GUIManager.Instance.ShowLostLive (3-currentIncorrect);
 			if(currentIncorrect == 3){
 				GameOver ();
 			}
@@ -70,11 +71,11 @@ public class ModelsManager : MonoBehaviour {
 	}
 		
 	void GameOver(){
-		GUIManager.Instance.ShowResult (GUIManager.LOSE_TEXT);
+		GUIManager.Instance.ShowLostPnl ();
 	}
 
 	void Win(){
-		GUIManager.Instance.ShowResult (GUIManager.WIN_TEXT);
+		GUIManager.Instance.ShowWinPnl (3-currentIncorrect);
 	}
 
 	void CalculateTotalCorrect(){
@@ -86,7 +87,7 @@ public class ModelsManager : MonoBehaviour {
 		}
 	}
 
-	void Init(){
+	IEnumerator Init(){
 		currentCorrect = 0;
 		currentIncorrect = 0;
 		CalculateTotalCorrect ();
@@ -97,13 +98,35 @@ public class ModelsManager : MonoBehaviour {
 		}
 
 		for (int i = 0; i < models.Length; i++) {
-			GameObject origin = Resources.Load<GameObject> ("Models/" + models [i].Name);
+			ResourceRequest rr = Resources.LoadAsync<GameObject> ("Models/" + models [i].Name);
+			while(!rr.isDone){
+				yield return null;
+			}
+			GameObject origin = rr.asset as GameObject;
 			if(origin != null){
 				GameObject go = Instantiate (origin);
 				go.name = models [i].Name;
 				go.transform.localPosition = GameManager.Instance.GetPos (i);
 				go.transform.SetParent (transform, false);
+				go.transform.localScale = Vector3.zero;
 			}
+		}
+
+		StartCoroutine (ScaleModelsUp());
+	}
+
+	IEnumerator ScaleModelsUp(){
+		for (int i = 0; i < models.Length;) {
+			try{
+				LeanTween.scale (
+					transform.GetChild (i).gameObject, 
+					transform.GetChild (i).GetComponent<ModelScaleInfo> ().scale.ToVector3 (),
+					0.5f).setEase (LeanTweenType.easeOutBounce);
+			}catch{
+				Debug.Log ("some thing went wrong :D");
+			}
+			yield return new WaitForSeconds (0.1f);
+			i++;
 		}
 	}
 
@@ -117,6 +140,6 @@ public class ModelsManager : MonoBehaviour {
 
 	public void HandleReset(){
 		End ();
-		Init ();
+		StartCoroutine( Init () );
 	}
 }
