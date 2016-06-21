@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 1043e7ab61e382a448c6195244ad89a7
+timeCreated: 1466490632
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Superman_Cape_01_01SHJnt
+    100004: Superman_Cape_01_02SHJnt
+    100006: Superman_Cape_01_03SHJnt
+    100008: Superman_Cape_01_04SHJnt
+    100010: Superman_Cape_01_05SHJnt
+    100012: Superman_l_Arm_ClavicleSHJnt
+    100014: Superman_l_Arm_ElbowSHJnt
+    100016: Superman_l_Arm_ShoulderSHJnt
+    100018: Superman_l_Arm_WristSHJnt
+    100020: Superman_l_Index_01_01SHJnt
+    100022: Superman_l_Index_01_02SHJnt
+    100024: Superman_l_Index_01_03SHJnt
+    100026: Superman_l_Index_01_04SHJnt
+    100028: Superman_l_Leg_AnkleSHJnt
+    100030: Superman_l_Leg_BallSHJnt
+    100032: Superman_l_Leg_HipSHJnt
+    100034: Superman_l_Leg_KneeSHJnt
+    100036: Superman_l_Leg_ToeSHJnt
+    100038: Superman_l_Thumb_01_01SHJnt
+    100040: Superman_l_Thumb_01_02SHJnt
+    100042: Superman_l_Thumb_01_03SHJnt
+    100044: Superman_l_Thumb_01_04SHJnt
+    100046: Superman_MAINSHJnt
+    100048: Superman_Neck_01SHJnt
+    100050: Superman_Neck_02SHJnt
+    100052: Superman_Neck_TopSHJnt
+    100054: Superman_r_Arm_ClavicleSHJnt
+    100056: Superman_r_Arm_ElbowSHJnt
+    100058: Superman_r_Arm_ShoulderSHJnt
+    100060: Superman_r_Arm_WristSHJnt
+    100062: Superman_r_Index_01_01SHJnt
+    100064: Superman_r_Index_01_02SHJnt
+    100066: Superman_r_Index_01_03SHJnt
+    100068: Superman_r_Index_01_04SHJnt
+    100070: Superman_r_Leg_AnkleSHJnt
+    100072: Superman_r_Leg_BallSHJnt
+    100074: Superman_r_Leg_HipSHJnt
+    100076: Superman_r_Leg_KneeSHJnt
+    100078: Superman_r_Leg_ToeSHJnt
+    100080: Superman_r_Thumb_01_01SHJnt
+    100082: Superman_r_Thumb_01_02SHJnt
+    100084: Superman_r_Thumb_01_03SHJnt
+    100086: Superman_r_Thumb_01_04SHJnt
+    100088: Superman_ROOTSHJnt
+    100090: Superman_Spine_01SHJnt
+    100092: Superman_Spine_02SHJnt
+    100094: Superman_Spine_03SHJnt
+    100096: Superman_Spine_04SHJnt
+    100098: Superman_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Superman_Cape_01_01SHJnt
+    400004: Superman_Cape_01_02SHJnt
+    400006: Superman_Cape_01_03SHJnt
+    400008: Superman_Cape_01_04SHJnt
+    400010: Superman_Cape_01_05SHJnt
+    400012: Superman_l_Arm_ClavicleSHJnt
+    400014: Superman_l_Arm_ElbowSHJnt
+    400016: Superman_l_Arm_ShoulderSHJnt
+    400018: Superman_l_Arm_WristSHJnt
+    400020: Superman_l_Index_01_01SHJnt
+    400022: Superman_l_Index_01_02SHJnt
+    400024: Superman_l_Index_01_03SHJnt
+    400026: Superman_l_Index_01_04SHJnt
+    400028: Superman_l_Leg_AnkleSHJnt
+    400030: Superman_l_Leg_BallSHJnt
+    400032: Superman_l_Leg_HipSHJnt
+    400034: Superman_l_Leg_KneeSHJnt
+    400036: Superman_l_Leg_ToeSHJnt
+    400038: Superman_l_Thumb_01_01SHJnt
+    400040: Superman_l_Thumb_01_02SHJnt
+    400042: Superman_l_Thumb_01_03SHJnt
+    400044: Superman_l_Thumb_01_04SHJnt
+    400046: Superman_MAINSHJnt
+    400048: Superman_Neck_01SHJnt
+    400050: Superman_Neck_02SHJnt
+    400052: Superman_Neck_TopSHJnt
+    400054: Superman_r_Arm_ClavicleSHJnt
+    400056: Superman_r_Arm_ElbowSHJnt
+    400058: Superman_r_Arm_ShoulderSHJnt
+    400060: Superman_r_Arm_WristSHJnt
+    400062: Superman_r_Index_01_01SHJnt
+    400064: Superman_r_Index_01_02SHJnt
+    400066: Superman_r_Index_01_03SHJnt
+    400068: Superman_r_Index_01_04SHJnt
+    400070: Superman_r_Leg_AnkleSHJnt
+    400072: Superman_r_Leg_BallSHJnt
+    400074: Superman_r_Leg_HipSHJnt
+    400076: Superman_r_Leg_KneeSHJnt
+    400078: Superman_r_Leg_ToeSHJnt
+    400080: Superman_r_Thumb_01_01SHJnt
+    400082: Superman_r_Thumb_01_02SHJnt
+    400084: Superman_r_Thumb_01_03SHJnt
+    400086: Superman_r_Thumb_01_04SHJnt
+    400088: Superman_ROOTSHJnt
+    400090: Superman_Spine_01SHJnt
+    400092: Superman_Spine_02SHJnt
+    400094: Superman_Spine_03SHJnt
+    400096: Superman_Spine_04SHJnt
+    400098: Superman_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

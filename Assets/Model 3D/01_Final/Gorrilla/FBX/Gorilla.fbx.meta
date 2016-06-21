@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: ad07441546b0b4999915fc1d66028ab1
+timeCreated: 1465443538
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Gorilla
+    100002: //RootNode
+    100004: GorillaBig_l_Arm_ClavicleSHJnt
+    100006: GorillaBig_l_Arm_ElbowSHJnt
+    100008: GorillaBig_l_Arm_ShoulderSHJnt
+    100010: GorillaBig_l_Arm_WristSHJnt
+    100012: GorillaBig_l_Leg_AnkleSHJnt
+    100014: GorillaBig_l_Leg_BallSHJnt
+    100016: GorillaBig_l_Leg_HipSHJnt
+    100018: GorillaBig_l_Leg_KneeSHJnt
+    100020: GorillaBig_l_Leg_ToeSHJnt
+    100022: GorillaBig_MAINSHJnt
+    100024: GorillaBig_Neck_01SHJnt
+    100026: GorillaBig_Neck_02SHJnt
+    100028: GorillaBig_Neck_TopSHJnt
+    100030: GorillaBig_r_Arm_ClavicleSHJnt
+    100032: GorillaBig_r_Arm_ElbowSHJnt
+    100034: GorillaBig_r_Arm_ShoulderSHJnt
+    100036: GorillaBig_r_Arm_WristSHJnt
+    100038: GorillaBig_r_Leg_AnkleSHJnt
+    100040: GorillaBig_r_Leg_BallSHJnt
+    100042: GorillaBig_r_Leg_HipSHJnt
+    100044: GorillaBig_r_Leg_KneeSHJnt
+    100046: GorillaBig_r_Leg_ToeSHJnt
+    100048: GorillaBig_ROOTSHJnt
+    100050: GorillaBig_Spine_01SHJnt
+    100052: GorillaBig_Spine_02SHJnt
+    100054: GorillaBig_Spine_03SHJnt
+    100056: GorillaBig_Spine_04SHJnt
+    100058: GorillaBig_Spine_TopSHJnt
+    100060: Proxy
+    100062: right_eye
+    100064: right_eye1
+    100066: teeth
+    100068: tonge
+    400000: //RootNode
+    400002: Gorilla
+    400004: GorillaBig_l_Arm_ClavicleSHJnt
+    400006: GorillaBig_l_Arm_ElbowSHJnt
+    400008: GorillaBig_l_Arm_ShoulderSHJnt
+    400010: GorillaBig_l_Arm_WristSHJnt
+    400012: GorillaBig_l_Leg_AnkleSHJnt
+    400014: GorillaBig_l_Leg_BallSHJnt
+    400016: GorillaBig_l_Leg_HipSHJnt
+    400018: GorillaBig_l_Leg_KneeSHJnt
+    400020: GorillaBig_l_Leg_ToeSHJnt
+    400022: GorillaBig_MAINSHJnt
+    400024: GorillaBig_Neck_01SHJnt
+    400026: GorillaBig_Neck_02SHJnt
+    400028: GorillaBig_Neck_TopSHJnt
+    400030: GorillaBig_r_Arm_ClavicleSHJnt
+    400032: GorillaBig_r_Arm_ElbowSHJnt
+    400034: GorillaBig_r_Arm_ShoulderSHJnt
+    400036: GorillaBig_r_Arm_WristSHJnt
+    400038: GorillaBig_r_Leg_AnkleSHJnt
+    400040: GorillaBig_r_Leg_BallSHJnt
+    400042: GorillaBig_r_Leg_HipSHJnt
+    400044: GorillaBig_r_Leg_KneeSHJnt
+    400046: GorillaBig_r_Leg_ToeSHJnt
+    400048: GorillaBig_ROOTSHJnt
+    400050: GorillaBig_Spine_01SHJnt
+    400052: GorillaBig_Spine_02SHJnt
+    400054: GorillaBig_Spine_03SHJnt
+    400056: GorillaBig_Spine_04SHJnt
+    400058: GorillaBig_Spine_TopSHJnt
+    400060: Proxy
+    400062: right_eye
+    400064: right_eye1
+    400066: teeth
+    400068: tonge
+    4300000: Proxy
+    4300002: right_eye
+    4300004: teeth
+    4300006: tonge
+    4300008: right_eye1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Proxy
+    13700002: right_eye
+    13700004: right_eye1
+    13700006: teeth
+    13700008: tonge
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

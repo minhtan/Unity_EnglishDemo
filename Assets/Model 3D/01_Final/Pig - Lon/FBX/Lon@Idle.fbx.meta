@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 7a9ccbe53f8374409bbc0e078b5889b8
+timeCreated: 1465443537
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: head_mid_skn
+    100004: head_skn
+    100006: head_tip
+    100008: left_back_ankle_skn
+    100010: left_back_ball_skn
+    100012: left_back_hip_skn
+    100014: left_back_knee_skn
+    100016: left_back_thigh_skn
+    100018: left_back_toe_skn
+    100020: left_front_ankle_skn
+    100022: left_front_ball_skn
+    100024: left_front_hip_skn
+    100026: left_front_knee_skn
+    100028: left_front_thigh_skn
+    100030: left_front_toe_skn
+    100032: //RootNode
+    100034: neck01_skn
+    100036: neck02_skn
+    100038: right_back_ankle_skn
+    100040: right_back_ball_skn
+    100042: right_back_hip_skn
+    100044: right_back_knee_skn
+    100046: right_back_thigh_skn
+    100048: right_back_toe_skn
+    100050: right_front_ankle_skn
+    100052: right_front_ball_skn
+    100054: right_front_hip_skn
+    100056: right_front_knee_skn
+    100058: right_front_thigh_skn
+    100060: right_front_toe_skn
+    100062: root
+    100064: spine01_skn
+    100066: spine02_skn
+    100068: spine03_skn
+    100070: spine04_skn
+    100072: split_left_back_knee_skn
+    100074: split_left_front_knee_skn
+    100076: split_right_back_knee_skn
+    100078: split_right_front_knee_skn
+    100080: tail01_skn
+    100082: tail02_skn
+    100084: tail03_skn
+    100086: tail04_skn
+    100088: tail05_skn
+    100090: tail06_skn
+    100092: tail07_skn
+    400000: chest
+    400002: head_mid_skn
+    400004: head_skn
+    400006: head_tip
+    400008: left_back_ankle_skn
+    400010: left_back_ball_skn
+    400012: left_back_hip_skn
+    400014: left_back_knee_skn
+    400016: left_back_thigh_skn
+    400018: left_back_toe_skn
+    400020: left_front_ankle_skn
+    400022: left_front_ball_skn
+    400024: left_front_hip_skn
+    400026: left_front_knee_skn
+    400028: left_front_thigh_skn
+    400030: left_front_toe_skn
+    400032: //RootNode
+    400034: neck01_skn
+    400036: neck02_skn
+    400038: right_back_ankle_skn
+    400040: right_back_ball_skn
+    400042: right_back_hip_skn
+    400044: right_back_knee_skn
+    400046: right_back_thigh_skn
+    400048: right_back_toe_skn
+    400050: right_front_ankle_skn
+    400052: right_front_ball_skn
+    400054: right_front_hip_skn
+    400056: right_front_knee_skn
+    400058: right_front_thigh_skn
+    400060: right_front_toe_skn
+    400062: root
+    400064: spine01_skn
+    400066: spine02_skn
+    400068: spine03_skn
+    400070: spine04_skn
+    400072: split_left_back_knee_skn
+    400074: split_left_front_knee_skn
+    400076: split_right_back_knee_skn
+    400078: split_right_front_knee_skn
+    400080: tail01_skn
+    400082: tail02_skn
+    400084: tail03_skn
+    400086: tail04_skn
+    400088: tail05_skn
+    400090: tail06_skn
+    400092: tail07_skn
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

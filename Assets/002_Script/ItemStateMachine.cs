@@ -7,4 +7,5 @@ public class ItemStateMachine : StateMachineBehaviour {
 	{
 		LeanTween.scale (animator.transform.parent.gameObject, Vector3.zero, 1.0f).setEase (LeanTweenType.easeOutCubic);
 	}
+
 }

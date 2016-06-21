@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: c598d5d56191fcc4d826dd7b3ede5dad
+timeCreated: 1466490633
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Girl_l_Arm_ClavicleSHJnt
+    100004: Girl_l_Arm_ElbowSHJnt
+    100006: Girl_l_Arm_ShoulderSHJnt
+    100008: Girl_l_Arm_WristSHJnt
+    100010: Girl_l_Index_01_01SHJnt
+    100012: Girl_l_Index_01_02SHJnt
+    100014: Girl_l_Index_01_03SHJnt
+    100016: Girl_l_Index_01_04SHJnt
+    100018: Girl_l_Leg_AnkleSHJnt
+    100020: Girl_l_Leg_BallSHJnt
+    100022: Girl_l_Leg_HipSHJnt
+    100024: Girl_l_Leg_KneeSHJnt
+    100026: Girl_l_Leg_ToeSHJnt
+    100028: Girl_l_Thumb_01_01SHJnt
+    100030: Girl_l_Thumb_01_02SHJnt
+    100032: Girl_l_Thumb_01_03SHJnt
+    100034: Girl_l_Thumb_01_04SHJnt
+    100036: Girl_MAINSHJnt
+    100038: Girl_Neck_01SHJnt
+    100040: Girl_Neck_02SHJnt
+    100042: Girl_Neck_TopSHJnt
+    100044: Girl_r_Arm_ClavicleSHJnt
+    100046: Girl_r_Arm_ElbowSHJnt
+    100048: Girl_r_Arm_ShoulderSHJnt
+    100050: Girl_r_Arm_WristSHJnt
+    100052: Girl_r_Index_01_01SHJnt
+    100054: Girl_r_Index_01_02SHJnt
+    100056: Girl_r_Index_01_03SHJnt
+    100058: Girl_r_Index_01_04SHJnt
+    100060: Girl_r_Leg_AnkleSHJnt
+    100062: Girl_r_Leg_BallSHJnt
+    100064: Girl_r_Leg_HipSHJnt
+    100066: Girl_r_Leg_KneeSHJnt
+    100068: Girl_r_Leg_ToeSHJnt
+    100070: Girl_r_Thumb_01_01SHJnt
+    100072: Girl_r_Thumb_01_02SHJnt
+    100074: Girl_r_Thumb_01_03SHJnt
+    100076: Girl_r_Thumb_01_04SHJnt
+    100078: Girl_ROOTSHJnt
+    100080: Girl_Spine_01SHJnt
+    100082: Girl_Spine_02SHJnt
+    100084: Girl_Spine_03SHJnt
+    100086: Girl_Spine_04SHJnt
+    100088: Girl_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Girl_l_Arm_ClavicleSHJnt
+    400004: Girl_l_Arm_ElbowSHJnt
+    400006: Girl_l_Arm_ShoulderSHJnt
+    400008: Girl_l_Arm_WristSHJnt
+    400010: Girl_l_Index_01_01SHJnt
+    400012: Girl_l_Index_01_02SHJnt
+    400014: Girl_l_Index_01_03SHJnt
+    400016: Girl_l_Index_01_04SHJnt
+    400018: Girl_l_Leg_AnkleSHJnt
+    400020: Girl_l_Leg_BallSHJnt
+    400022: Girl_l_Leg_HipSHJnt
+    400024: Girl_l_Leg_KneeSHJnt
+    400026: Girl_l_Leg_ToeSHJnt
+    400028: Girl_l_Thumb_01_01SHJnt
+    400030: Girl_l_Thumb_01_02SHJnt
+    400032: Girl_l_Thumb_01_03SHJnt
+    400034: Girl_l_Thumb_01_04SHJnt
+    400036: Girl_MAINSHJnt
+    400038: Girl_Neck_01SHJnt
+    400040: Girl_Neck_02SHJnt
+    400042: Girl_Neck_TopSHJnt
+    400044: Girl_r_Arm_ClavicleSHJnt
+    400046: Girl_r_Arm_ElbowSHJnt
+    400048: Girl_r_Arm_ShoulderSHJnt
+    400050: Girl_r_Arm_WristSHJnt
+    400052: Girl_r_Index_01_01SHJnt
+    400054: Girl_r_Index_01_02SHJnt
+    400056: Girl_r_Index_01_03SHJnt
+    400058: Girl_r_Index_01_04SHJnt
+    400060: Girl_r_Leg_AnkleSHJnt
+    400062: Girl_r_Leg_BallSHJnt
+    400064: Girl_r_Leg_HipSHJnt
+    400066: Girl_r_Leg_KneeSHJnt
+    400068: Girl_r_Leg_ToeSHJnt
+    400070: Girl_r_Thumb_01_01SHJnt
+    400072: Girl_r_Thumb_01_02SHJnt
+    400074: Girl_r_Thumb_01_03SHJnt
+    400076: Girl_r_Thumb_01_04SHJnt
+    400078: Girl_ROOTSHJnt
+    400080: Girl_Spine_01SHJnt
+    400082: Girl_Spine_02SHJnt
+    400084: Girl_Spine_03SHJnt
+    400086: Girl_Spine_04SHJnt
+    400088: Girl_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 40d218098bb466e44a25805b2d200c69
+timeCreated: 1466490635
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lizard2:polySurface5
+    100004: Lizard_l_Clavicle_01_01SHJnt
+    100006: Lizard_l_FrontLeg_AnkleSHJnt
+    100008: Lizard_l_FrontLeg_BallSHJnt
+    100010: Lizard_l_FrontLeg_HipSHJnt
+    100012: Lizard_l_FrontLeg_KneeSHJnt
+    100014: Lizard_l_FrontLeg_ToeSHJnt
+    100016: Lizard_l_HindLeg_AnkleSHJnt
+    100018: Lizard_l_HindLeg_BallSHJnt
+    100020: Lizard_l_HindLeg_HipSHJnt
+    100022: Lizard_l_HindLeg_Knee1SHJnt
+    100024: Lizard_l_HindLeg_Knee2SHJnt
+    100026: Lizard_l_HindLeg_ToeSHJnt
+    100028: Lizard_MAINSHJnt
+    100030: Lizard_Neck_01SHJnt
+    100032: Lizard_Neck_02SHJnt
+    100034: Lizard_Neck_TopSHJnt
+    100036: Lizard_r_Clavicle_01_01SHJnt
+    100038: Lizard_r_FrontLeg_AnkleSHJnt
+    100040: Lizard_r_FrontLeg_BallSHJnt
+    100042: Lizard_r_FrontLeg_HipSHJnt
+    100044: Lizard_r_FrontLeg_KneeSHJnt
+    100046: Lizard_r_FrontLeg_ToeSHJnt
+    100048: Lizard_r_HindLeg_AnkleSHJnt
+    100050: Lizard_r_HindLeg_BallSHJnt
+    100052: Lizard_r_HindLeg_HipSHJnt
+    100054: Lizard_r_HindLeg_Knee1SHJnt
+    100056: Lizard_r_HindLeg_Knee2SHJnt
+    100058: Lizard_r_HindLeg_ToeSHJnt
+    100060: Lizard_ROOTSHJnt
+    100062: Lizard_Spine_01SHJnt
+    100064: Lizard_Spine_02SHJnt
+    100066: Lizard_Spine_03SHJnt
+    100068: Lizard_Spine_04SHJnt
+    100070: Lizard_Spine_TopSHJnt
+    100072: Lizard_Tail_01_01SHJnt
+    100074: Lizard_Tail_01_02SHJnt
+    100076: Lizard_Tail_01_03SHJnt
+    100078: Lizard_Tail_01_04SHJnt
+    100080: Lizard_Tail_01_05SHJnt
+    100082: Mesh_grp
+    400000: //RootNode
+    400002: lizard2:polySurface5
+    400004: Lizard_l_Clavicle_01_01SHJnt
+    400006: Lizard_l_FrontLeg_AnkleSHJnt
+    400008: Lizard_l_FrontLeg_BallSHJnt
+    400010: Lizard_l_FrontLeg_HipSHJnt
+    400012: Lizard_l_FrontLeg_KneeSHJnt
+    400014: Lizard_l_FrontLeg_ToeSHJnt
+    400016: Lizard_l_HindLeg_AnkleSHJnt
+    400018: Lizard_l_HindLeg_BallSHJnt
+    400020: Lizard_l_HindLeg_HipSHJnt
+    400022: Lizard_l_HindLeg_Knee1SHJnt
+    400024: Lizard_l_HindLeg_Knee2SHJnt
+    400026: Lizard_l_HindLeg_ToeSHJnt
+    400028: Lizard_MAINSHJnt
+    400030: Lizard_Neck_01SHJnt
+    400032: Lizard_Neck_02SHJnt
+    400034: Lizard_Neck_TopSHJnt
+    400036: Lizard_r_Clavicle_01_01SHJnt
+    400038: Lizard_r_FrontLeg_AnkleSHJnt
+    400040: Lizard_r_FrontLeg_BallSHJnt
+    400042: Lizard_r_FrontLeg_HipSHJnt
+    400044: Lizard_r_FrontLeg_KneeSHJnt
+    400046: Lizard_r_FrontLeg_ToeSHJnt
+    400048: Lizard_r_HindLeg_AnkleSHJnt
+    400050: Lizard_r_HindLeg_BallSHJnt
+    400052: Lizard_r_HindLeg_HipSHJnt
+    400054: Lizard_r_HindLeg_Knee1SHJnt
+    400056: Lizard_r_HindLeg_Knee2SHJnt
+    400058: Lizard_r_HindLeg_ToeSHJnt
+    400060: Lizard_ROOTSHJnt
+    400062: Lizard_Spine_01SHJnt
+    400064: Lizard_Spine_02SHJnt
+    400066: Lizard_Spine_03SHJnt
+    400068: Lizard_Spine_04SHJnt
+    400070: Lizard_Spine_TopSHJnt
+    400072: Lizard_Tail_01_01SHJnt
+    400074: Lizard_Tail_01_02SHJnt
+    400076: Lizard_Tail_01_03SHJnt
+    400078: Lizard_Tail_01_04SHJnt
+    400080: Lizard_Tail_01_05SHJnt
+    400082: Mesh_grp
+    4300000: lizard2:polySurface5
+    9500000: //RootNode
+    13700000: lizard2:polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

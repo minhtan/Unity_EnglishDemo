@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: faaf33f97c69fd84db071c36905b19c0
+timeCreated: 1465443530
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Meo_Head_JawEndSHJnt
+    100004: Meo_Head_JawSHJnt
+    100006: Meo_Head_TopSHJnt
+    100008: Meo_l_Clavicle_01_01SHJnt
+    100010: Meo_l_Eye_01SHJnt
+    100012: Meo_l_FrontLeg_AnkleSHJnt
+    100014: Meo_l_FrontLeg_BallSHJnt
+    100016: Meo_l_FrontLeg_HipSHJnt
+    100018: Meo_l_FrontLeg_KneeSHJnt
+    100020: Meo_l_FrontLeg_ToeSHJnt
+    100022: Meo_l_HindLeg_AnkleSHJnt
+    100024: Meo_l_HindLeg_BallSHJnt
+    100026: Meo_l_HindLeg_HipSHJnt
+    100028: Meo_l_HindLeg_Knee1SHJnt
+    100030: Meo_l_HindLeg_Knee2SHJnt
+    100032: Meo_l_HindLeg_ToeSHJnt
+    100034: Meo_MAINSHJnt
+    100036: Meo_Meo_01_01SHJnt
+    100038: Meo_Meo_01_02SHJnt
+    100040: Meo_Meo_01_03SHJnt
+    100042: Meo_Meo_01_04SHJnt
+    100044: Meo_mesh
+    100046: Meo_Neck_01SHJnt
+    100048: Meo_Neck_02SHJnt
+    100050: Meo_Neck_TopSHJnt
+    100052: Meo_r_Clavicle_01_01SHJnt
+    100054: Meo_r_Eye_01SHJnt
+    100056: Meo_r_FrontLeg_AnkleSHJnt
+    100058: Meo_r_FrontLeg_BallSHJnt
+    100060: Meo_r_FrontLeg_HipSHJnt
+    100062: Meo_r_FrontLeg_KneeSHJnt
+    100064: Meo_r_FrontLeg_ToeSHJnt
+    100066: Meo_r_HindLeg_AnkleSHJnt
+    100068: Meo_r_HindLeg_BallSHJnt
+    100070: Meo_r_HindLeg_HipSHJnt
+    100072: Meo_r_HindLeg_Knee1SHJnt
+    100074: Meo_r_HindLeg_Knee2SHJnt
+    100076: Meo_r_HindLeg_ToeSHJnt
+    100078: Meo_ROOTSHJnt
+    100080: Meo_Spine_01SHJnt
+    100082: Meo_Spine_02SHJnt
+    100084: Meo_Spine_03SHJnt
+    100086: Meo_Spine_04SHJnt
+    100088: Meo_Spine_TopSHJnt
+    100090: Mesh_grp
+    400000: //RootNode
+    400002: Meo_Head_JawEndSHJnt
+    400004: Meo_Head_JawSHJnt
+    400006: Meo_Head_TopSHJnt
+    400008: Meo_l_Clavicle_01_01SHJnt
+    400010: Meo_l_Eye_01SHJnt
+    400012: Meo_l_FrontLeg_AnkleSHJnt
+    400014: Meo_l_FrontLeg_BallSHJnt
+    400016: Meo_l_FrontLeg_HipSHJnt
+    400018: Meo_l_FrontLeg_KneeSHJnt
+    400020: Meo_l_FrontLeg_ToeSHJnt
+    400022: Meo_l_HindLeg_AnkleSHJnt
+    400024: Meo_l_HindLeg_BallSHJnt
+    400026: Meo_l_HindLeg_HipSHJnt
+    400028: Meo_l_HindLeg_Knee1SHJnt
+    400030: Meo_l_HindLeg_Knee2SHJnt
+    400032: Meo_l_HindLeg_ToeSHJnt
+    400034: Meo_MAINSHJnt
+    400036: Meo_Meo_01_01SHJnt
+    400038: Meo_Meo_01_02SHJnt
+    400040: Meo_Meo_01_03SHJnt
+    400042: Meo_Meo_01_04SHJnt
+    400044: Meo_mesh
+    400046: Meo_Neck_01SHJnt
+    400048: Meo_Neck_02SHJnt
+    400050: Meo_Neck_TopSHJnt
+    400052: Meo_r_Clavicle_01_01SHJnt
+    400054: Meo_r_Eye_01SHJnt
+    400056: Meo_r_FrontLeg_AnkleSHJnt
+    400058: Meo_r_FrontLeg_BallSHJnt
+    400060: Meo_r_FrontLeg_HipSHJnt
+    400062: Meo_r_FrontLeg_KneeSHJnt
+    400064: Meo_r_FrontLeg_ToeSHJnt
+    400066: Meo_r_HindLeg_AnkleSHJnt
+    400068: Meo_r_HindLeg_BallSHJnt
+    400070: Meo_r_HindLeg_HipSHJnt
+    400072: Meo_r_HindLeg_Knee1SHJnt
+    400074: Meo_r_HindLeg_Knee2SHJnt
+    400076: Meo_r_HindLeg_ToeSHJnt
+    400078: Meo_ROOTSHJnt
+    400080: Meo_Spine_01SHJnt
+    400082: Meo_Spine_02SHJnt
+    400084: Meo_Spine_03SHJnt
+    400086: Meo_Spine_04SHJnt
+    400088: Meo_Spine_TopSHJnt
+    400090: Mesh_grp
+    4300000: Meo_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Meo_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

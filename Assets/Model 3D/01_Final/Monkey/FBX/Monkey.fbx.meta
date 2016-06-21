@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 6c970ad9f4b79124990bf0c00f58a377
+timeCreated: 1466490638
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: khi
+    100002: khi 1
+    100004: khi 1_MeshPart0
+    100006: khi 1_MeshPart1
+    100008: //RootNode
+    100010: Monkey_l_Arm_ClavicleSHJnt
+    100012: Monkey_l_Arm_ElbowSHJnt
+    100014: Monkey_l_Arm_ShoulderSHJnt
+    100016: Monkey_l_Arm_WristSHJnt
+    100018: Monkey_l_Index_01_01SHJnt
+    100020: Monkey_l_Index_01_02SHJnt
+    100022: Monkey_l_Index_01_03SHJnt
+    100024: Monkey_l_Index_01_04SHJnt
+    100026: Monkey_l_Leg_AnkleSHJnt
+    100028: Monkey_l_Leg_BallSHJnt
+    100030: Monkey_l_Leg_HipSHJnt
+    100032: Monkey_l_Leg_KneeSHJnt
+    100034: Monkey_l_Leg_ToeSHJnt
+    100036: Monkey_l_Thumb_01_01SHJnt
+    100038: Monkey_l_Thumb_01_02SHJnt
+    100040: Monkey_l_Thumb_01_03SHJnt
+    100042: Monkey_l_Thumb_01_04SHJnt
+    100044: Monkey_MAINSHJnt
+    100046: Monkey_Neck_01SHJnt
+    100048: Monkey_Neck_02SHJnt
+    100050: Monkey_Neck_TopSHJnt
+    100052: Monkey_r_Arm_ClavicleSHJnt
+    100054: Monkey_r_Arm_ElbowSHJnt
+    100056: Monkey_r_Arm_ShoulderSHJnt
+    100058: Monkey_r_Arm_WristSHJnt
+    100060: Monkey_r_Index_01_01SHJnt
+    100062: Monkey_r_Index_01_02SHJnt
+    100064: Monkey_r_Index_01_03SHJnt
+    100066: Monkey_r_Index_01_04SHJnt
+    100068: Monkey_r_Leg_AnkleSHJnt
+    100070: Monkey_r_Leg_BallSHJnt
+    100072: Monkey_r_Leg_HipSHJnt
+    100074: Monkey_r_Leg_KneeSHJnt
+    100076: Monkey_r_Leg_ToeSHJnt
+    100078: Monkey_r_Thumb_01_01SHJnt
+    100080: Monkey_r_Thumb_01_02SHJnt
+    100082: Monkey_r_Thumb_01_03SHJnt
+    100084: Monkey_r_Thumb_01_04SHJnt
+    100086: Monkey_ROOTSHJnt
+    100088: Monkey_Spine_01SHJnt
+    100090: Monkey_Spine_02SHJnt
+    100092: Monkey_Spine_03SHJnt
+    100094: Monkey_Spine_04SHJnt
+    100096: Monkey_Spine_TopSHJnt
+    400000: khi
+    400002: khi 1
+    400004: khi 1_MeshPart0
+    400006: khi 1_MeshPart1
+    400008: //RootNode
+    400010: Monkey_l_Arm_ClavicleSHJnt
+    400012: Monkey_l_Arm_ElbowSHJnt
+    400014: Monkey_l_Arm_ShoulderSHJnt
+    400016: Monkey_l_Arm_WristSHJnt
+    400018: Monkey_l_Index_01_01SHJnt
+    400020: Monkey_l_Index_01_02SHJnt
+    400022: Monkey_l_Index_01_03SHJnt
+    400024: Monkey_l_Index_01_04SHJnt
+    400026: Monkey_l_Leg_AnkleSHJnt
+    400028: Monkey_l_Leg_BallSHJnt
+    400030: Monkey_l_Leg_HipSHJnt
+    400032: Monkey_l_Leg_KneeSHJnt
+    400034: Monkey_l_Leg_ToeSHJnt
+    400036: Monkey_l_Thumb_01_01SHJnt
+    400038: Monkey_l_Thumb_01_02SHJnt
+    400040: Monkey_l_Thumb_01_03SHJnt
+    400042: Monkey_l_Thumb_01_04SHJnt
+    400044: Monkey_MAINSHJnt
+    400046: Monkey_Neck_01SHJnt
+    400048: Monkey_Neck_02SHJnt
+    400050: Monkey_Neck_TopSHJnt
+    400052: Monkey_r_Arm_ClavicleSHJnt
+    400054: Monkey_r_Arm_ElbowSHJnt
+    400056: Monkey_r_Arm_ShoulderSHJnt
+    400058: Monkey_r_Arm_WristSHJnt
+    400060: Monkey_r_Index_01_01SHJnt
+    400062: Monkey_r_Index_01_02SHJnt
+    400064: Monkey_r_Index_01_03SHJnt
+    400066: Monkey_r_Index_01_04SHJnt
+    400068: Monkey_r_Leg_AnkleSHJnt
+    400070: Monkey_r_Leg_BallSHJnt
+    400072: Monkey_r_Leg_HipSHJnt
+    400074: Monkey_r_Leg_KneeSHJnt
+    400076: Monkey_r_Leg_ToeSHJnt
+    400078: Monkey_r_Thumb_01_01SHJnt
+    400080: Monkey_r_Thumb_01_02SHJnt
+    400082: Monkey_r_Thumb_01_03SHJnt
+    400084: Monkey_r_Thumb_01_04SHJnt
+    400086: Monkey_ROOTSHJnt
+    400088: Monkey_Spine_01SHJnt
+    400090: Monkey_Spine_02SHJnt
+    400092: Monkey_Spine_03SHJnt
+    400094: Monkey_Spine_04SHJnt
+    400096: Monkey_Spine_TopSHJnt
+    4300000: khi_MeshPart0
+    4300002: khi_MeshPart1
+    9500000: //RootNode
+    13700000: khi 1_MeshPart0
+    13700002: khi 1_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

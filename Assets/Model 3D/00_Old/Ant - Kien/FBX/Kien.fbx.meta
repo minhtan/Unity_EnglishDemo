@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 987211a49cbebc440bfe649a8b10f3ca
+timeCreated: 1465443540
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blk_ant
+    100002: //RootNode
+    100004: kien
+    100006: Kien_Abdomen_01_01SHJnt
+    100008: Kien_Abdomen_01_02SHJnt
+    100010: Kien_Abdomen_01_03SHJnt
+    100012: Kien_Abdomen_01_04SHJnt
+    100014: Kien_Abdomen_01_05SHJnt
+    100016: Kien_Head_AuxSHJnt
+    100018: Kien_l_BackLeg_AnkleSHJnt
+    100020: Kien_l_BackLeg_BallSHJnt
+    100022: Kien_l_BackLeg_HipSHJnt
+    100024: Kien_l_BackLeg_Knee1SHJnt
+    100026: Kien_l_BackLeg_Knee2SHJnt
+    100028: Kien_l_BackLeg_ToeSHJnt
+    100030: Kien_l_MidBackLeg_AnkleSHJnt
+    100032: Kien_l_MidBackLeg_BallSHJnt
+    100034: Kien_l_MidBackLeg_HipSHJnt
+    100036: Kien_l_MidBackLeg_Knee1SHJnt
+    100038: Kien_l_MidBackLeg_Knee2SHJnt
+    100040: Kien_l_MidBackLeg_ToeSHJnt
+    100042: Kien_l_MidFrontLeg_AnkleSHJnt
+    100044: Kien_l_MidFrontLeg_BallSHJnt
+    100046: Kien_l_MidFrontLeg_HipSHJnt
+    100048: Kien_l_MidFrontLeg_Knee1SHJnt
+    100050: Kien_l_MidFrontLeg_Knee2SHJnt
+    100052: Kien_l_MidFrontLeg_ToeSHJnt
+    100054: Kien_MAINSHJnt
+    100056: Kien_r_BackLeg_AnkleSHJnt
+    100058: Kien_r_BackLeg_BallSHJnt
+    100060: Kien_r_BackLeg_HipSHJnt
+    100062: Kien_r_BackLeg_Knee1SHJnt
+    100064: Kien_r_BackLeg_Knee2SHJnt
+    100066: Kien_r_BackLeg_ToeSHJnt
+    100068: Kien_r_MidBackLeg_AnkleSHJnt
+    100070: Kien_r_MidBackLeg_BallSHJnt
+    100072: Kien_r_MidBackLeg_HipSHJnt
+    100074: Kien_r_MidBackLeg_Knee1SHJnt
+    100076: Kien_r_MidBackLeg_Knee2SHJnt
+    100078: Kien_r_MidBackLeg_ToeSHJnt
+    100080: Kien_r_MidFrontLeg_AnkleSHJnt
+    100082: Kien_r_MidFrontLeg_BallSHJnt
+    100084: Kien_r_MidFrontLeg_HipSHJnt
+    100086: Kien_r_MidFrontLeg_Knee1SHJnt
+    100088: Kien_r_MidFrontLeg_Knee2SHJnt
+    100090: Kien_r_MidFrontLeg_ToeSHJnt
+    100092: Kien_ROOTSHJnt
+    400000: blk_ant
+    400002: //RootNode
+    400004: kien
+    400006: Kien_Abdomen_01_01SHJnt
+    400008: Kien_Abdomen_01_02SHJnt
+    400010: Kien_Abdomen_01_03SHJnt
+    400012: Kien_Abdomen_01_04SHJnt
+    400014: Kien_Abdomen_01_05SHJnt
+    400016: Kien_Head_AuxSHJnt
+    400018: Kien_l_BackLeg_AnkleSHJnt
+    400020: Kien_l_BackLeg_BallSHJnt
+    400022: Kien_l_BackLeg_HipSHJnt
+    400024: Kien_l_BackLeg_Knee1SHJnt
+    400026: Kien_l_BackLeg_Knee2SHJnt
+    400028: Kien_l_BackLeg_ToeSHJnt
+    400030: Kien_l_MidBackLeg_AnkleSHJnt
+    400032: Kien_l_MidBackLeg_BallSHJnt
+    400034: Kien_l_MidBackLeg_HipSHJnt
+    400036: Kien_l_MidBackLeg_Knee1SHJnt
+    400038: Kien_l_MidBackLeg_Knee2SHJnt
+    400040: Kien_l_MidBackLeg_ToeSHJnt
+    400042: Kien_l_MidFrontLeg_AnkleSHJnt
+    400044: Kien_l_MidFrontLeg_BallSHJnt
+    400046: Kien_l_MidFrontLeg_HipSHJnt
+    400048: Kien_l_MidFrontLeg_Knee1SHJnt
+    400050: Kien_l_MidFrontLeg_Knee2SHJnt
+    400052: Kien_l_MidFrontLeg_ToeSHJnt
+    400054: Kien_MAINSHJnt
+    400056: Kien_r_BackLeg_AnkleSHJnt
+    400058: Kien_r_BackLeg_BallSHJnt
+    400060: Kien_r_BackLeg_HipSHJnt
+    400062: Kien_r_BackLeg_Knee1SHJnt
+    400064: Kien_r_BackLeg_Knee2SHJnt
+    400066: Kien_r_BackLeg_ToeSHJnt
+    400068: Kien_r_MidBackLeg_AnkleSHJnt
+    400070: Kien_r_MidBackLeg_BallSHJnt
+    400072: Kien_r_MidBackLeg_HipSHJnt
+    400074: Kien_r_MidBackLeg_Knee1SHJnt
+    400076: Kien_r_MidBackLeg_Knee2SHJnt
+    400078: Kien_r_MidBackLeg_ToeSHJnt
+    400080: Kien_r_MidFrontLeg_AnkleSHJnt
+    400082: Kien_r_MidFrontLeg_BallSHJnt
+    400084: Kien_r_MidFrontLeg_HipSHJnt
+    400086: Kien_r_MidFrontLeg_Knee1SHJnt
+    400088: Kien_r_MidFrontLeg_Knee2SHJnt
+    400090: Kien_r_MidFrontLeg_ToeSHJnt
+    400092: Kien_ROOTSHJnt
+    4300000: blk_ant
+    9500000: //RootNode
+    13700000: blk_ant
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: debb170fda90cb74e8c1a8702b1f869c
+timeCreated: 1465806279
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: BackLeg_LFT
+    100004: BackLeg_RGT
+    100006: Eyes
+    100008: FrontLeg_LFT
+    100010: FrontLeg_RGT
+    100012: head
+    100014: left-eye
+    100016: lowerleg01
+    100018: lowerleg01 1
+    100020: lowerleg04
+    100022: lowerleg04 1
+    100024: lowerleg06
+    100026: lowerleg06 1
+    100028: ong
+    100030: ong 1
+    100032: Ong_Abdomen_01_01SHJnt
+    100034: Ong_Abdomen_01_02SHJnt
+    100036: Ong_Abdomen_01_03SHJnt
+    100038: Ong_Abdomen_01_04SHJnt
+    100040: Ong_Abdomen_01_05SHJnt
+    100042: //RootNode
+    100044: Ong_l_BackLeg_AnkleSHJnt
+    100046: Ong_l_BackLeg_BallSHJnt
+    100048: Ong_l_BackLeg_HipSHJnt
+    100050: Ong_l_BackLeg_Knee1SHJnt
+    100052: Ong_l_BackLeg_Knee2SHJnt
+    100054: Ong_l_BackLeg_ToeSHJnt
+    100056: Ong_l_Eye_01SHJnt
+    100058: Ong_l_FrontLeg_AnkleSHJnt
+    100060: Ong_l_FrontLeg_BallSHJnt
+    100062: Ong_l_FrontLeg_HipSHJnt
+    100064: Ong_l_FrontLeg_Knee1SHJnt
+    100066: Ong_l_FrontLeg_Knee2SHJnt
+    100068: Ong_l_FrontLeg_ToeSHJnt
+    100070: Ong_l_MidBackLeg_AnkleSHJnt
+    100072: Ong_l_MidBackLeg_BallSHJnt
+    100074: Ong_l_MidBackLeg_HipSHJnt
+    100076: Ong_l_MidBackLeg_Knee1SHJnt
+    100078: Ong_l_MidBackLeg_Knee2SHJnt
+    100080: Ong_l_MidBackLeg_ToeSHJnt
+    100082: Ong_l_MidFrontLeg_AnkleSHJnt
+    100084: Ong_l_MidFrontLeg_BallSHJnt
+    100086: Ong_l_MidFrontLeg_HipSHJnt
+    100088: Ong_l_MidFrontLeg_Knee_CurveSHJnt
+    100090: Ong_l_MidFrontLeg_ToeSHJnt
+    100092: Ong_l_MidFrontLeg_Upper_Curve1SHJnt
+    100094: Ong_MAINSHJnt
+    100096: Ong_r_BackLeg_AnkleSHJnt
+    100098: Ong_r_BackLeg_BallSHJnt
+    100100: Ong_r_BackLeg_HipSHJnt
+    100102: Ong_r_BackLeg_Knee1SHJnt
+    100104: Ong_r_BackLeg_Knee2SHJnt
+    100106: Ong_r_BackLeg_ToeSHJnt
+    100108: Ong_r_Eye_01SHJnt
+    100110: Ong_r_FrontLeg_AnkleSHJnt
+    100112: Ong_r_FrontLeg_BallSHJnt
+    100114: Ong_r_FrontLeg_HipSHJnt
+    100116: Ong_r_FrontLeg_Knee1SHJnt
+    100118: Ong_r_FrontLeg_Knee2SHJnt
+    100120: Ong_r_FrontLeg_ToeSHJnt
+    100122: Ong_r_MidBackLeg_AnkleSHJnt
+    100124: Ong_r_MidBackLeg_BallSHJnt
+    100126: Ong_r_MidBackLeg_HipSHJnt
+    100128: Ong_r_MidBackLeg_Knee1SHJnt
+    100130: Ong_r_MidBackLeg_Knee2SHJnt
+    100132: Ong_r_MidBackLeg_ToeSHJnt
+    100134: Ong_r_MidFrontLeg_AnkleSHJnt
+    100136: Ong_r_MidFrontLeg_BallSHJnt
+    100138: Ong_r_MidFrontLeg_HipSHJnt
+    100140: Ong_r_MidFrontLeg_Knee_CurveSHJnt
+    100142: Ong_r_MidFrontLeg_ToeSHJnt
+    100144: Ong_r_MidFrontLeg_Upper_Curve1SHJnt
+    100146: Ong_ROOTSHJnt
+    100148: polySurface1
+    100150: polySurface2
+    100152: upperleg04
+    100154: upperleg07
+    100156: upperleg08
+    100158: upperleg08 1
+    100160: upperleg09
+    100162: upperleg09 1
+    100164: UpperLeg_LFT
+    100166: UpperLeg_RGT
+    100168: wing2
+    100170: wing3
+    400000: back
+    400002: BackLeg_LFT
+    400004: BackLeg_RGT
+    400006: Eyes
+    400008: FrontLeg_LFT
+    400010: FrontLeg_RGT
+    400012: head
+    400014: left-eye
+    400016: lowerleg01
+    400018: lowerleg01 1
+    400020: lowerleg04
+    400022: lowerleg04 1
+    400024: lowerleg06
+    400026: lowerleg06 1
+    400028: ong
+    400030: ong 1
+    400032: Ong_Abdomen_01_01SHJnt
+    400034: Ong_Abdomen_01_02SHJnt
+    400036: Ong_Abdomen_01_03SHJnt
+    400038: Ong_Abdomen_01_04SHJnt
+    400040: Ong_Abdomen_01_05SHJnt
+    400042: //RootNode
+    400044: Ong_l_BackLeg_AnkleSHJnt
+    400046: Ong_l_BackLeg_BallSHJnt
+    400048: Ong_l_BackLeg_HipSHJnt
+    400050: Ong_l_BackLeg_Knee1SHJnt
+    400052: Ong_l_BackLeg_Knee2SHJnt
+    400054: Ong_l_BackLeg_ToeSHJnt
+    400056: Ong_l_Eye_01SHJnt
+    400058: Ong_l_FrontLeg_AnkleSHJnt
+    400060: Ong_l_FrontLeg_BallSHJnt
+    400062: Ong_l_FrontLeg_HipSHJnt
+    400064: Ong_l_FrontLeg_Knee1SHJnt
+    400066: Ong_l_FrontLeg_Knee2SHJnt
+    400068: Ong_l_FrontLeg_ToeSHJnt
+    400070: Ong_l_MidBackLeg_AnkleSHJnt
+    400072: Ong_l_MidBackLeg_BallSHJnt
+    400074: Ong_l_MidBackLeg_HipSHJnt
+    400076: Ong_l_MidBackLeg_Knee1SHJnt
+    400078: Ong_l_MidBackLeg_Knee2SHJnt
+    400080: Ong_l_MidBackLeg_ToeSHJnt
+    400082: Ong_l_MidFrontLeg_AnkleSHJnt
+    400084: Ong_l_MidFrontLeg_BallSHJnt
+    400086: Ong_l_MidFrontLeg_HipSHJnt
+    400088: Ong_l_MidFrontLeg_Knee_CurveSHJnt
+    400090: Ong_l_MidFrontLeg_ToeSHJnt
+    400092: Ong_l_MidFrontLeg_Upper_Curve1SHJnt
+    400094: Ong_MAINSHJnt
+    400096: Ong_r_BackLeg_AnkleSHJnt
+    400098: Ong_r_BackLeg_BallSHJnt
+    400100: Ong_r_BackLeg_HipSHJnt
+    400102: Ong_r_BackLeg_Knee1SHJnt
+    400104: Ong_r_BackLeg_Knee2SHJnt
+    400106: Ong_r_BackLeg_ToeSHJnt
+    400108: Ong_r_Eye_01SHJnt
+    400110: Ong_r_FrontLeg_AnkleSHJnt
+    400112: Ong_r_FrontLeg_BallSHJnt
+    400114: Ong_r_FrontLeg_HipSHJnt
+    400116: Ong_r_FrontLeg_Knee1SHJnt
+    400118: Ong_r_FrontLeg_Knee2SHJnt
+    400120: Ong_r_FrontLeg_ToeSHJnt
+    400122: Ong_r_MidBackLeg_AnkleSHJnt
+    400124: Ong_r_MidBackLeg_BallSHJnt
+    400126: Ong_r_MidBackLeg_HipSHJnt
+    400128: Ong_r_MidBackLeg_Knee1SHJnt
+    400130: Ong_r_MidBackLeg_Knee2SHJnt
+    400132: Ong_r_MidBackLeg_ToeSHJnt
+    400134: Ong_r_MidFrontLeg_AnkleSHJnt
+    400136: Ong_r_MidFrontLeg_BallSHJnt
+    400138: Ong_r_MidFrontLeg_HipSHJnt
+    400140: Ong_r_MidFrontLeg_Knee_CurveSHJnt
+    400142: Ong_r_MidFrontLeg_ToeSHJnt
+    400144: Ong_r_MidFrontLeg_Upper_Curve1SHJnt
+    400146: Ong_ROOTSHJnt
+    400148: polySurface1
+    400150: polySurface2
+    400152: upperleg04
+    400154: upperleg07
+    400156: upperleg08
+    400158: upperleg08 1
+    400160: upperleg09
+    400162: upperleg09 1
+    400164: UpperLeg_LFT
+    400166: UpperLeg_RGT
+    400168: wing2
+    400170: wing3
+    2300000: polySurface1
+    2300002: polySurface2
+    3300000: polySurface1
+    3300002: polySurface2
+    4300000: ong
+    4300002: back
+    4300004: lowerleg06
+    4300006: upperleg08
+    4300008: lowerleg06
+    4300010: upperleg08
+    4300012: lowerleg01
+    4300014: upperleg09
+    4300016: lowerleg01
+    4300018: upperleg09
+    4300020: head
+    4300022: wing2
+    4300024: wing3
+    4300026: lowerleg04
+    4300028: upperleg04
+    4300030: lowerleg04
+    4300032: upperleg07
+    4300034: polySurface1
+    4300036: polySurface2
+    9500000: //RootNode
+    13700000: back
+    13700002: head
+    13700004: lowerleg01
+    13700006: lowerleg01 1
+    13700008: lowerleg04
+    13700010: lowerleg04 1
+    13700012: lowerleg06
+    13700014: lowerleg06 1
+    13700016: ong 1
+    13700018: upperleg04
+    13700020: upperleg07
+    13700022: upperleg08
+    13700024: upperleg08 1
+    13700026: upperleg09
+    13700028: upperleg09 1
+    13700030: wing2
+    13700032: wing3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

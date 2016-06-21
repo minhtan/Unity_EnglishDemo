@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 9ed9cd4f927af44aea9f3e8c5629fabe
+timeCreated: 1465443537
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: GorillaBig_l_Arm_ClavicleSHJnt
+    100004: GorillaBig_l_Arm_ElbowSHJnt
+    100006: GorillaBig_l_Arm_ShoulderSHJnt
+    100008: GorillaBig_l_Arm_WristSHJnt
+    100010: GorillaBig_l_Leg_AnkleSHJnt
+    100012: GorillaBig_l_Leg_BallSHJnt
+    100014: GorillaBig_l_Leg_HipSHJnt
+    100016: GorillaBig_l_Leg_KneeSHJnt
+    100018: GorillaBig_l_Leg_ToeSHJnt
+    100020: GorillaBig_MAINSHJnt
+    100022: GorillaBig_Neck_01SHJnt
+    100024: GorillaBig_Neck_02SHJnt
+    100026: GorillaBig_Neck_TopSHJnt
+    100028: GorillaBig_r_Arm_ClavicleSHJnt
+    100030: GorillaBig_r_Arm_ElbowSHJnt
+    100032: GorillaBig_r_Arm_ShoulderSHJnt
+    100034: GorillaBig_r_Arm_WristSHJnt
+    100036: GorillaBig_r_Leg_AnkleSHJnt
+    100038: GorillaBig_r_Leg_BallSHJnt
+    100040: GorillaBig_r_Leg_HipSHJnt
+    100042: GorillaBig_r_Leg_KneeSHJnt
+    100044: GorillaBig_r_Leg_ToeSHJnt
+    100046: GorillaBig_ROOTSHJnt
+    100048: GorillaBig_Spine_01SHJnt
+    100050: GorillaBig_Spine_02SHJnt
+    100052: GorillaBig_Spine_03SHJnt
+    100054: GorillaBig_Spine_04SHJnt
+    100056: GorillaBig_Spine_TopSHJnt
+    400000: //RootNode
+    400002: GorillaBig_l_Arm_ClavicleSHJnt
+    400004: GorillaBig_l_Arm_ElbowSHJnt
+    400006: GorillaBig_l_Arm_ShoulderSHJnt
+    400008: GorillaBig_l_Arm_WristSHJnt
+    400010: GorillaBig_l_Leg_AnkleSHJnt
+    400012: GorillaBig_l_Leg_BallSHJnt
+    400014: GorillaBig_l_Leg_HipSHJnt
+    400016: GorillaBig_l_Leg_KneeSHJnt
+    400018: GorillaBig_l_Leg_ToeSHJnt
+    400020: GorillaBig_MAINSHJnt
+    400022: GorillaBig_Neck_01SHJnt
+    400024: GorillaBig_Neck_02SHJnt
+    400026: GorillaBig_Neck_TopSHJnt
+    400028: GorillaBig_r_Arm_ClavicleSHJnt
+    400030: GorillaBig_r_Arm_ElbowSHJnt
+    400032: GorillaBig_r_Arm_ShoulderSHJnt
+    400034: GorillaBig_r_Arm_WristSHJnt
+    400036: GorillaBig_r_Leg_AnkleSHJnt
+    400038: GorillaBig_r_Leg_BallSHJnt
+    400040: GorillaBig_r_Leg_HipSHJnt
+    400042: GorillaBig_r_Leg_KneeSHJnt
+    400044: GorillaBig_r_Leg_ToeSHJnt
+    400046: GorillaBig_ROOTSHJnt
+    400048: GorillaBig_Spine_01SHJnt
+    400050: GorillaBig_Spine_02SHJnt
+    400052: GorillaBig_Spine_03SHJnt
+    400054: GorillaBig_Spine_04SHJnt
+    400056: GorillaBig_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

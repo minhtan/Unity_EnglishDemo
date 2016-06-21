@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 3fbc4545f4f1d2d438afd43161782961
+timeCreated: 1465443528
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Mesh_grp
+    100002: //RootNode
+    100004: Tho_l_Clavicle_01_01SHJnt
+    100006: Tho_l_FrontLeg_AnkleSHJnt
+    100008: Tho_l_FrontLeg_BallSHJnt
+    100010: Tho_l_FrontLeg_HipSHJnt
+    100012: Tho_l_FrontLeg_KneeSHJnt
+    100014: Tho_l_FrontLeg_ToeSHJnt
+    100016: Tho_l_HindLeg_AnkleSHJnt
+    100018: Tho_l_HindLeg_BallSHJnt
+    100020: Tho_l_HindLeg_HipSHJnt
+    100022: Tho_l_HindLeg_Knee1SHJnt
+    100024: Tho_l_HindLeg_Knee2SHJnt
+    100026: Tho_l_HindLeg_ToeSHJnt
+    100028: Tho_MAINSHJnt
+    100030: Tho_mesh
+    100032: Tho_Neck_01SHJnt
+    100034: Tho_Neck_02SHJnt
+    100036: Tho_Neck_TopSHJnt
+    100038: Tho_r_Clavicle_01_01SHJnt
+    100040: Tho_r_FrontLeg_AnkleSHJnt
+    100042: Tho_r_FrontLeg_BallSHJnt
+    100044: Tho_r_FrontLeg_HipSHJnt
+    100046: Tho_r_FrontLeg_KneeSHJnt
+    100048: Tho_r_FrontLeg_ToeSHJnt
+    100050: Tho_r_HindLeg_AnkleSHJnt
+    100052: Tho_r_HindLeg_BallSHJnt
+    100054: Tho_r_HindLeg_HipSHJnt
+    100056: Tho_r_HindLeg_Knee1SHJnt
+    100058: Tho_r_HindLeg_Knee2SHJnt
+    100060: Tho_r_HindLeg_ToeSHJnt
+    100062: Tho_ROOTSHJnt
+    100064: Tho_Spine_01SHJnt
+    100066: Tho_Spine_02SHJnt
+    100068: Tho_Spine_03SHJnt
+    100070: Tho_Spine_04SHJnt
+    100072: Tho_Spine_TopSHJnt
+    100074: Tho_Tail_01_01SHJnt
+    100076: Tho_Tail_01_02SHJnt
+    100078: Tho_Tail_01_03SHJnt
+    400000: Mesh_grp
+    400002: //RootNode
+    400004: Tho_l_Clavicle_01_01SHJnt
+    400006: Tho_l_FrontLeg_AnkleSHJnt
+    400008: Tho_l_FrontLeg_BallSHJnt
+    400010: Tho_l_FrontLeg_HipSHJnt
+    400012: Tho_l_FrontLeg_KneeSHJnt
+    400014: Tho_l_FrontLeg_ToeSHJnt
+    400016: Tho_l_HindLeg_AnkleSHJnt
+    400018: Tho_l_HindLeg_BallSHJnt
+    400020: Tho_l_HindLeg_HipSHJnt
+    400022: Tho_l_HindLeg_Knee1SHJnt
+    400024: Tho_l_HindLeg_Knee2SHJnt
+    400026: Tho_l_HindLeg_ToeSHJnt
+    400028: Tho_MAINSHJnt
+    400030: Tho_mesh
+    400032: Tho_Neck_01SHJnt
+    400034: Tho_Neck_02SHJnt
+    400036: Tho_Neck_TopSHJnt
+    400038: Tho_r_Clavicle_01_01SHJnt
+    400040: Tho_r_FrontLeg_AnkleSHJnt
+    400042: Tho_r_FrontLeg_BallSHJnt
+    400044: Tho_r_FrontLeg_HipSHJnt
+    400046: Tho_r_FrontLeg_KneeSHJnt
+    400048: Tho_r_FrontLeg_ToeSHJnt
+    400050: Tho_r_HindLeg_AnkleSHJnt
+    400052: Tho_r_HindLeg_BallSHJnt
+    400054: Tho_r_HindLeg_HipSHJnt
+    400056: Tho_r_HindLeg_Knee1SHJnt
+    400058: Tho_r_HindLeg_Knee2SHJnt
+    400060: Tho_r_HindLeg_ToeSHJnt
+    400062: Tho_ROOTSHJnt
+    400064: Tho_Spine_01SHJnt
+    400066: Tho_Spine_02SHJnt
+    400068: Tho_Spine_03SHJnt
+    400070: Tho_Spine_04SHJnt
+    400072: Tho_Spine_TopSHJnt
+    400074: Tho_Tail_01_01SHJnt
+    400076: Tho_Tail_01_02SHJnt
+    400078: Tho_Tail_01_03SHJnt
+    4300000: Tho_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Tho_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

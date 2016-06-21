@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: e2ba93b5e1cb58d45b5e1b393e8c728c
+timeCreated: 1465443530
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hama_Head_JawEndSHJnt
+    100004: Hama_Head_JawSHJnt
+    100006: Hama_Head_TopSHJnt
+    100008: Hama_l_Clavicle_01_01SHJnt
+    100010: Hama_l_Eye_01SHJnt
+    100012: Hama_l_FrontLeg_AnkleSHJnt
+    100014: Hama_l_FrontLeg_BallSHJnt
+    100016: Hama_l_FrontLeg_HipSHJnt
+    100018: Hama_l_FrontLeg_KneeSHJnt
+    100020: Hama_l_FrontLeg_ToeSHJnt
+    100022: Hama_l_HindLeg_AnkleSHJnt
+    100024: Hama_l_HindLeg_BallSHJnt
+    100026: Hama_l_HindLeg_HipSHJnt
+    100028: Hama_l_HindLeg_Knee1SHJnt
+    100030: Hama_l_HindLeg_Knee2SHJnt
+    100032: Hama_l_HindLeg_ToeSHJnt
+    100034: Hama_MAINSHJnt
+    100036: Hama_mesh
+    100038: Hama_Neck_01SHJnt
+    100040: Hama_Neck_02SHJnt
+    100042: Hama_Neck_TopSHJnt
+    100044: Hama_r_Clavicle_01_01SHJnt
+    100046: Hama_r_Eye_01SHJnt
+    100048: Hama_r_FrontLeg_AnkleSHJnt
+    100050: Hama_r_FrontLeg_BallSHJnt
+    100052: Hama_r_FrontLeg_HipSHJnt
+    100054: Hama_r_FrontLeg_KneeSHJnt
+    100056: Hama_r_FrontLeg_ToeSHJnt
+    100058: Hama_r_HindLeg_AnkleSHJnt
+    100060: Hama_r_HindLeg_BallSHJnt
+    100062: Hama_r_HindLeg_HipSHJnt
+    100064: Hama_r_HindLeg_Knee1SHJnt
+    100066: Hama_r_HindLeg_Knee2SHJnt
+    100068: Hama_r_HindLeg_ToeSHJnt
+    100070: Hama_ROOTSHJnt
+    100072: Hama_Spine_01SHJnt
+    100074: Hama_Spine_02SHJnt
+    100076: Hama_Spine_03SHJnt
+    100078: Hama_Spine_04SHJnt
+    100080: Hama_Spine_TopSHJnt
+    100082: Mesh_grp
+    400000: //RootNode
+    400002: Hama_Head_JawEndSHJnt
+    400004: Hama_Head_JawSHJnt
+    400006: Hama_Head_TopSHJnt
+    400008: Hama_l_Clavicle_01_01SHJnt
+    400010: Hama_l_Eye_01SHJnt
+    400012: Hama_l_FrontLeg_AnkleSHJnt
+    400014: Hama_l_FrontLeg_BallSHJnt
+    400016: Hama_l_FrontLeg_HipSHJnt
+    400018: Hama_l_FrontLeg_KneeSHJnt
+    400020: Hama_l_FrontLeg_ToeSHJnt
+    400022: Hama_l_HindLeg_AnkleSHJnt
+    400024: Hama_l_HindLeg_BallSHJnt
+    400026: Hama_l_HindLeg_HipSHJnt
+    400028: Hama_l_HindLeg_Knee1SHJnt
+    400030: Hama_l_HindLeg_Knee2SHJnt
+    400032: Hama_l_HindLeg_ToeSHJnt
+    400034: Hama_MAINSHJnt
+    400036: Hama_mesh
+    400038: Hama_Neck_01SHJnt
+    400040: Hama_Neck_02SHJnt
+    400042: Hama_Neck_TopSHJnt
+    400044: Hama_r_Clavicle_01_01SHJnt
+    400046: Hama_r_Eye_01SHJnt
+    400048: Hama_r_FrontLeg_AnkleSHJnt
+    400050: Hama_r_FrontLeg_BallSHJnt
+    400052: Hama_r_FrontLeg_HipSHJnt
+    400054: Hama_r_FrontLeg_KneeSHJnt
+    400056: Hama_r_FrontLeg_ToeSHJnt
+    400058: Hama_r_HindLeg_AnkleSHJnt
+    400060: Hama_r_HindLeg_BallSHJnt
+    400062: Hama_r_HindLeg_HipSHJnt
+    400064: Hama_r_HindLeg_Knee1SHJnt
+    400066: Hama_r_HindLeg_Knee2SHJnt
+    400068: Hama_r_HindLeg_ToeSHJnt
+    400070: Hama_ROOTSHJnt
+    400072: Hama_Spine_01SHJnt
+    400074: Hama_Spine_02SHJnt
+    400076: Hama_Spine_03SHJnt
+    400078: Hama_Spine_04SHJnt
+    400080: Hama_Spine_TopSHJnt
+    400082: Mesh_grp
+    4300000: Hama_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Hama_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

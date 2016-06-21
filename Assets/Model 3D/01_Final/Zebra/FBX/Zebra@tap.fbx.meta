@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 0269aa4b4c0e95c40a9e8447e2be387b
+timeCreated: 1466490632
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Zebra_l_Clavicle_01_01SHJnt
+    100004: Zebra_l_FrontLeg_AnkleSHJnt
+    100006: Zebra_l_FrontLeg_BallSHJnt
+    100008: Zebra_l_FrontLeg_HipSHJnt
+    100010: Zebra_l_FrontLeg_KneeSHJnt
+    100012: Zebra_l_FrontLeg_ToeSHJnt
+    100014: Zebra_l_HindLeg_AnkleSHJnt
+    100016: Zebra_l_HindLeg_BallSHJnt
+    100018: Zebra_l_HindLeg_HipSHJnt
+    100020: Zebra_l_HindLeg_Knee1SHJnt
+    100022: Zebra_l_HindLeg_Knee2SHJnt
+    100024: Zebra_l_HindLeg_ToeSHJnt
+    100026: Zebra_MAINSHJnt
+    100028: Zebra_Neck_01SHJnt
+    100030: Zebra_Neck_02SHJnt
+    100032: Zebra_Neck_TopSHJnt
+    100034: Zebra_r_Clavicle_01_01SHJnt
+    100036: Zebra_r_FrontLeg_AnkleSHJnt
+    100038: Zebra_r_FrontLeg_BallSHJnt
+    100040: Zebra_r_FrontLeg_HipSHJnt
+    100042: Zebra_r_FrontLeg_KneeSHJnt
+    100044: Zebra_r_FrontLeg_ToeSHJnt
+    100046: Zebra_r_HindLeg_AnkleSHJnt
+    100048: Zebra_r_HindLeg_BallSHJnt
+    100050: Zebra_r_HindLeg_HipSHJnt
+    100052: Zebra_r_HindLeg_Knee1SHJnt
+    100054: Zebra_r_HindLeg_Knee2SHJnt
+    100056: Zebra_r_HindLeg_ToeSHJnt
+    100058: Zebra_ROOTSHJnt
+    100060: Zebra_Spine_01SHJnt
+    100062: Zebra_Spine_02SHJnt
+    100064: Zebra_Spine_03SHJnt
+    100066: Zebra_Spine_04SHJnt
+    100068: Zebra_Spine_TopSHJnt
+    100070: Zebra_Tail_01_01SHJnt
+    100072: Zebra_Tail_01_02SHJnt
+    100074: Zebra_Tail_01_03SHJnt
+    100076: Zebra_Tail_01_04SHJnt
+    400000: //RootNode
+    400002: Zebra_l_Clavicle_01_01SHJnt
+    400004: Zebra_l_FrontLeg_AnkleSHJnt
+    400006: Zebra_l_FrontLeg_BallSHJnt
+    400008: Zebra_l_FrontLeg_HipSHJnt
+    400010: Zebra_l_FrontLeg_KneeSHJnt
+    400012: Zebra_l_FrontLeg_ToeSHJnt
+    400014: Zebra_l_HindLeg_AnkleSHJnt
+    400016: Zebra_l_HindLeg_BallSHJnt
+    400018: Zebra_l_HindLeg_HipSHJnt
+    400020: Zebra_l_HindLeg_Knee1SHJnt
+    400022: Zebra_l_HindLeg_Knee2SHJnt
+    400024: Zebra_l_HindLeg_ToeSHJnt
+    400026: Zebra_MAINSHJnt
+    400028: Zebra_Neck_01SHJnt
+    400030: Zebra_Neck_02SHJnt
+    400032: Zebra_Neck_TopSHJnt
+    400034: Zebra_r_Clavicle_01_01SHJnt
+    400036: Zebra_r_FrontLeg_AnkleSHJnt
+    400038: Zebra_r_FrontLeg_BallSHJnt
+    400040: Zebra_r_FrontLeg_HipSHJnt
+    400042: Zebra_r_FrontLeg_KneeSHJnt
+    400044: Zebra_r_FrontLeg_ToeSHJnt
+    400046: Zebra_r_HindLeg_AnkleSHJnt
+    400048: Zebra_r_HindLeg_BallSHJnt
+    400050: Zebra_r_HindLeg_HipSHJnt
+    400052: Zebra_r_HindLeg_Knee1SHJnt
+    400054: Zebra_r_HindLeg_Knee2SHJnt
+    400056: Zebra_r_HindLeg_ToeSHJnt
+    400058: Zebra_ROOTSHJnt
+    400060: Zebra_Spine_01SHJnt
+    400062: Zebra_Spine_02SHJnt
+    400064: Zebra_Spine_03SHJnt
+    400066: Zebra_Spine_04SHJnt
+    400068: Zebra_Spine_TopSHJnt
+    400070: Zebra_Tail_01_01SHJnt
+    400072: Zebra_Tail_01_02SHJnt
+    400074: Zebra_Tail_01_03SHJnt
+    400076: Zebra_Tail_01_04SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
