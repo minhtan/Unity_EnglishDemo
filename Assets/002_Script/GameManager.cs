@@ -24,7 +24,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 
 	public enum modelsName{
 		ant,apple,baby,banana,bear,car,cat,
-		croc,axe,bee,cookie,dino,dog,duck, 
+		aligator,axe,bee,cookie,dino,dog,duck, 
 		egg,elephant,fish,fox,gorila,guitar,
 		hippo,ninja,pig,pirate,rabbit,lion, 
 		train,van,violin,ear,flower,girl,
