@@ -52,6 +52,8 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	}
 
 	void OnFingerTap(LeanFinger fg){
+		Debug.Log ("tapped");
+
 		if(GUIManager.Instance.IsResultActive() || LeanTouch.GuiInUse){
 			return;
 		}

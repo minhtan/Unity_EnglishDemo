@@ -14,6 +14,10 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 
 	public GameObject pnlLost;
 
+	public GameObject btnBack;
+
+	public Text[] letterToShow;
+
 	void OnEnable(){
 		go = transform.GetChild (0).gameObject;
 		Messenger.AddListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
@@ -30,6 +34,9 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 		SetGUIActive (true);
 		ResetUI ();
 		txtQuestionLetter.text = letter;
+		foreach(Text t in letterToShow){
+			t.text = "Letter " + letter;
+		}
 	}
 
 	void HandleTargetLost(){
@@ -38,6 +45,10 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 
 	public void SetGUIActive(bool state){
 		go.SetActive (state);
+	}
+
+	public void SetActiveBtnback(bool state){
+		btnBack.SetActive (state);
 	}
 
 	public void ShowLostLive(int index){

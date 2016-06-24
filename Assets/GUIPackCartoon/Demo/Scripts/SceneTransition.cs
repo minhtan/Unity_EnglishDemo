@@ -15,5 +15,12 @@ public class SceneTransition : MonoBehaviour
     public void PerformTransition()
     {
         Transition.LoadLevel(scene, duration, color);
+		if (GUIManager.Instance != null) {
+			if(scene == "full"){
+				GUIManager.Instance.SetActiveBtnback (true);
+			}else{
+				GUIManager.Instance.SetActiveBtnback (false);
+			}
+		}
     }
 }

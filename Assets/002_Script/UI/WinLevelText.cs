@@ -9,6 +9,10 @@ public class WinLevelText : MonoBehaviour {
 		Messenger.AddListener<string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
 	}
 
+	void OnDisable(){
+		Messenger.RemoveListener<string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
+	}
+
 	void HandleTargetFound(string letterFound){
 		GetComponent<Text> ().text = "Letter " + letterFound;
 	}

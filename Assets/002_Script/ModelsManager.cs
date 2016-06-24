@@ -8,6 +8,9 @@ public class ModelsManager : MonoBehaviour {
 	int currentIncorrect;
 	int currentCorrect;
 	int totalCorrect;
+	bool gameover;
+	public bool isLastAnimRunning;
+	int currentAnim;
 
 	public GameManager.letters letter;
 
@@ -18,6 +21,7 @@ public class ModelsManager : MonoBehaviour {
 		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter.ToString().ToUpper());
 		Messenger.AddListener (MyEvents.Game.RESET, HandleReset);
 		Messenger.AddListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
+		Messenger.AddListener (MyEvents.Game.ANIM_END, OnAnimEnd);
 	}
 
 	void OnDisable(){
@@ -25,6 +29,7 @@ public class ModelsManager : MonoBehaviour {
 		Messenger.Broadcast (MyEvents.Game.TARGETLOST);
 		Messenger.RemoveListener (MyEvents.Game.RESET, HandleReset);
 		Messenger.RemoveListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
+		Messenger.RemoveListener (MyEvents.Game.ANIM_END, OnAnimEnd);
 	}
 
 	bool CompareAnswer(string name){
@@ -37,6 +42,10 @@ public class ModelsManager : MonoBehaviour {
 	}
 
 	void HandleModelTap(GameObject go){
+		if(gameover){
+			return;
+		}
+
 		go.GetComponent<Collider> ().enabled = false;
 		if (CompareAnswer(go.name)) {
 			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
@@ -48,7 +57,7 @@ public class ModelsManager : MonoBehaviour {
 
 			currentCorrect++;
 			if(currentCorrect == totalCorrect){
-				Win ();
+				StartCoroutine(Win ());
 			}
 		} else {
 			SoundManager.Instance.PlayWrongSound ();
@@ -71,10 +80,22 @@ public class ModelsManager : MonoBehaviour {
 	}
 		
 	void GameOver(){
+		gameover = true;
 		GUIManager.Instance.ShowLostPnl ();
 	}
 
-	void Win(){
+	void OnAnimEnd(){
+		currentAnim++;
+		if(currentAnim == totalCorrect){
+			isLastAnimRunning = false;
+		}
+	}
+
+	IEnumerator Win(){
+		gameover = true;
+		do {
+			yield return null;
+		} while(isLastAnimRunning);
 		GUIManager.Instance.ShowWinPnl (3-currentIncorrect);
 	}
 
@@ -90,6 +111,9 @@ public class ModelsManager : MonoBehaviour {
 	IEnumerator Init(){
 		currentCorrect = 0;
 		currentIncorrect = 0;
+		currentAnim = 0;
+		isLastAnimRunning = true;
+		gameover = false;
 		CalculateTotalCorrect ();
 
 		AudioClip clip = Resources.Load<AudioClip> ("Q_Sound/" + letter.ToString().ToUpper());
