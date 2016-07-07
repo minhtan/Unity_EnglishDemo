@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: d77d5d985d2223b4fad0115fd8e3f414
+timeCreated: 1467773091
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Mesh_grp
+    100002: //RootNode
+    100004: Robot_l_Arm_ClavicleSHJnt
+    100006: Robot_l_Arm_ElbowSHJnt
+    100008: Robot_l_Arm_ShoulderSHJnt
+    100010: Robot_l_Arm_WristSHJnt
+    100012: Robot_l_Leg_AnkleSHJnt
+    100014: Robot_l_Leg_BallSHJnt
+    100016: Robot_l_Leg_HipSHJnt
+    100018: Robot_l_Leg_KneeSHJnt
+    100020: Robot_l_Leg_ToeSHJnt
+    100022: Robot_MAINSHJnt
+    100024: Robot_mesh
+    100026: Robot_Neck_01SHJnt
+    100028: Robot_Neck_02SHJnt
+    100030: Robot_Neck_TopSHJnt
+    100032: Robot_r_Arm_ClavicleSHJnt
+    100034: Robot_r_Arm_ElbowSHJnt
+    100036: Robot_r_Arm_ShoulderSHJnt
+    100038: Robot_r_Arm_WristSHJnt
+    100040: Robot_r_Leg_AnkleSHJnt
+    100042: Robot_r_Leg_BallSHJnt
+    100044: Robot_r_Leg_HipSHJnt
+    100046: Robot_r_Leg_KneeSHJnt
+    100048: Robot_r_Leg_ToeSHJnt
+    100050: Robot_ROOTSHJnt
+    100052: Robot_Spine_01SHJnt
+    100054: Robot_Spine_02SHJnt
+    100056: Robot_Spine_TopSHJnt
+    400000: Mesh_grp
+    400002: //RootNode
+    400004: Robot_l_Arm_ClavicleSHJnt
+    400006: Robot_l_Arm_ElbowSHJnt
+    400008: Robot_l_Arm_ShoulderSHJnt
+    400010: Robot_l_Arm_WristSHJnt
+    400012: Robot_l_Leg_AnkleSHJnt
+    400014: Robot_l_Leg_BallSHJnt
+    400016: Robot_l_Leg_HipSHJnt
+    400018: Robot_l_Leg_KneeSHJnt
+    400020: Robot_l_Leg_ToeSHJnt
+    400022: Robot_MAINSHJnt
+    400024: Robot_mesh
+    400026: Robot_Neck_01SHJnt
+    400028: Robot_Neck_02SHJnt
+    400030: Robot_Neck_TopSHJnt
+    400032: Robot_r_Arm_ClavicleSHJnt
+    400034: Robot_r_Arm_ElbowSHJnt
+    400036: Robot_r_Arm_ShoulderSHJnt
+    400038: Robot_r_Arm_WristSHJnt
+    400040: Robot_r_Leg_AnkleSHJnt
+    400042: Robot_r_Leg_BallSHJnt
+    400044: Robot_r_Leg_HipSHJnt
+    400046: Robot_r_Leg_KneeSHJnt
+    400048: Robot_r_Leg_ToeSHJnt
+    400050: Robot_ROOTSHJnt
+    400052: Robot_Spine_01SHJnt
+    400054: Robot_Spine_02SHJnt
+    400056: Robot_Spine_TopSHJnt
+    4300000: Robot_mesh
+    9500000: //RootNode
+    13700000: Robot_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

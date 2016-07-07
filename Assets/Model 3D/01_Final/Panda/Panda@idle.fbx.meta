@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 14e135a9f34f4ad48874480c8769ee4b
+timeCreated: 1467773083
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Panda_l_Arm_ClavicleSHJnt
+    100004: Panda_l_Arm_ElbowSHJnt
+    100006: Panda_l_Arm_ShoulderSHJnt
+    100008: Panda_l_Arm_WristSHJnt
+    100010: Panda_l_Index_01_01SHJnt
+    100012: Panda_l_Index_01_02SHJnt
+    100014: Panda_l_Index_01_03SHJnt
+    100016: Panda_l_Leg_AnkleSHJnt
+    100018: Panda_l_Leg_BallSHJnt
+    100020: Panda_l_Leg_HipSHJnt
+    100022: Panda_l_Leg_KneeSHJnt
+    100024: Panda_l_Leg_ToeSHJnt
+    100026: Panda_l_Thumb_01_01SHJnt
+    100028: Panda_l_Thumb_01_02SHJnt
+    100030: Panda_l_Thumb_01_03SHJnt
+    100032: Panda_MAINSHJnt
+    100034: Panda_Neck_01SHJnt
+    100036: Panda_Neck_02SHJnt
+    100038: Panda_Neck_TopSHJnt
+    100040: Panda_r_Arm_ClavicleSHJnt
+    100042: Panda_r_Arm_ElbowSHJnt
+    100044: Panda_r_Arm_ShoulderSHJnt
+    100046: Panda_r_Arm_WristSHJnt
+    100048: Panda_r_Index_01_01SHJnt
+    100050: Panda_r_Index_01_02SHJnt
+    100052: Panda_r_Index_01_03SHJnt
+    100054: Panda_r_Leg_AnkleSHJnt
+    100056: Panda_r_Leg_BallSHJnt
+    100058: Panda_r_Leg_HipSHJnt
+    100060: Panda_r_Leg_KneeSHJnt
+    100062: Panda_r_Leg_ToeSHJnt
+    100064: Panda_r_Thumb_01_01SHJnt
+    100066: Panda_r_Thumb_01_02SHJnt
+    100068: Panda_r_Thumb_01_03SHJnt
+    100070: Panda_ROOTSHJnt
+    100072: Panda_Spine_01SHJnt
+    100074: Panda_Spine_02SHJnt
+    100076: Panda_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Panda_l_Arm_ClavicleSHJnt
+    400004: Panda_l_Arm_ElbowSHJnt
+    400006: Panda_l_Arm_ShoulderSHJnt
+    400008: Panda_l_Arm_WristSHJnt
+    400010: Panda_l_Index_01_01SHJnt
+    400012: Panda_l_Index_01_02SHJnt
+    400014: Panda_l_Index_01_03SHJnt
+    400016: Panda_l_Leg_AnkleSHJnt
+    400018: Panda_l_Leg_BallSHJnt
+    400020: Panda_l_Leg_HipSHJnt
+    400022: Panda_l_Leg_KneeSHJnt
+    400024: Panda_l_Leg_ToeSHJnt
+    400026: Panda_l_Thumb_01_01SHJnt
+    400028: Panda_l_Thumb_01_02SHJnt
+    400030: Panda_l_Thumb_01_03SHJnt
+    400032: Panda_MAINSHJnt
+    400034: Panda_Neck_01SHJnt
+    400036: Panda_Neck_02SHJnt
+    400038: Panda_Neck_TopSHJnt
+    400040: Panda_r_Arm_ClavicleSHJnt
+    400042: Panda_r_Arm_ElbowSHJnt
+    400044: Panda_r_Arm_ShoulderSHJnt
+    400046: Panda_r_Arm_WristSHJnt
+    400048: Panda_r_Index_01_01SHJnt
+    400050: Panda_r_Index_01_02SHJnt
+    400052: Panda_r_Index_01_03SHJnt
+    400054: Panda_r_Leg_AnkleSHJnt
+    400056: Panda_r_Leg_BallSHJnt
+    400058: Panda_r_Leg_HipSHJnt
+    400060: Panda_r_Leg_KneeSHJnt
+    400062: Panda_r_Leg_ToeSHJnt
+    400064: Panda_r_Thumb_01_01SHJnt
+    400066: Panda_r_Thumb_01_02SHJnt
+    400068: Panda_r_Thumb_01_03SHJnt
+    400070: Panda_ROOTSHJnt
+    400072: Panda_Spine_01SHJnt
+    400074: Panda_Spine_02SHJnt
+    400076: Panda_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

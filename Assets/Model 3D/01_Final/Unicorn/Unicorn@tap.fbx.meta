@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 7048fe8f3646b33429c1687f1a47f7f6
+timeCreated: 1467601293
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Unicorn_l_Clavicle_01_01SHJnt
+    100004: Unicorn_l_FrontLeg_AnkleSHJnt
+    100006: Unicorn_l_FrontLeg_BallSHJnt
+    100008: Unicorn_l_FrontLeg_HipSHJnt
+    100010: Unicorn_l_FrontLeg_KneeSHJnt
+    100012: Unicorn_l_FrontLeg_ToeSHJnt
+    100014: Unicorn_l_HindLeg_AnkleSHJnt
+    100016: Unicorn_l_HindLeg_BallSHJnt
+    100018: Unicorn_l_HindLeg_HipSHJnt
+    100020: Unicorn_l_HindLeg_KneeSHJnt
+    100022: Unicorn_l_HindLeg_ToeSHJnt
+    100024: Unicorn_MAINSHJnt
+    100026: Unicorn_Neck_01SHJnt
+    100028: Unicorn_Neck_TopSHJnt
+    100030: Unicorn_r_Clavicle_01_01SHJnt
+    100032: Unicorn_r_FrontLeg_AnkleSHJnt
+    100034: Unicorn_r_FrontLeg_BallSHJnt
+    100036: Unicorn_r_FrontLeg_HipSHJnt
+    100038: Unicorn_r_FrontLeg_KneeSHJnt
+    100040: Unicorn_r_FrontLeg_ToeSHJnt
+    100042: Unicorn_r_HindLeg_AnkleSHJnt
+    100044: Unicorn_r_HindLeg_BallSHJnt
+    100046: Unicorn_r_HindLeg_HipSHJnt
+    100048: Unicorn_r_HindLeg_KneeSHJnt
+    100050: Unicorn_r_HindLeg_ToeSHJnt
+    100052: Unicorn_ROOTSHJnt
+    100054: Unicorn_Spine_01SHJnt
+    100056: Unicorn_Spine_02SHJnt
+    100058: Unicorn_Spine_03SHJnt
+    100060: Unicorn_Spine_TopSHJnt
+    100062: Unicorn_Tail_01_01SHJnt
+    100064: Unicorn_Tail_01_02SHJnt
+    100066: Unicorn_Tail_01_03SHJnt
+    400000: //RootNode
+    400002: Unicorn_l_Clavicle_01_01SHJnt
+    400004: Unicorn_l_FrontLeg_AnkleSHJnt
+    400006: Unicorn_l_FrontLeg_BallSHJnt
+    400008: Unicorn_l_FrontLeg_HipSHJnt
+    400010: Unicorn_l_FrontLeg_KneeSHJnt
+    400012: Unicorn_l_FrontLeg_ToeSHJnt
+    400014: Unicorn_l_HindLeg_AnkleSHJnt
+    400016: Unicorn_l_HindLeg_BallSHJnt
+    400018: Unicorn_l_HindLeg_HipSHJnt
+    400020: Unicorn_l_HindLeg_KneeSHJnt
+    400022: Unicorn_l_HindLeg_ToeSHJnt
+    400024: Unicorn_MAINSHJnt
+    400026: Unicorn_Neck_01SHJnt
+    400028: Unicorn_Neck_TopSHJnt
+    400030: Unicorn_r_Clavicle_01_01SHJnt
+    400032: Unicorn_r_FrontLeg_AnkleSHJnt
+    400034: Unicorn_r_FrontLeg_BallSHJnt
+    400036: Unicorn_r_FrontLeg_HipSHJnt
+    400038: Unicorn_r_FrontLeg_KneeSHJnt
+    400040: Unicorn_r_FrontLeg_ToeSHJnt
+    400042: Unicorn_r_HindLeg_AnkleSHJnt
+    400044: Unicorn_r_HindLeg_BallSHJnt
+    400046: Unicorn_r_HindLeg_HipSHJnt
+    400048: Unicorn_r_HindLeg_KneeSHJnt
+    400050: Unicorn_r_HindLeg_ToeSHJnt
+    400052: Unicorn_ROOTSHJnt
+    400054: Unicorn_Spine_01SHJnt
+    400056: Unicorn_Spine_02SHJnt
+    400058: Unicorn_Spine_03SHJnt
+    400060: Unicorn_Spine_TopSHJnt
+    400062: Unicorn_Tail_01_01SHJnt
+    400064: Unicorn_Tail_01_02SHJnt
+    400066: Unicorn_Tail_01_03SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
