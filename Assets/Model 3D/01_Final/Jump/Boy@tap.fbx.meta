@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 68ae6c72012b24035a09334847db3278
+timeCreated: 1468205003
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Boy_l_Arm_ClavicleSHJnt
+    100004: Boy_l_Arm_ElbowSHJnt
+    100006: Boy_l_Arm_ShoulderSHJnt
+    100008: Boy_l_Arm_WristSHJnt
+    100010: Boy_l_Finger_01_01SHJnt
+    100012: Boy_l_Finger_01_02SHJnt
+    100014: Boy_l_Finger_01_03SHJnt
+    100016: Boy_l_Finger_01_04SHJnt
+    100018: Boy_l_Finger_02_01SHJnt
+    100020: Boy_l_Finger_02_02SHJnt
+    100022: Boy_l_Finger_02_03SHJnt
+    100024: Boy_l_Finger_02_04SHJnt
+    100026: Boy_l_Finger_03_01SHJnt
+    100028: Boy_l_Finger_03_02SHJnt
+    100030: Boy_l_Finger_03_03SHJnt
+    100032: Boy_l_Finger_03_04SHJnt
+    100034: Boy_l_Finger_04_01SHJnt
+    100036: Boy_l_Finger_04_02SHJnt
+    100038: Boy_l_Finger_04_03SHJnt
+    100040: Boy_l_Finger_04_04SHJnt
+    100042: Boy_l_Leg_AnkleSHJnt
+    100044: Boy_l_Leg_BallSHJnt
+    100046: Boy_l_Leg_HipSHJnt
+    100048: Boy_l_Leg_KneeSHJnt
+    100050: Boy_l_Leg_ToeSHJnt
+    100052: Boy_l_Thumb_01_01SHJnt
+    100054: Boy_l_Thumb_01_02SHJnt
+    100056: Boy_l_Thumb_01_03SHJnt
+    100058: Boy_l_Thumb_01_04SHJnt
+    100060: Boy_MAINSHJnt
+    100062: Boy_Neck_01SHJnt
+    100064: Boy_Neck_02SHJnt
+    100066: Boy_Neck_TopSHJnt
+    100068: Boy_r_Arm_ClavicleSHJnt
+    100070: Boy_r_Arm_ElbowSHJnt
+    100072: Boy_r_Arm_ShoulderSHJnt
+    100074: Boy_r_Arm_WristSHJnt
+    100076: Boy_r_Finger_01_01SHJnt
+    100078: Boy_r_Finger_01_02SHJnt
+    100080: Boy_r_Finger_01_03SHJnt
+    100082: Boy_r_Finger_01_04SHJnt
+    100084: Boy_r_Finger_02_01SHJnt
+    100086: Boy_r_Finger_02_02SHJnt
+    100088: Boy_r_Finger_02_03SHJnt
+    100090: Boy_r_Finger_02_04SHJnt
+    100092: Boy_r_Finger_03_01SHJnt
+    100094: Boy_r_Finger_03_02SHJnt
+    100096: Boy_r_Finger_03_03SHJnt
+    100098: Boy_r_Finger_03_04SHJnt
+    100100: Boy_r_Finger_04_01SHJnt
+    100102: Boy_r_Finger_04_02SHJnt
+    100104: Boy_r_Finger_04_03SHJnt
+    100106: Boy_r_Finger_04_04SHJnt
+    100108: Boy_r_Leg_AnkleSHJnt
+    100110: Boy_r_Leg_BallSHJnt
+    100112: Boy_r_Leg_HipSHJnt
+    100114: Boy_r_Leg_KneeSHJnt
+    100116: Boy_r_Leg_ToeSHJnt
+    100118: Boy_r_Thumb_01_01SHJnt
+    100120: Boy_r_Thumb_01_02SHJnt
+    100122: Boy_r_Thumb_01_03SHJnt
+    100124: Boy_r_Thumb_01_04SHJnt
+    100126: Boy_ROOTSHJnt
+    100128: Boy_Spine_01SHJnt
+    100130: Boy_Spine_02SHJnt
+    100132: Boy_Spine_03SHJnt
+    100134: Boy_Spine_04SHJnt
+    100136: Boy_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Boy_l_Arm_ClavicleSHJnt
+    400004: Boy_l_Arm_ElbowSHJnt
+    400006: Boy_l_Arm_ShoulderSHJnt
+    400008: Boy_l_Arm_WristSHJnt
+    400010: Boy_l_Finger_01_01SHJnt
+    400012: Boy_l_Finger_01_02SHJnt
+    400014: Boy_l_Finger_01_03SHJnt
+    400016: Boy_l_Finger_01_04SHJnt
+    400018: Boy_l_Finger_02_01SHJnt
+    400020: Boy_l_Finger_02_02SHJnt
+    400022: Boy_l_Finger_02_03SHJnt
+    400024: Boy_l_Finger_02_04SHJnt
+    400026: Boy_l_Finger_03_01SHJnt
+    400028: Boy_l_Finger_03_02SHJnt
+    400030: Boy_l_Finger_03_03SHJnt
+    400032: Boy_l_Finger_03_04SHJnt
+    400034: Boy_l_Finger_04_01SHJnt
+    400036: Boy_l_Finger_04_02SHJnt
+    400038: Boy_l_Finger_04_03SHJnt
+    400040: Boy_l_Finger_04_04SHJnt
+    400042: Boy_l_Leg_AnkleSHJnt
+    400044: Boy_l_Leg_BallSHJnt
+    400046: Boy_l_Leg_HipSHJnt
+    400048: Boy_l_Leg_KneeSHJnt
+    400050: Boy_l_Leg_ToeSHJnt
+    400052: Boy_l_Thumb_01_01SHJnt
+    400054: Boy_l_Thumb_01_02SHJnt
+    400056: Boy_l_Thumb_01_03SHJnt
+    400058: Boy_l_Thumb_01_04SHJnt
+    400060: Boy_MAINSHJnt
+    400062: Boy_Neck_01SHJnt
+    400064: Boy_Neck_02SHJnt
+    400066: Boy_Neck_TopSHJnt
+    400068: Boy_r_Arm_ClavicleSHJnt
+    400070: Boy_r_Arm_ElbowSHJnt
+    400072: Boy_r_Arm_ShoulderSHJnt
+    400074: Boy_r_Arm_WristSHJnt
+    400076: Boy_r_Finger_01_01SHJnt
+    400078: Boy_r_Finger_01_02SHJnt
+    400080: Boy_r_Finger_01_03SHJnt
+    400082: Boy_r_Finger_01_04SHJnt
+    400084: Boy_r_Finger_02_01SHJnt
+    400086: Boy_r_Finger_02_02SHJnt
+    400088: Boy_r_Finger_02_03SHJnt
+    400090: Boy_r_Finger_02_04SHJnt
+    400092: Boy_r_Finger_03_01SHJnt
+    400094: Boy_r_Finger_03_02SHJnt
+    400096: Boy_r_Finger_03_03SHJnt
+    400098: Boy_r_Finger_03_04SHJnt
+    400100: Boy_r_Finger_04_01SHJnt
+    400102: Boy_r_Finger_04_02SHJnt
+    400104: Boy_r_Finger_04_03SHJnt
+    400106: Boy_r_Finger_04_04SHJnt
+    400108: Boy_r_Leg_AnkleSHJnt
+    400110: Boy_r_Leg_BallSHJnt
+    400112: Boy_r_Leg_HipSHJnt
+    400114: Boy_r_Leg_KneeSHJnt
+    400116: Boy_r_Leg_ToeSHJnt
+    400118: Boy_r_Thumb_01_01SHJnt
+    400120: Boy_r_Thumb_01_02SHJnt
+    400122: Boy_r_Thumb_01_03SHJnt
+    400124: Boy_r_Thumb_01_04SHJnt
+    400126: Boy_ROOTSHJnt
+    400128: Boy_Spine_01SHJnt
+    400130: Boy_Spine_02SHJnt
+    400132: Boy_Spine_03SHJnt
+    400134: Boy_Spine_04SHJnt
+    400136: Boy_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 5b14b048e71666048ad0dfdf0bba1606
-timeCreated: 1467773084
+guid: c93000acf5e904aa288b1c2def47c520
+timeCreated: 1468205004
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -87,7 +87,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 180
     normalImportMode: 0
     tangentImportMode: 3
   importAnimation: 1

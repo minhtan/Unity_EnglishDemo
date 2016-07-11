@@ -1,57 +1,61 @@
 fileFormatVersion: 2
-guid: c32fd229eb2f8804a95c39db6215b1db
-timeCreated: 1467773090
+guid: a0dfbcda36ecc48cb81a50838bd8f3db
+timeCreated: 1468205011
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Mesh_grp
-    100002: //RootNode
-    100004: Snake_MAINSHJnt
-    100006: Snake_mesh
-    100008: Snake_Neck_01SHJnt
-    100010: Snake_Neck_02SHJnt
-    100012: Snake_Neck_TopSHJnt
-    100014: Snake_ROOTSHJnt
-    100016: Snake_Spine_01SHJnt
-    100018: Snake_Spine_02SHJnt
-    100020: Snake_Spine_03SHJnt
-    100022: Snake_Spine_04SHJnt
-    100024: Snake_Spine_TopSHJnt
-    100026: Snake_Tail_01_01SHJnt
-    100028: Snake_Tail_01_02SHJnt
-    100030: Snake_Tail_01_03SHJnt
-    100032: Snake_Tail_01_04SHJnt
-    100034: Snake_Tail_01_05SHJnt
-    100036: Snake_Tail_01_06SHJnt
-    100038: Snake_Tail_01_07SHJnt
-    100040: Snake_Tail_01_08SHJnt
-    100042: Snake_Tail_01_09SHJnt
-    400000: Mesh_grp
-    400002: //RootNode
-    400004: Snake_MAINSHJnt
-    400006: Snake_mesh
-    400008: Snake_Neck_01SHJnt
-    400010: Snake_Neck_02SHJnt
-    400012: Snake_Neck_TopSHJnt
-    400014: Snake_ROOTSHJnt
-    400016: Snake_Spine_01SHJnt
-    400018: Snake_Spine_02SHJnt
-    400020: Snake_Spine_03SHJnt
-    400022: Snake_Spine_04SHJnt
-    400024: Snake_Spine_TopSHJnt
-    400026: Snake_Tail_01_01SHJnt
-    400028: Snake_Tail_01_02SHJnt
-    400030: Snake_Tail_01_03SHJnt
-    400032: Snake_Tail_01_04SHJnt
-    400034: Snake_Tail_01_05SHJnt
-    400036: Snake_Tail_01_06SHJnt
-    400038: Snake_Tail_01_07SHJnt
-    400040: Snake_Tail_01_08SHJnt
-    400042: Snake_Tail_01_09SHJnt
-    4300000: Snake_mesh
+    100000: body
+    100002: eyes
+    100004: //RootNode
+    100006: snake
+    100008: Snake_MAINSHJnt
+    100010: Snake_Neck_01SHJnt
+    100012: Snake_Neck_02SHJnt
+    100014: Snake_Neck_TopSHJnt
+    100016: Snake_ROOTSHJnt
+    100018: Snake_Spine_01SHJnt
+    100020: Snake_Spine_02SHJnt
+    100022: Snake_Spine_03SHJnt
+    100024: Snake_Spine_04SHJnt
+    100026: Snake_Spine_TopSHJnt
+    100028: Snake_Tail_01_01SHJnt
+    100030: Snake_Tail_01_02SHJnt
+    100032: Snake_Tail_01_03SHJnt
+    100034: Snake_Tail_01_04SHJnt
+    100036: Snake_Tail_01_05SHJnt
+    100038: Snake_Tail_01_06SHJnt
+    100040: Snake_Tail_01_07SHJnt
+    100042: Snake_Tail_01_08SHJnt
+    100044: Snake_Tail_01_09SHJnt
+    400000: body
+    400002: eyes
+    400004: //RootNode
+    400006: snake
+    400008: Snake_MAINSHJnt
+    400010: Snake_Neck_01SHJnt
+    400012: Snake_Neck_02SHJnt
+    400014: Snake_Neck_TopSHJnt
+    400016: Snake_ROOTSHJnt
+    400018: Snake_Spine_01SHJnt
+    400020: Snake_Spine_02SHJnt
+    400022: Snake_Spine_03SHJnt
+    400024: Snake_Spine_04SHJnt
+    400026: Snake_Spine_TopSHJnt
+    400028: Snake_Tail_01_01SHJnt
+    400030: Snake_Tail_01_02SHJnt
+    400032: Snake_Tail_01_03SHJnt
+    400034: Snake_Tail_01_04SHJnt
+    400036: Snake_Tail_01_05SHJnt
+    400038: Snake_Tail_01_06SHJnt
+    400040: Snake_Tail_01_07SHJnt
+    400042: Snake_Tail_01_08SHJnt
+    400044: Snake_Tail_01_09SHJnt
+    4300000: body
+    4300002: eyes
     9500000: //RootNode
-    13700000: Snake_mesh
+    13700000: body
+    13700002: eyes
   materials:
     importMaterials: 1
     materialName: 0
