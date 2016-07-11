@@ -15,21 +15,21 @@ public class CFX_AutoDestructShuriken : MonoBehaviour
 	{
 		while(true)
 		{
-			yield return new WaitForSeconds(1f);
-//			if(!GetComponent<ParticleSystem>().IsAlive(true))
-//			{
-//				if(OnlyDeactivate)
-//				{
-//					#if UNITY_3_5
-//						this.gameObject.SetActiveRecursively(false);
-//					#else
-//						this.gameObject.SetActive(false);
-//					#endif
-//				}
-//				else
-					Destroy(this.gameObject);
-//				break;
-//			}
+			yield return new WaitForSeconds(0.5f);
+			if(!GetComponent<ParticleSystem>().IsAlive(true))
+			{
+				if(OnlyDeactivate)
+				{
+					#if UNITY_3_5
+						this.gameObject.SetActiveRecursively(false);
+					#else
+						this.gameObject.SetActive(false);
+					#endif
+				}
+				else
+					GameObject.Destroy(this.gameObject);
+				break;
+			}
 		}
 	}
 }

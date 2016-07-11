@@ -48,6 +48,8 @@ public class ModelsManager : MonoBehaviour {
 
 		go.GetComponent<Collider> ().enabled = false;
 		if (CompareAnswer(go.name)) {
+			Instantiate (GameManager.Instance.winPrtcl, go.transform.position, Quaternion.identity);
+
 			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
 			if(clip != null){
 				SoundManager.Instance.PlaySound (clip);
@@ -60,6 +62,8 @@ public class ModelsManager : MonoBehaviour {
 				StartCoroutine(Win ());
 			}
 		} else {
+			Instantiate (GameManager.Instance.losePrtcl, go.transform.position, Quaternion.identity);
+
 			SoundManager.Instance.PlayWrongSound ();
 
 			Renderer[] rd = go.GetComponentsInChildren<Renderer> ();
