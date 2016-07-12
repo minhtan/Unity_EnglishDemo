@@ -54,7 +54,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	}
 
 	void OnFingerTap(LeanFinger fg){
-//		Instantiate (winPrtcl, fg.GetWorldPosition(10.0f), Quaternion.identity);
+//		Instantiate (winPrtcl, fg.GetWorldPosition(1.0f), Quaternion.identity);
 
 		if(GUIManager.Instance.IsResultActive() || LeanTouch.GuiInUse){
 			return;
@@ -64,7 +64,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 		Ray ray = fg.GetRay ();
 
 		if(Physics.Raycast(ray, out hitInfo)){
-			Messenger.Broadcast<GameObject, Vector3> (MyEvents.Game.MODEL_TAP, hitInfo.collider.gameObject, fg.GetWorldPosition(10.0f));
+			Messenger.Broadcast<GameObject, Vector3> (MyEvents.Game.MODEL_TAP, hitInfo.collider.gameObject, fg.GetWorldPosition(1.0f));
 		}
 	}
 }
