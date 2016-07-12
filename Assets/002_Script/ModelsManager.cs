@@ -20,7 +20,7 @@ public class ModelsManager : MonoBehaviour {
 		StartCoroutine( Init () );
 		Messenger.Broadcast<string> (MyEvents.Game.TARGETFOUND, letter.ToString().ToUpper());
 		Messenger.AddListener (MyEvents.Game.RESET, HandleReset);
-		Messenger.AddListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
+		Messenger.AddListener <GameObject, Vector3> (MyEvents.Game.MODEL_TAP, HandleModelTap);
 		Messenger.AddListener (MyEvents.Game.ANIM_END, OnAnimEnd);
 	}
 
@@ -28,7 +28,7 @@ public class ModelsManager : MonoBehaviour {
 		End ();
 		Messenger.Broadcast (MyEvents.Game.TARGETLOST);
 		Messenger.RemoveListener (MyEvents.Game.RESET, HandleReset);
-		Messenger.RemoveListener <GameObject> (MyEvents.Game.MODEL_TAP, HandleModelTap);
+		Messenger.RemoveListener <GameObject, Vector3> (MyEvents.Game.MODEL_TAP, HandleModelTap);
 		Messenger.RemoveListener (MyEvents.Game.ANIM_END, OnAnimEnd);
 	}
 
@@ -41,14 +41,14 @@ public class ModelsManager : MonoBehaviour {
 		return false;
 	}
 
-	void HandleModelTap(GameObject go){
+	void HandleModelTap(GameObject go, Vector3 pos){
 		if(gameover){
 			return;
 		}
 
 		go.GetComponent<Collider> ().enabled = false;
 		if (CompareAnswer(go.name)) {
-			Instantiate (GameManager.Instance.winPrtcl, go.transform.position, Quaternion.identity);
+			Instantiate (GameManager.Instance.winPrtcl, pos, Quaternion.identity);
 
 			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
 			if(clip != null){
@@ -62,7 +62,7 @@ public class ModelsManager : MonoBehaviour {
 				StartCoroutine(Win ());
 			}
 		} else {
-			Instantiate (GameManager.Instance.losePrtcl, go.transform.position, Quaternion.identity);
+			Instantiate (GameManager.Instance.losePrtcl, pos, Quaternion.identity);
 
 			SoundManager.Instance.PlayWrongSound ();
 
