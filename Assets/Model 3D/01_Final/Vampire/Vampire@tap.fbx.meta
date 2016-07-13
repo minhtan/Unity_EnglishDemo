@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 319cf57280fd86e40914b5bc50d4deeb
+timeCreated: 1467773084
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vampire_Cape_01_01SHJnt
+    100004: Vampire_Cape_01_02SHJnt
+    100006: Vampire_Cape_01_03SHJnt
+    100008: Vampire_Cape_01_04SHJnt
+    100010: Vampire_l_Arm_ClavicleSHJnt
+    100012: Vampire_l_Arm_ElbowSHJnt
+    100014: Vampire_l_Arm_ShoulderSHJnt
+    100016: Vampire_l_Arm_WristSHJnt
+    100018: Vampire_l_Index_01_01SHJnt
+    100020: Vampire_l_Index_01_02SHJnt
+    100022: Vampire_l_Index_01_03SHJnt
+    100024: Vampire_l_Index_01_04SHJnt
+    100026: Vampire_l_Leg_AnkleSHJnt
+    100028: Vampire_l_Leg_BallSHJnt
+    100030: Vampire_l_Leg_HipSHJnt
+    100032: Vampire_l_Leg_KneeSHJnt
+    100034: Vampire_l_Leg_ToeSHJnt
+    100036: Vampire_l_Thumb_01_01SHJnt
+    100038: Vampire_l_Thumb_01_02SHJnt
+    100040: Vampire_l_Thumb_01_03SHJnt
+    100042: Vampire_l_Thumb_01_04SHJnt
+    100044: Vampire_MAINSHJnt
+    100046: Vampire_Neck_01SHJnt
+    100048: Vampire_Neck_02SHJnt
+    100050: Vampire_Neck_TopSHJnt
+    100052: Vampire_r_Arm_ClavicleSHJnt
+    100054: Vampire_r_Arm_ElbowSHJnt
+    100056: Vampire_r_Arm_ShoulderSHJnt
+    100058: Vampire_r_Arm_WristSHJnt
+    100060: Vampire_r_Index_01_01SHJnt
+    100062: Vampire_r_Index_01_02SHJnt
+    100064: Vampire_r_Index_01_03SHJnt
+    100066: Vampire_r_Index_01_04SHJnt
+    100068: Vampire_r_Leg_AnkleSHJnt
+    100070: Vampire_r_Leg_BallSHJnt
+    100072: Vampire_r_Leg_HipSHJnt
+    100074: Vampire_r_Leg_KneeSHJnt
+    100076: Vampire_r_Leg_ToeSHJnt
+    100078: Vampire_r_Thumb_01_01SHJnt
+    100080: Vampire_r_Thumb_01_02SHJnt
+    100082: Vampire_r_Thumb_01_03SHJnt
+    100084: Vampire_r_Thumb_01_04SHJnt
+    100086: Vampire_ROOTSHJnt
+    100088: Vampire_Spine_01SHJnt
+    100090: Vampire_Spine_02SHJnt
+    100092: Vampire_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Vampire_Cape_01_01SHJnt
+    400004: Vampire_Cape_01_02SHJnt
+    400006: Vampire_Cape_01_03SHJnt
+    400008: Vampire_Cape_01_04SHJnt
+    400010: Vampire_l_Arm_ClavicleSHJnt
+    400012: Vampire_l_Arm_ElbowSHJnt
+    400014: Vampire_l_Arm_ShoulderSHJnt
+    400016: Vampire_l_Arm_WristSHJnt
+    400018: Vampire_l_Index_01_01SHJnt
+    400020: Vampire_l_Index_01_02SHJnt
+    400022: Vampire_l_Index_01_03SHJnt
+    400024: Vampire_l_Index_01_04SHJnt
+    400026: Vampire_l_Leg_AnkleSHJnt
+    400028: Vampire_l_Leg_BallSHJnt
+    400030: Vampire_l_Leg_HipSHJnt
+    400032: Vampire_l_Leg_KneeSHJnt
+    400034: Vampire_l_Leg_ToeSHJnt
+    400036: Vampire_l_Thumb_01_01SHJnt
+    400038: Vampire_l_Thumb_01_02SHJnt
+    400040: Vampire_l_Thumb_01_03SHJnt
+    400042: Vampire_l_Thumb_01_04SHJnt
+    400044: Vampire_MAINSHJnt
+    400046: Vampire_Neck_01SHJnt
+    400048: Vampire_Neck_02SHJnt
+    400050: Vampire_Neck_TopSHJnt
+    400052: Vampire_r_Arm_ClavicleSHJnt
+    400054: Vampire_r_Arm_ElbowSHJnt
+    400056: Vampire_r_Arm_ShoulderSHJnt
+    400058: Vampire_r_Arm_WristSHJnt
+    400060: Vampire_r_Index_01_01SHJnt
+    400062: Vampire_r_Index_01_02SHJnt
+    400064: Vampire_r_Index_01_03SHJnt
+    400066: Vampire_r_Index_01_04SHJnt
+    400068: Vampire_r_Leg_AnkleSHJnt
+    400070: Vampire_r_Leg_BallSHJnt
+    400072: Vampire_r_Leg_HipSHJnt
+    400074: Vampire_r_Leg_KneeSHJnt
+    400076: Vampire_r_Leg_ToeSHJnt
+    400078: Vampire_r_Thumb_01_01SHJnt
+    400080: Vampire_r_Thumb_01_02SHJnt
+    400082: Vampire_r_Thumb_01_03SHJnt
+    400084: Vampire_r_Thumb_01_04SHJnt
+    400086: Vampire_ROOTSHJnt
+    400088: Vampire_Spine_01SHJnt
+    400090: Vampire_Spine_02SHJnt
+    400092: Vampire_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

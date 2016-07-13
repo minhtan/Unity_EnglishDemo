@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 64d40bab8b811814694ed75e9757730c
+timeCreated: 1467773084
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Robot_l_Arm_ClavicleSHJnt
+    100004: Robot_l_Arm_ElbowSHJnt
+    100006: Robot_l_Arm_ShoulderSHJnt
+    100008: Robot_l_Arm_WristSHJnt
+    100010: Robot_l_Leg_AnkleSHJnt
+    100012: Robot_l_Leg_BallSHJnt
+    100014: Robot_l_Leg_HipSHJnt
+    100016: Robot_l_Leg_KneeSHJnt
+    100018: Robot_l_Leg_ToeSHJnt
+    100020: Robot_MAINSHJnt
+    100022: Robot_Neck_01SHJnt
+    100024: Robot_Neck_02SHJnt
+    100026: Robot_Neck_TopSHJnt
+    100028: Robot_r_Arm_ClavicleSHJnt
+    100030: Robot_r_Arm_ElbowSHJnt
+    100032: Robot_r_Arm_ShoulderSHJnt
+    100034: Robot_r_Arm_WristSHJnt
+    100036: Robot_r_Leg_AnkleSHJnt
+    100038: Robot_r_Leg_BallSHJnt
+    100040: Robot_r_Leg_HipSHJnt
+    100042: Robot_r_Leg_KneeSHJnt
+    100044: Robot_r_Leg_ToeSHJnt
+    100046: Robot_ROOTSHJnt
+    100048: Robot_Spine_01SHJnt
+    100050: Robot_Spine_02SHJnt
+    100052: Robot_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Robot_l_Arm_ClavicleSHJnt
+    400004: Robot_l_Arm_ElbowSHJnt
+    400006: Robot_l_Arm_ShoulderSHJnt
+    400008: Robot_l_Arm_WristSHJnt
+    400010: Robot_l_Leg_AnkleSHJnt
+    400012: Robot_l_Leg_BallSHJnt
+    400014: Robot_l_Leg_HipSHJnt
+    400016: Robot_l_Leg_KneeSHJnt
+    400018: Robot_l_Leg_ToeSHJnt
+    400020: Robot_MAINSHJnt
+    400022: Robot_Neck_01SHJnt
+    400024: Robot_Neck_02SHJnt
+    400026: Robot_Neck_TopSHJnt
+    400028: Robot_r_Arm_ClavicleSHJnt
+    400030: Robot_r_Arm_ElbowSHJnt
+    400032: Robot_r_Arm_ShoulderSHJnt
+    400034: Robot_r_Arm_WristSHJnt
+    400036: Robot_r_Leg_AnkleSHJnt
+    400038: Robot_r_Leg_BallSHJnt
+    400040: Robot_r_Leg_HipSHJnt
+    400042: Robot_r_Leg_KneeSHJnt
+    400044: Robot_r_Leg_ToeSHJnt
+    400046: Robot_ROOTSHJnt
+    400048: Robot_Spine_01SHJnt
+    400050: Robot_Spine_02SHJnt
+    400052: Robot_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

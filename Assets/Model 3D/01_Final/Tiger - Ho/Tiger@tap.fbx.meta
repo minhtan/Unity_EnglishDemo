@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 423cc6468fd87444eba6b0b99e99730f
+timeCreated: 1467965278
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tiger_l_Clavicle_01_01SHJnt
+    100004: Tiger_l_FrontLeg_AnkleSHJnt
+    100006: Tiger_l_FrontLeg_BallSHJnt
+    100008: Tiger_l_FrontLeg_HipSHJnt
+    100010: Tiger_l_FrontLeg_KneeSHJnt
+    100012: Tiger_l_FrontLeg_ToeSHJnt
+    100014: Tiger_l_HindLeg_AnkleSHJnt
+    100016: Tiger_l_HindLeg_BallSHJnt
+    100018: Tiger_l_HindLeg_HipSHJnt
+    100020: Tiger_l_HindLeg_Knee1SHJnt
+    100022: Tiger_l_HindLeg_Knee2SHJnt
+    100024: Tiger_l_HindLeg_ToeSHJnt
+    100026: Tiger_MAINSHJnt
+    100028: Tiger_Neck_01SHJnt
+    100030: Tiger_Neck_02SHJnt
+    100032: Tiger_Neck_TopSHJnt
+    100034: Tiger_r_Clavicle_01_01SHJnt
+    100036: Tiger_r_FrontLeg_AnkleSHJnt
+    100038: Tiger_r_FrontLeg_BallSHJnt
+    100040: Tiger_r_FrontLeg_HipSHJnt
+    100042: Tiger_r_FrontLeg_KneeSHJnt
+    100044: Tiger_r_FrontLeg_ToeSHJnt
+    100046: Tiger_r_HindLeg_AnkleSHJnt
+    100048: Tiger_r_HindLeg_BallSHJnt
+    100050: Tiger_r_HindLeg_HipSHJnt
+    100052: Tiger_r_HindLeg_Knee1SHJnt
+    100054: Tiger_r_HindLeg_Knee2SHJnt
+    100056: Tiger_r_HindLeg_ToeSHJnt
+    100058: Tiger_ROOTSHJnt
+    100060: Tiger_Spine_01SHJnt
+    100062: Tiger_Spine_02SHJnt
+    100064: Tiger_Spine_TopSHJnt
+    100066: Tiger_Tail_01_01SHJnt
+    100068: Tiger_Tail_01_02SHJnt
+    100070: Tiger_Tail_01_03SHJnt
+    100072: Tiger_Tail_01_04SHJnt
+    400000: //RootNode
+    400002: Tiger_l_Clavicle_01_01SHJnt
+    400004: Tiger_l_FrontLeg_AnkleSHJnt
+    400006: Tiger_l_FrontLeg_BallSHJnt
+    400008: Tiger_l_FrontLeg_HipSHJnt
+    400010: Tiger_l_FrontLeg_KneeSHJnt
+    400012: Tiger_l_FrontLeg_ToeSHJnt
+    400014: Tiger_l_HindLeg_AnkleSHJnt
+    400016: Tiger_l_HindLeg_BallSHJnt
+    400018: Tiger_l_HindLeg_HipSHJnt
+    400020: Tiger_l_HindLeg_Knee1SHJnt
+    400022: Tiger_l_HindLeg_Knee2SHJnt
+    400024: Tiger_l_HindLeg_ToeSHJnt
+    400026: Tiger_MAINSHJnt
+    400028: Tiger_Neck_01SHJnt
+    400030: Tiger_Neck_02SHJnt
+    400032: Tiger_Neck_TopSHJnt
+    400034: Tiger_r_Clavicle_01_01SHJnt
+    400036: Tiger_r_FrontLeg_AnkleSHJnt
+    400038: Tiger_r_FrontLeg_BallSHJnt
+    400040: Tiger_r_FrontLeg_HipSHJnt
+    400042: Tiger_r_FrontLeg_KneeSHJnt
+    400044: Tiger_r_FrontLeg_ToeSHJnt
+    400046: Tiger_r_HindLeg_AnkleSHJnt
+    400048: Tiger_r_HindLeg_BallSHJnt
+    400050: Tiger_r_HindLeg_HipSHJnt
+    400052: Tiger_r_HindLeg_Knee1SHJnt
+    400054: Tiger_r_HindLeg_Knee2SHJnt
+    400056: Tiger_r_HindLeg_ToeSHJnt
+    400058: Tiger_ROOTSHJnt
+    400060: Tiger_Spine_01SHJnt
+    400062: Tiger_Spine_02SHJnt
+    400064: Tiger_Spine_TopSHJnt
+    400066: Tiger_Tail_01_01SHJnt
+    400068: Tiger_Tail_01_02SHJnt
+    400070: Tiger_Tail_01_03SHJnt
+    400072: Tiger_Tail_01_04SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

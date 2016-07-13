@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: bfd76952707611b4a9f2e15f0c9d52eb
+timeCreated: 1467687169
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Octopus_l_Tentacle_01_01SHJnt
+    100004: Octopus_l_Tentacle_01_02SHJnt
+    100006: Octopus_l_Tentacle_01_03SHJnt
+    100008: Octopus_l_Tentacle_01_04SHJnt
+    100010: Octopus_l_Tentacle_01_05SHJnt
+    100012: Octopus_l_Tentacle_02_01SHJnt
+    100014: Octopus_l_Tentacle_02_02SHJnt
+    100016: Octopus_l_Tentacle_02_03SHJnt
+    100018: Octopus_l_Tentacle_02_04SHJnt
+    100020: Octopus_l_Tentacle_02_05SHJnt
+    100022: Octopus_l_Tentacle_03_01SHJnt
+    100024: Octopus_l_Tentacle_03_02SHJnt
+    100026: Octopus_l_Tentacle_03_03SHJnt
+    100028: Octopus_l_Tentacle_03_04SHJnt
+    100030: Octopus_l_Tentacle_03_05SHJnt
+    100032: Octopus_MAINSHJnt
+    100034: Octopus_r_Tentacle_01_01SHJnt
+    100036: Octopus_r_Tentacle_01_02SHJnt
+    100038: Octopus_r_Tentacle_01_03SHJnt
+    100040: Octopus_r_Tentacle_01_04SHJnt
+    100042: Octopus_r_Tentacle_01_05SHJnt
+    100044: Octopus_r_Tentacle_02_01SHJnt
+    100046: Octopus_r_Tentacle_02_02SHJnt
+    100048: Octopus_r_Tentacle_02_03SHJnt
+    100050: Octopus_r_Tentacle_02_04SHJnt
+    100052: Octopus_r_Tentacle_02_05SHJnt
+    100054: Octopus_r_Tentacle_03_01SHJnt
+    100056: Octopus_r_Tentacle_03_02SHJnt
+    100058: Octopus_r_Tentacle_03_03SHJnt
+    100060: Octopus_r_Tentacle_03_04SHJnt
+    100062: Octopus_r_Tentacle_03_05SHJnt
+    100064: Octopus_ROOTSHJnt
+    100066: Octopus_Spine_01SHJnt
+    100068: Octopus_Spine_02SHJnt
+    100070: Octopus_Spine_TopSHJnt
+    100072: Octopus_TentacleB_01_01SHJnt
+    100074: Octopus_TentacleB_01_02SHJnt
+    100076: Octopus_TentacleB_01_03SHJnt
+    100078: Octopus_TentacleB_01_04SHJnt
+    100080: Octopus_TentacleB_01_05SHJnt
+    100082: Octopus_TentacleF_01_01SHJnt
+    100084: Octopus_TentacleF_01_02SHJnt
+    100086: Octopus_TentacleF_01_03SHJnt
+    100088: Octopus_TentacleF_01_04SHJnt
+    100090: Octopus_TentacleF_01_05SHJnt
+    400000: //RootNode
+    400002: Octopus_l_Tentacle_01_01SHJnt
+    400004: Octopus_l_Tentacle_01_02SHJnt
+    400006: Octopus_l_Tentacle_01_03SHJnt
+    400008: Octopus_l_Tentacle_01_04SHJnt
+    400010: Octopus_l_Tentacle_01_05SHJnt
+    400012: Octopus_l_Tentacle_02_01SHJnt
+    400014: Octopus_l_Tentacle_02_02SHJnt
+    400016: Octopus_l_Tentacle_02_03SHJnt
+    400018: Octopus_l_Tentacle_02_04SHJnt
+    400020: Octopus_l_Tentacle_02_05SHJnt
+    400022: Octopus_l_Tentacle_03_01SHJnt
+    400024: Octopus_l_Tentacle_03_02SHJnt
+    400026: Octopus_l_Tentacle_03_03SHJnt
+    400028: Octopus_l_Tentacle_03_04SHJnt
+    400030: Octopus_l_Tentacle_03_05SHJnt
+    400032: Octopus_MAINSHJnt
+    400034: Octopus_r_Tentacle_01_01SHJnt
+    400036: Octopus_r_Tentacle_01_02SHJnt
+    400038: Octopus_r_Tentacle_01_03SHJnt
+    400040: Octopus_r_Tentacle_01_04SHJnt
+    400042: Octopus_r_Tentacle_01_05SHJnt
+    400044: Octopus_r_Tentacle_02_01SHJnt
+    400046: Octopus_r_Tentacle_02_02SHJnt
+    400048: Octopus_r_Tentacle_02_03SHJnt
+    400050: Octopus_r_Tentacle_02_04SHJnt
+    400052: Octopus_r_Tentacle_02_05SHJnt
+    400054: Octopus_r_Tentacle_03_01SHJnt
+    400056: Octopus_r_Tentacle_03_02SHJnt
+    400058: Octopus_r_Tentacle_03_03SHJnt
+    400060: Octopus_r_Tentacle_03_04SHJnt
+    400062: Octopus_r_Tentacle_03_05SHJnt
+    400064: Octopus_ROOTSHJnt
+    400066: Octopus_Spine_01SHJnt
+    400068: Octopus_Spine_02SHJnt
+    400070: Octopus_Spine_TopSHJnt
+    400072: Octopus_TentacleB_01_01SHJnt
+    400074: Octopus_TentacleB_01_02SHJnt
+    400076: Octopus_TentacleB_01_03SHJnt
+    400078: Octopus_TentacleB_01_04SHJnt
+    400080: Octopus_TentacleB_01_05SHJnt
+    400082: Octopus_TentacleF_01_01SHJnt
+    400084: Octopus_TentacleF_01_02SHJnt
+    400086: Octopus_TentacleF_01_03SHJnt
+    400088: Octopus_TentacleF_01_04SHJnt
+    400090: Octopus_TentacleF_01_05SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

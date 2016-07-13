@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 3e3f3e855d6df924a86182f86d489dd4
+timeCreated: 1467773084
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: joint1
+    100002: //RootNode
+    100004: Witch_l_Arm_ClavicleSHJnt
+    100006: Witch_l_Arm_ElbowSHJnt
+    100008: Witch_l_Arm_ShoulderSHJnt
+    100010: Witch_l_Arm_WristSHJnt
+    100012: Witch_l_Index_01_01SHJnt
+    100014: Witch_l_Index_01_02SHJnt
+    100016: Witch_l_Index_01_03SHJnt
+    100018: Witch_l_Index_01_04SHJnt
+    100020: Witch_l_Leg_AnkleSHJnt
+    100022: Witch_l_Leg_BallSHJnt
+    100024: Witch_l_Leg_HipSHJnt
+    100026: Witch_l_Leg_KneeSHJnt
+    100028: Witch_l_Leg_ToeSHJnt
+    100030: Witch_l_Thumb_01_01SHJnt
+    100032: Witch_l_Thumb_01_02SHJnt
+    100034: Witch_l_Thumb_01_03SHJnt
+    100036: Witch_l_Thumb_01_04SHJnt
+    100038: Witch_MAINSHJnt
+    100040: Witch_Neck_01SHJnt
+    100042: Witch_Neck_02SHJnt
+    100044: Witch_Neck_TopSHJnt
+    100046: Witch_r_Arm_ClavicleSHJnt
+    100048: Witch_r_Arm_ElbowSHJnt
+    100050: Witch_r_Arm_ShoulderSHJnt
+    100052: Witch_r_Arm_WristSHJnt
+    100054: Witch_r_Index_01_01SHJnt
+    100056: Witch_r_Index_01_02SHJnt
+    100058: Witch_r_Index_01_03SHJnt
+    100060: Witch_r_Index_01_04SHJnt
+    100062: Witch_r_Leg_AnkleSHJnt
+    100064: Witch_r_Leg_BallSHJnt
+    100066: Witch_r_Leg_HipSHJnt
+    100068: Witch_r_Leg_KneeSHJnt
+    100070: Witch_r_Leg_ToeSHJnt
+    100072: Witch_r_Thumb_01_01SHJnt
+    100074: Witch_r_Thumb_01_02SHJnt
+    100076: Witch_r_Thumb_01_03SHJnt
+    100078: Witch_r_Thumb_01_04SHJnt
+    100080: Witch_ROOTSHJnt
+    100082: Witch_Spine_01SHJnt
+    100084: Witch_Spine_02SHJnt
+    100086: Witch_Spine_TopSHJnt
+    400000: joint1
+    400002: //RootNode
+    400004: Witch_l_Arm_ClavicleSHJnt
+    400006: Witch_l_Arm_ElbowSHJnt
+    400008: Witch_l_Arm_ShoulderSHJnt
+    400010: Witch_l_Arm_WristSHJnt
+    400012: Witch_l_Index_01_01SHJnt
+    400014: Witch_l_Index_01_02SHJnt
+    400016: Witch_l_Index_01_03SHJnt
+    400018: Witch_l_Index_01_04SHJnt
+    400020: Witch_l_Leg_AnkleSHJnt
+    400022: Witch_l_Leg_BallSHJnt
+    400024: Witch_l_Leg_HipSHJnt
+    400026: Witch_l_Leg_KneeSHJnt
+    400028: Witch_l_Leg_ToeSHJnt
+    400030: Witch_l_Thumb_01_01SHJnt
+    400032: Witch_l_Thumb_01_02SHJnt
+    400034: Witch_l_Thumb_01_03SHJnt
+    400036: Witch_l_Thumb_01_04SHJnt
+    400038: Witch_MAINSHJnt
+    400040: Witch_Neck_01SHJnt
+    400042: Witch_Neck_02SHJnt
+    400044: Witch_Neck_TopSHJnt
+    400046: Witch_r_Arm_ClavicleSHJnt
+    400048: Witch_r_Arm_ElbowSHJnt
+    400050: Witch_r_Arm_ShoulderSHJnt
+    400052: Witch_r_Arm_WristSHJnt
+    400054: Witch_r_Index_01_01SHJnt
+    400056: Witch_r_Index_01_02SHJnt
+    400058: Witch_r_Index_01_03SHJnt
+    400060: Witch_r_Index_01_04SHJnt
+    400062: Witch_r_Leg_AnkleSHJnt
+    400064: Witch_r_Leg_BallSHJnt
+    400066: Witch_r_Leg_HipSHJnt
+    400068: Witch_r_Leg_KneeSHJnt
+    400070: Witch_r_Leg_ToeSHJnt
+    400072: Witch_r_Thumb_01_01SHJnt
+    400074: Witch_r_Thumb_01_02SHJnt
+    400076: Witch_r_Thumb_01_03SHJnt
+    400078: Witch_r_Thumb_01_04SHJnt
+    400080: Witch_ROOTSHJnt
+    400082: Witch_Spine_01SHJnt
+    400084: Witch_Spine_02SHJnt
+    400086: Witch_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

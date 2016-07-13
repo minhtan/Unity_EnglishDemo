@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 5f930c0e3ae138b40b6c1dbaee0eef8f
+timeCreated: 1467687169
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mouse_l_Arm_ClavicleSHJnt
+    100004: Mouse_l_Arm_ElbowSHJnt
+    100006: Mouse_l_Arm_ShoulderSHJnt
+    100008: Mouse_l_Arm_WristSHJnt
+    100010: Mouse_l_index_01_01SHJnt
+    100012: Mouse_l_index_01_02SHJnt
+    100014: Mouse_l_index_01_03SHJnt
+    100016: Mouse_l_index_01_04SHJnt
+    100018: Mouse_l_Leg_AnkleSHJnt
+    100020: Mouse_l_Leg_BallSHJnt
+    100022: Mouse_l_Leg_HipSHJnt
+    100024: Mouse_l_Leg_KneeSHJnt
+    100026: Mouse_l_Leg_ToeSHJnt
+    100028: Mouse_l_Thumb_01_01SHJnt
+    100030: Mouse_l_Thumb_01_02SHJnt
+    100032: Mouse_l_Thumb_01_03SHJnt
+    100034: Mouse_l_Thumb_01_04SHJnt
+    100036: Mouse_MAINSHJnt
+    100038: Mouse_Neck_01SHJnt
+    100040: Mouse_Neck_02SHJnt
+    100042: Mouse_Neck_TopSHJnt
+    100044: Mouse_r_Arm_ClavicleSHJnt
+    100046: Mouse_r_Arm_ElbowSHJnt
+    100048: Mouse_r_Arm_ShoulderSHJnt
+    100050: Mouse_r_Arm_WristSHJnt
+    100052: Mouse_r_index_01_01SHJnt
+    100054: Mouse_r_index_01_02SHJnt
+    100056: Mouse_r_index_01_03SHJnt
+    100058: Mouse_r_index_01_04SHJnt
+    100060: Mouse_r_Leg_AnkleSHJnt
+    100062: Mouse_r_Leg_BallSHJnt
+    100064: Mouse_r_Leg_HipSHJnt
+    100066: Mouse_r_Leg_KneeSHJnt
+    100068: Mouse_r_Leg_ToeSHJnt
+    100070: Mouse_r_Thumb_01_01SHJnt
+    100072: Mouse_r_Thumb_01_02SHJnt
+    100074: Mouse_r_Thumb_01_03SHJnt
+    100076: Mouse_r_Thumb_01_04SHJnt
+    100078: Mouse_ROOTSHJnt
+    100080: Mouse_Spine_01SHJnt
+    100082: Mouse_Spine_02SHJnt
+    100084: Mouse_Spine_TopSHJnt
+    100086: Mouse_Tail_01_01SHJnt
+    100088: Mouse_Tail_01_02SHJnt
+    100090: Mouse_Tail_01_03SHJnt
+    100092: Mouse_Tail_01_04SHJnt
+    400000: //RootNode
+    400002: Mouse_l_Arm_ClavicleSHJnt
+    400004: Mouse_l_Arm_ElbowSHJnt
+    400006: Mouse_l_Arm_ShoulderSHJnt
+    400008: Mouse_l_Arm_WristSHJnt
+    400010: Mouse_l_index_01_01SHJnt
+    400012: Mouse_l_index_01_02SHJnt
+    400014: Mouse_l_index_01_03SHJnt
+    400016: Mouse_l_index_01_04SHJnt
+    400018: Mouse_l_Leg_AnkleSHJnt
+    400020: Mouse_l_Leg_BallSHJnt
+    400022: Mouse_l_Leg_HipSHJnt
+    400024: Mouse_l_Leg_KneeSHJnt
+    400026: Mouse_l_Leg_ToeSHJnt
+    400028: Mouse_l_Thumb_01_01SHJnt
+    400030: Mouse_l_Thumb_01_02SHJnt
+    400032: Mouse_l_Thumb_01_03SHJnt
+    400034: Mouse_l_Thumb_01_04SHJnt
+    400036: Mouse_MAINSHJnt
+    400038: Mouse_Neck_01SHJnt
+    400040: Mouse_Neck_02SHJnt
+    400042: Mouse_Neck_TopSHJnt
+    400044: Mouse_r_Arm_ClavicleSHJnt
+    400046: Mouse_r_Arm_ElbowSHJnt
+    400048: Mouse_r_Arm_ShoulderSHJnt
+    400050: Mouse_r_Arm_WristSHJnt
+    400052: Mouse_r_index_01_01SHJnt
+    400054: Mouse_r_index_01_02SHJnt
+    400056: Mouse_r_index_01_03SHJnt
+    400058: Mouse_r_index_01_04SHJnt
+    400060: Mouse_r_Leg_AnkleSHJnt
+    400062: Mouse_r_Leg_BallSHJnt
+    400064: Mouse_r_Leg_HipSHJnt
+    400066: Mouse_r_Leg_KneeSHJnt
+    400068: Mouse_r_Leg_ToeSHJnt
+    400070: Mouse_r_Thumb_01_01SHJnt
+    400072: Mouse_r_Thumb_01_02SHJnt
+    400074: Mouse_r_Thumb_01_03SHJnt
+    400076: Mouse_r_Thumb_01_04SHJnt
+    400078: Mouse_ROOTSHJnt
+    400080: Mouse_Spine_01SHJnt
+    400082: Mouse_Spine_02SHJnt
+    400084: Mouse_Spine_TopSHJnt
+    400086: Mouse_Tail_01_01SHJnt
+    400088: Mouse_Tail_01_02SHJnt
+    400090: Mouse_Tail_01_03SHJnt
+    400092: Mouse_Tail_01_04SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 9ef180945802c764c8d7308af47c347c
+timeCreated: 1467687169
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Monster_l_UpperArm_01_01SHJnt
+    100004: Monster_l_UpperArm_01_02SHJnt
+    100006: Monster_MAINSHJnt
+    100008: Monster_Neck_01SHJnt
+    100010: Monster_Neck_02SHJnt
+    100012: Monster_Neck_TopSHJnt
+    100014: Monster_r_UpperArm_01_01SHJnt
+    100016: Monster_r_UpperArm_01_02SHJnt
+    100018: Monster_ROOTSHJnt
+    100020: Monster_Spine_01SHJnt
+    100022: Monster_Spine_02SHJnt
+    100024: Monster_Spine_TopSHJnt
+    100026: Monster_Tail_01_01SHJnt
+    100028: Monster_Tail_01_02SHJnt
+    100030: Monster_Tail_01_03SHJnt
+    100032: Monster_Tail_01_04SHJnt
+    400000: //RootNode
+    400002: Monster_l_UpperArm_01_01SHJnt
+    400004: Monster_l_UpperArm_01_02SHJnt
+    400006: Monster_MAINSHJnt
+    400008: Monster_Neck_01SHJnt
+    400010: Monster_Neck_02SHJnt
+    400012: Monster_Neck_TopSHJnt
+    400014: Monster_r_UpperArm_01_01SHJnt
+    400016: Monster_r_UpperArm_01_02SHJnt
+    400018: Monster_ROOTSHJnt
+    400020: Monster_Spine_01SHJnt
+    400022: Monster_Spine_02SHJnt
+    400024: Monster_Spine_TopSHJnt
+    400026: Monster_Tail_01_01SHJnt
+    400028: Monster_Tail_01_02SHJnt
+    400030: Monster_Tail_01_03SHJnt
+    400032: Monster_Tail_01_04SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

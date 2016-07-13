@@ -13,9 +13,9 @@ public class CFX_AutoDestructShuriken : MonoBehaviour
 	
 	IEnumerator CheckIfAlive ()
 	{
-		while(true)
-		{
-			yield return new WaitForSeconds(1f);
+//		while(true)
+//		{
+//			yield return new WaitForSeconds(0.5f);
 //			if(!GetComponent<ParticleSystem>().IsAlive(true))
 //			{
 //				if(OnlyDeactivate)
@@ -27,9 +27,11 @@ public class CFX_AutoDestructShuriken : MonoBehaviour
 //					#endif
 //				}
 //				else
-					Destroy(this.gameObject);
+//					GameObject.Destroy(this.gameObject);
 //				break;
 //			}
-		}
+//		}
+		yield return new WaitForSeconds(1.5f);
+		GameObject.Destroy(this.gameObject);
 	}
 }

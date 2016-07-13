@@ -15,8 +15,10 @@ public struct Models{
 }
 
 public class GameManager : UnitySingletonPersistent<GameManager> {
-	public GameObject particle;
 	public Vector3[] posVector;
+
+	public GameObject winPrtcl;
+	public GameObject losePrtcl;
 
 	public enum letters{
 		a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
@@ -52,7 +54,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 	}
 
 	void OnFingerTap(LeanFinger fg){
-		Debug.Log ("tapped");
+//		Instantiate (winPrtcl, fg.GetWorldPosition(1.0f), Quaternion.identity);
 
 		if(GUIManager.Instance.IsResultActive() || LeanTouch.GuiInUse){
 			return;
@@ -62,7 +64,7 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 		Ray ray = fg.GetRay ();
 
 		if(Physics.Raycast(ray, out hitInfo)){
-			Messenger.Broadcast<GameObject> (MyEvents.Game.MODEL_TAP, hitInfo.collider.gameObject);
+			Messenger.Broadcast<GameObject, Vector3> (MyEvents.Game.MODEL_TAP, hitInfo.collider.gameObject, fg.GetWorldPosition(1.0f));
 		}
 	}
 }

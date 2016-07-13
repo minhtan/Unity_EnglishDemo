@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 994b364918e6d1f49b9fa6eabcd7d760
+timeCreated: 1467773085
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Queen_DressMiddle_01_01SHJnt
+    100004: Queen_DressMiddle_01_02SHJnt
+    100006: Queen_DressMiddle_01_03SHJnt
+    100008: Queen_DressMiddle_01_04SHJnt
+    100010: Queen_l_Arm_ClavicleSHJnt
+    100012: Queen_l_Arm_ElbowSHJnt
+    100014: Queen_l_Arm_ShoulderSHJnt
+    100016: Queen_l_Arm_WristSHJnt
+    100018: Queen_l_Dress_01_01SHJnt
+    100020: Queen_l_Dress_01_02SHJnt
+    100022: Queen_l_Dress_01_03SHJnt
+    100024: Queen_l_Dress_01_04SHJnt
+    100026: Queen_l_index_01_01SHJnt
+    100028: Queen_l_index_01_02SHJnt
+    100030: Queen_l_index_01_03SHJnt
+    100032: Queen_l_Leg_AnkleSHJnt
+    100034: Queen_l_Leg_BallSHJnt
+    100036: Queen_l_Leg_HipSHJnt
+    100038: Queen_l_Leg_KneeSHJnt
+    100040: Queen_l_Leg_ToeSHJnt
+    100042: Queen_l_Thumb_01_01SHJnt
+    100044: Queen_l_Thumb_01_02SHJnt
+    100046: Queen_l_Thumb_01_03SHJnt
+    100048: Queen_l_Thumb_01_04SHJnt
+    100050: Queen_MAINSHJnt
+    100052: Queen_Neck_01SHJnt
+    100054: Queen_Neck_02SHJnt
+    100056: Queen_Neck_TopSHJnt
+    100058: Queen_r_Arm_ClavicleSHJnt
+    100060: Queen_r_Arm_ElbowSHJnt
+    100062: Queen_r_Arm_ShoulderSHJnt
+    100064: Queen_r_Arm_WristSHJnt
+    100066: Queen_r_Dress_01_01SHJnt
+    100068: Queen_r_Dress_01_02SHJnt
+    100070: Queen_r_Dress_01_03SHJnt
+    100072: Queen_r_Dress_01_04SHJnt
+    100074: Queen_r_index_01_01SHJnt
+    100076: Queen_r_index_01_02SHJnt
+    100078: Queen_r_index_01_03SHJnt
+    100080: Queen_r_Leg_AnkleSHJnt
+    100082: Queen_r_Leg_BallSHJnt
+    100084: Queen_r_Leg_HipSHJnt
+    100086: Queen_r_Leg_KneeSHJnt
+    100088: Queen_r_Leg_ToeSHJnt
+    100090: Queen_r_Thumb_01_01SHJnt
+    100092: Queen_r_Thumb_01_02SHJnt
+    100094: Queen_r_Thumb_01_03SHJnt
+    100096: Queen_r_Thumb_01_04SHJnt
+    100098: Queen_ROOTSHJnt
+    100100: Queen_Spine_01SHJnt
+    100102: Queen_Spine_02SHJnt
+    100104: Queen_Spine_03SHJnt
+    100106: Queen_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Queen_DressMiddle_01_01SHJnt
+    400004: Queen_DressMiddle_01_02SHJnt
+    400006: Queen_DressMiddle_01_03SHJnt
+    400008: Queen_DressMiddle_01_04SHJnt
+    400010: Queen_l_Arm_ClavicleSHJnt
+    400012: Queen_l_Arm_ElbowSHJnt
+    400014: Queen_l_Arm_ShoulderSHJnt
+    400016: Queen_l_Arm_WristSHJnt
+    400018: Queen_l_Dress_01_01SHJnt
+    400020: Queen_l_Dress_01_02SHJnt
+    400022: Queen_l_Dress_01_03SHJnt
+    400024: Queen_l_Dress_01_04SHJnt
+    400026: Queen_l_index_01_01SHJnt
+    400028: Queen_l_index_01_02SHJnt
+    400030: Queen_l_index_01_03SHJnt
+    400032: Queen_l_Leg_AnkleSHJnt
+    400034: Queen_l_Leg_BallSHJnt
+    400036: Queen_l_Leg_HipSHJnt
+    400038: Queen_l_Leg_KneeSHJnt
+    400040: Queen_l_Leg_ToeSHJnt
+    400042: Queen_l_Thumb_01_01SHJnt
+    400044: Queen_l_Thumb_01_02SHJnt
+    400046: Queen_l_Thumb_01_03SHJnt
+    400048: Queen_l_Thumb_01_04SHJnt
+    400050: Queen_MAINSHJnt
+    400052: Queen_Neck_01SHJnt
+    400054: Queen_Neck_02SHJnt
+    400056: Queen_Neck_TopSHJnt
+    400058: Queen_r_Arm_ClavicleSHJnt
+    400060: Queen_r_Arm_ElbowSHJnt
+    400062: Queen_r_Arm_ShoulderSHJnt
+    400064: Queen_r_Arm_WristSHJnt
+    400066: Queen_r_Dress_01_01SHJnt
+    400068: Queen_r_Dress_01_02SHJnt
+    400070: Queen_r_Dress_01_03SHJnt
+    400072: Queen_r_Dress_01_04SHJnt
+    400074: Queen_r_index_01_01SHJnt
+    400076: Queen_r_index_01_02SHJnt
+    400078: Queen_r_index_01_03SHJnt
+    400080: Queen_r_Leg_AnkleSHJnt
+    400082: Queen_r_Leg_BallSHJnt
+    400084: Queen_r_Leg_HipSHJnt
+    400086: Queen_r_Leg_KneeSHJnt
+    400088: Queen_r_Leg_ToeSHJnt
+    400090: Queen_r_Thumb_01_01SHJnt
+    400092: Queen_r_Thumb_01_02SHJnt
+    400094: Queen_r_Thumb_01_03SHJnt
+    400096: Queen_r_Thumb_01_04SHJnt
+    400098: Queen_ROOTSHJnt
+    400100: Queen_Spine_01SHJnt
+    400102: Queen_Spine_02SHJnt
+    400104: Queen_Spine_03SHJnt
+    400106: Queen_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

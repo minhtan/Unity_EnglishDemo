@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: f26a1012adaf892468e80ef820a4663a
+timeCreated: 1467965658
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: KhiDot_l_Arm_ClavicleSHJnt
+    100004: KhiDot_l_Arm_ElbowSHJnt
+    100006: KhiDot_l_Arm_ShoulderSHJnt
+    100008: KhiDot_l_Arm_WristSHJnt
+    100010: KhiDot_l_Index_01_01SHJnt
+    100012: KhiDot_l_Index_01_02SHJnt
+    100014: KhiDot_l_Index_01_03SHJnt
+    100016: KhiDot_l_Index_01_04SHJnt
+    100018: KhiDot_l_Leg_AnkleSHJnt
+    100020: KhiDot_l_Leg_BallSHJnt
+    100022: KhiDot_l_Leg_HipSHJnt
+    100024: KhiDot_l_Leg_KneeSHJnt
+    100026: KhiDot_l_Leg_ToeSHJnt
+    100028: KhiDot_l_Thumb_01_01SHJnt
+    100030: KhiDot_l_Thumb_01_02SHJnt
+    100032: KhiDot_l_Thumb_01_03SHJnt
+    100034: KhiDot_l_Thumb_01_04SHJnt
+    100036: KhiDot_MAINSHJnt
+    100038: KhiDot_Neck_01SHJnt
+    100040: KhiDot_Neck_02SHJnt
+    100042: KhiDot_Neck_TopSHJnt
+    100044: KhiDot_r_Arm_ClavicleSHJnt
+    100046: KhiDot_r_Arm_ElbowSHJnt
+    100048: KhiDot_r_Arm_ShoulderSHJnt
+    100050: KhiDot_r_Arm_WristSHJnt
+    100052: KhiDot_r_Index_01_01SHJnt
+    100054: KhiDot_r_Index_01_02SHJnt
+    100056: KhiDot_r_Index_01_03SHJnt
+    100058: KhiDot_r_Index_01_04SHJnt
+    100060: KhiDot_r_Leg_AnkleSHJnt
+    100062: KhiDot_r_Leg_BallSHJnt
+    100064: KhiDot_r_Leg_HipSHJnt
+    100066: KhiDot_r_Leg_KneeSHJnt
+    100068: KhiDot_r_Leg_ToeSHJnt
+    100070: KhiDot_r_Thumb_01_01SHJnt
+    100072: KhiDot_r_Thumb_01_02SHJnt
+    100074: KhiDot_r_Thumb_01_03SHJnt
+    100076: KhiDot_r_Thumb_01_04SHJnt
+    100078: KhiDot_ROOTSHJnt
+    100080: KhiDot_Spine_01SHJnt
+    100082: KhiDot_Spine_02SHJnt
+    100084: KhiDot_Spine_TopSHJnt
+    400000: //RootNode
+    400002: KhiDot_l_Arm_ClavicleSHJnt
+    400004: KhiDot_l_Arm_ElbowSHJnt
+    400006: KhiDot_l_Arm_ShoulderSHJnt
+    400008: KhiDot_l_Arm_WristSHJnt
+    400010: KhiDot_l_Index_01_01SHJnt
+    400012: KhiDot_l_Index_01_02SHJnt
+    400014: KhiDot_l_Index_01_03SHJnt
+    400016: KhiDot_l_Index_01_04SHJnt
+    400018: KhiDot_l_Leg_AnkleSHJnt
+    400020: KhiDot_l_Leg_BallSHJnt
+    400022: KhiDot_l_Leg_HipSHJnt
+    400024: KhiDot_l_Leg_KneeSHJnt
+    400026: KhiDot_l_Leg_ToeSHJnt
+    400028: KhiDot_l_Thumb_01_01SHJnt
+    400030: KhiDot_l_Thumb_01_02SHJnt
+    400032: KhiDot_l_Thumb_01_03SHJnt
+    400034: KhiDot_l_Thumb_01_04SHJnt
+    400036: KhiDot_MAINSHJnt
+    400038: KhiDot_Neck_01SHJnt
+    400040: KhiDot_Neck_02SHJnt
+    400042: KhiDot_Neck_TopSHJnt
+    400044: KhiDot_r_Arm_ClavicleSHJnt
+    400046: KhiDot_r_Arm_ElbowSHJnt
+    400048: KhiDot_r_Arm_ShoulderSHJnt
+    400050: KhiDot_r_Arm_WristSHJnt
+    400052: KhiDot_r_Index_01_01SHJnt
+    400054: KhiDot_r_Index_01_02SHJnt
+    400056: KhiDot_r_Index_01_03SHJnt
+    400058: KhiDot_r_Index_01_04SHJnt
+    400060: KhiDot_r_Leg_AnkleSHJnt
+    400062: KhiDot_r_Leg_BallSHJnt
+    400064: KhiDot_r_Leg_HipSHJnt
+    400066: KhiDot_r_Leg_KneeSHJnt
+    400068: KhiDot_r_Leg_ToeSHJnt
+    400070: KhiDot_r_Thumb_01_01SHJnt
+    400072: KhiDot_r_Thumb_01_02SHJnt
+    400074: KhiDot_r_Thumb_01_03SHJnt
+    400076: KhiDot_r_Thumb_01_04SHJnt
+    400078: KhiDot_ROOTSHJnt
+    400080: KhiDot_Spine_01SHJnt
+    400082: KhiDot_Spine_02SHJnt
+    400084: KhiDot_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
