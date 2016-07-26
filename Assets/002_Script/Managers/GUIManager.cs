@@ -15,6 +15,7 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	public GameObject pnlLost;
 
 	public GameObject btnBack;
+	public GameObject tut;
 
 	public Text[] letterToShow;
 
@@ -49,6 +50,7 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 
 	public void SetActiveBtnback(bool state){
 		btnBack.SetActive (state);
+		tut.SetActive (state);
 	}
 
 	public void ShowLostLive(int index){
