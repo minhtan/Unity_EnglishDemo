@@ -6,6 +6,9 @@ using UnityEngine;
 
 // This class is responsible for loading the next scene in a transition (the core of
 // this work is performed in the Transition class, though).
+using System.Collections;
+
+
 public class SceneTransition : MonoBehaviour
 {
     public string scene = "<Insert scene name>";
@@ -15,6 +18,11 @@ public class SceneTransition : MonoBehaviour
     public void PerformTransition()
     {
         Transition.LoadLevel(scene, duration, color);
+		StartCoroutine (Wait ());
+    }
+
+	IEnumerator Wait(){
+		yield return new WaitForEndOfFrame ();
 		if (GUIManager.Instance != null) {
 			if(scene == "full"){
 				GUIManager.Instance.SetActiveBtnback (true);
@@ -22,5 +30,5 @@ public class SceneTransition : MonoBehaviour
 				GUIManager.Instance.SetActiveBtnback (false);
 			}
 		}
-    }
+	}
 }

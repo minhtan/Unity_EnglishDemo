@@ -38,6 +38,10 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 		foreach(Text t in letterToShow){
 			t.text = "Letter " + letter;
 		}
+
+		if(tut.activeSelf){
+			tut.SetActive (false);
+		}
 	}
 
 	void HandleTargetLost(){
