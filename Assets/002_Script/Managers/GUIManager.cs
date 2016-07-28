@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	GameObject go;
 	public Text txtQuestionLetter;
+	public Text txtQuestionPrep;
 	
 	public Animator[] livesAnim;
 	public Text txtLives;
@@ -34,7 +35,14 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	void HandleTargetFound(string letter){
 		SetGUIActive (true);
 		ResetUI ();
+
+		if (letter.Equals ("X") || letter.Equals ("Y")) {
+			txtQuestionPrep.text = "that have";
+		} else {
+			txtQuestionPrep.text = "beginning with";
+		}
 		txtQuestionLetter.text = letter;
+
 		foreach(Text t in letterToShow){
 			t.text = "Letter " + letter;
 		}
