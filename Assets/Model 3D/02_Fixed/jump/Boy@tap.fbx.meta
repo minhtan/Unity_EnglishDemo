@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: aadc2cc39d38649ce8be4af99a4b4206
+timeCreated: 1472178878
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Jump_l_Arm_ClavicleSHJnt
+    100004: Jump_l_Arm_ElbowSHJnt
+    100006: Jump_l_Arm_ShoulderSHJnt
+    100008: Jump_l_Arm_WristSHJnt
+    100010: Jump_l_Finger_01_01SHJnt
+    100012: Jump_l_Finger_01_02SHJnt
+    100014: Jump_l_Leg_AnkleSHJnt
+    100016: Jump_l_Leg_BallSHJnt
+    100018: Jump_l_Leg_HipSHJnt
+    100020: Jump_l_Leg_KneeSHJnt
+    100022: Jump_l_Leg_ToeSHJnt
+    100024: Jump_l_Thumb_01_01SHJnt
+    100026: Jump_l_Thumb_01_02SHJnt
+    100028: Jump_MAINSHJnt
+    100030: Jump_Neck_01SHJnt
+    100032: Jump_Neck_02SHJnt
+    100034: Jump_Neck_TopSHJnt
+    100036: Jump_r_Arm_ClavicleSHJnt
+    100038: Jump_r_Arm_ElbowSHJnt
+    100040: Jump_r_Arm_ShoulderSHJnt
+    100042: Jump_r_Arm_WristSHJnt
+    100044: Jump_r_Finger_01_01SHJnt
+    100046: Jump_r_Finger_01_02SHJnt
+    100048: Jump_r_Leg_AnkleSHJnt
+    100050: Jump_r_Leg_BallSHJnt
+    100052: Jump_r_Leg_HipSHJnt
+    100054: Jump_r_Leg_KneeSHJnt
+    100056: Jump_r_Leg_ToeSHJnt
+    100058: Jump_r_Thumb_01_01SHJnt
+    100060: Jump_r_Thumb_01_02SHJnt
+    100062: Jump_ROOTSHJnt
+    100064: Jump_Spine_01SHJnt
+    100066: Jump_Spine_02SHJnt
+    100068: Jump_Spine_TopSHJnt
+    400000: //RootNode
+    400002: Jump_l_Arm_ClavicleSHJnt
+    400004: Jump_l_Arm_ElbowSHJnt
+    400006: Jump_l_Arm_ShoulderSHJnt
+    400008: Jump_l_Arm_WristSHJnt
+    400010: Jump_l_Finger_01_01SHJnt
+    400012: Jump_l_Finger_01_02SHJnt
+    400014: Jump_l_Leg_AnkleSHJnt
+    400016: Jump_l_Leg_BallSHJnt
+    400018: Jump_l_Leg_HipSHJnt
+    400020: Jump_l_Leg_KneeSHJnt
+    400022: Jump_l_Leg_ToeSHJnt
+    400024: Jump_l_Thumb_01_01SHJnt
+    400026: Jump_l_Thumb_01_02SHJnt
+    400028: Jump_MAINSHJnt
+    400030: Jump_Neck_01SHJnt
+    400032: Jump_Neck_02SHJnt
+    400034: Jump_Neck_TopSHJnt
+    400036: Jump_r_Arm_ClavicleSHJnt
+    400038: Jump_r_Arm_ElbowSHJnt
+    400040: Jump_r_Arm_ShoulderSHJnt
+    400042: Jump_r_Arm_WristSHJnt
+    400044: Jump_r_Finger_01_01SHJnt
+    400046: Jump_r_Finger_01_02SHJnt
+    400048: Jump_r_Leg_AnkleSHJnt
+    400050: Jump_r_Leg_BallSHJnt
+    400052: Jump_r_Leg_HipSHJnt
+    400054: Jump_r_Leg_KneeSHJnt
+    400056: Jump_r_Leg_ToeSHJnt
+    400058: Jump_r_Thumb_01_01SHJnt
+    400060: Jump_r_Thumb_01_02SHJnt
+    400062: Jump_ROOTSHJnt
+    400064: Jump_Spine_01SHJnt
+    400066: Jump_Spine_02SHJnt
+    400068: Jump_Spine_TopSHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

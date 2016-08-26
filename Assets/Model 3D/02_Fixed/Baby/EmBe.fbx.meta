@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 99c798bab260a4692aa6da1094afa081
+timeCreated: 1472178895
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: baby1:polySurface3
+    100002: baby1:polySurface3_MeshPart0
+    100004: baby1:polySurface3_MeshPart1
+    100006: baby3
+    100008: baby:pSphere1
+    100010: baby:pSphere2
+    100012: //RootNode
+    100014: EmBe_l_Arm_ClavicleSHJnt
+    100016: EmBe_l_Arm_ElbowSHJnt
+    100018: EmBe_l_Arm_ShoulderSHJnt
+    100020: EmBe_l_Arm_WristSHJnt
+    100022: EmBe_l_Leg_AnkleSHJnt
+    100024: EmBe_l_Leg_BallSHJnt
+    100026: EmBe_l_Leg_HipSHJnt
+    100028: EmBe_l_Leg_KneeSHJnt
+    100030: EmBe_l_Leg_ToeSHJnt
+    100032: EmBe_MAINSHJnt
+    100034: EmBe_Neck_01SHJnt
+    100036: EmBe_Neck_02SHJnt
+    100038: EmBe_Neck_TopSHJnt
+    100040: EmBe_r_Arm_ClavicleSHJnt
+    100042: EmBe_r_Arm_ElbowSHJnt
+    100044: EmBe_r_Arm_ShoulderSHJnt
+    100046: EmBe_r_Arm_WristSHJnt
+    100048: EmBe_r_Leg_AnkleSHJnt
+    100050: EmBe_r_Leg_BallSHJnt
+    100052: EmBe_r_Leg_HipSHJnt
+    100054: EmBe_r_Leg_KneeSHJnt
+    100056: EmBe_r_Leg_ToeSHJnt
+    100058: EmBe_ROOTSHJnt
+    100060: EmBe_Spine_01SHJnt
+    100062: EmBe_Spine_02SHJnt
+    100064: EmBe_Spine_03SHJnt
+    100066: EmBe_Spine_04SHJnt
+    100068: EmBe_Spine_TopSHJnt
+    100070: polySurface70
+    400000: baby1:polySurface3
+    400002: baby1:polySurface3_MeshPart0
+    400004: baby1:polySurface3_MeshPart1
+    400006: baby3
+    400008: baby:pSphere1
+    400010: baby:pSphere2
+    400012: //RootNode
+    400014: EmBe_l_Arm_ClavicleSHJnt
+    400016: EmBe_l_Arm_ElbowSHJnt
+    400018: EmBe_l_Arm_ShoulderSHJnt
+    400020: EmBe_l_Arm_WristSHJnt
+    400022: EmBe_l_Leg_AnkleSHJnt
+    400024: EmBe_l_Leg_BallSHJnt
+    400026: EmBe_l_Leg_HipSHJnt
+    400028: EmBe_l_Leg_KneeSHJnt
+    400030: EmBe_l_Leg_ToeSHJnt
+    400032: EmBe_MAINSHJnt
+    400034: EmBe_Neck_01SHJnt
+    400036: EmBe_Neck_02SHJnt
+    400038: EmBe_Neck_TopSHJnt
+    400040: EmBe_r_Arm_ClavicleSHJnt
+    400042: EmBe_r_Arm_ElbowSHJnt
+    400044: EmBe_r_Arm_ShoulderSHJnt
+    400046: EmBe_r_Arm_WristSHJnt
+    400048: EmBe_r_Leg_AnkleSHJnt
+    400050: EmBe_r_Leg_BallSHJnt
+    400052: EmBe_r_Leg_HipSHJnt
+    400054: EmBe_r_Leg_KneeSHJnt
+    400056: EmBe_r_Leg_ToeSHJnt
+    400058: EmBe_ROOTSHJnt
+    400060: EmBe_Spine_01SHJnt
+    400062: EmBe_Spine_02SHJnt
+    400064: EmBe_Spine_03SHJnt
+    400066: EmBe_Spine_04SHJnt
+    400068: EmBe_Spine_TopSHJnt
+    400070: polySurface70
+    4300000: baby:pSphere1
+    4300002: baby:pSphere2
+    4300004: baby1:polySurface3_MeshPart0
+    4300006: baby1:polySurface3_MeshPart1
+    4300008: polySurface70
+    9500000: //RootNode
+    13700000: baby1:polySurface3_MeshPart0
+    13700002: baby1:polySurface3_MeshPart1
+    13700004: baby:pSphere1
+    13700006: baby:pSphere2
+    13700008: polySurface70
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

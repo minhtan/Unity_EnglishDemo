@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: f1c5fec95eb404ccfa16fdd1a615942d
+timeCreated: 1472178914
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Mesh_grp
+    100002: //RootNode
+    100004: Queen_l_Arm_ClavicleSHJnt
+    100006: Queen_l_Arm_ElbowSHJnt
+    100008: Queen_l_Arm_ShoulderSHJnt
+    100010: Queen_l_Arm_WristSHJnt
+    100012: Queen_l_Leg_AnkleSHJnt
+    100014: Queen_l_Leg_BallSHJnt
+    100016: Queen_l_Leg_HipSHJnt
+    100018: Queen_l_Leg_KneeSHJnt
+    100020: Queen_l_Leg_ToeSHJnt
+    100022: Queen_MAINSHJnt
+    100024: Queen_mesh
+    100026: Queen_Neck_01SHJnt
+    100028: Queen_Neck_02SHJnt
+    100030: Queen_Neck_TopSHJnt
+    100032: Queen_r_Arm_ClavicleSHJnt
+    100034: Queen_r_Arm_ElbowSHJnt
+    100036: Queen_r_Arm_ShoulderSHJnt
+    100038: Queen_r_Arm_WristSHJnt
+    100040: Queen_r_Leg_AnkleSHJnt
+    100042: Queen_r_Leg_BallSHJnt
+    100044: Queen_r_Leg_HipSHJnt
+    100046: Queen_r_Leg_KneeSHJnt
+    100048: Queen_r_Leg_ToeSHJnt
+    100050: Queen_ROOTSHJnt
+    100052: Queen_Spine_01SHJnt
+    100054: Queen_Spine_02SHJnt
+    100056: Queen_Spine_TopSHJnt
+    400000: Mesh_grp
+    400002: //RootNode
+    400004: Queen_l_Arm_ClavicleSHJnt
+    400006: Queen_l_Arm_ElbowSHJnt
+    400008: Queen_l_Arm_ShoulderSHJnt
+    400010: Queen_l_Arm_WristSHJnt
+    400012: Queen_l_Leg_AnkleSHJnt
+    400014: Queen_l_Leg_BallSHJnt
+    400016: Queen_l_Leg_HipSHJnt
+    400018: Queen_l_Leg_KneeSHJnt
+    400020: Queen_l_Leg_ToeSHJnt
+    400022: Queen_MAINSHJnt
+    400024: Queen_mesh
+    400026: Queen_Neck_01SHJnt
+    400028: Queen_Neck_02SHJnt
+    400030: Queen_Neck_TopSHJnt
+    400032: Queen_r_Arm_ClavicleSHJnt
+    400034: Queen_r_Arm_ElbowSHJnt
+    400036: Queen_r_Arm_ShoulderSHJnt
+    400038: Queen_r_Arm_WristSHJnt
+    400040: Queen_r_Leg_AnkleSHJnt
+    400042: Queen_r_Leg_BallSHJnt
+    400044: Queen_r_Leg_HipSHJnt
+    400046: Queen_r_Leg_KneeSHJnt
+    400048: Queen_r_Leg_ToeSHJnt
+    400050: Queen_ROOTSHJnt
+    400052: Queen_Spine_01SHJnt
+    400054: Queen_Spine_02SHJnt
+    400056: Queen_Spine_TopSHJnt
+    4300000: Queen_mesh
+    9500000: //RootNode
+    13700000: Queen_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

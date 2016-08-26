@@ -18,11 +18,10 @@ public class SceneTransition : MonoBehaviour
     public void PerformTransition()
     {
         Transition.LoadLevel(scene, duration, color);
-		StartCoroutine (Wait ());
+		Wait ();
     }
 
-	IEnumerator Wait(){
-		yield return new WaitForEndOfFrame ();
+	void Wait(){
 		if (GUIManager.Instance != null) {
 			if(scene == "full"){
 				GUIManager.Instance.SetActiveBtnback (true);

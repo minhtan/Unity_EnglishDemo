@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: a26f21c08c8544d268bb4b337b5a730a
+timeCreated: 1472178913
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Mesh_grp
+    100002: //RootNode
+    100004: Quiet_l_Arm_ClavicleSHJnt
+    100006: Quiet_l_Arm_ElbowSHJnt
+    100008: Quiet_l_Arm_ShoulderSHJnt
+    100010: Quiet_l_Arm_WristSHJnt
+    100012: Quiet_l_Finger_01_01SHJnt
+    100014: Quiet_l_Finger_01_02SHJnt
+    100016: Quiet_l_Leg_AnkleSHJnt
+    100018: Quiet_l_Leg_BallSHJnt
+    100020: Quiet_l_Leg_HipSHJnt
+    100022: Quiet_l_Leg_KneeSHJnt
+    100024: Quiet_l_Leg_ToeSHJnt
+    100026: Quiet_l_Thumb_01_01SHJnt
+    100028: Quiet_l_Thumb_01_02SHJnt
+    100030: Quiet_MAINSHJnt
+    100032: Quiet_Neck_01SHJnt
+    100034: Quiet_Neck_02SHJnt
+    100036: Quiet_Neck_TopSHJnt
+    100038: Quiet_r_Arm_ClavicleSHJnt
+    100040: Quiet_r_Arm_ElbowSHJnt
+    100042: Quiet_r_Arm_ShoulderSHJnt
+    100044: Quiet_r_Arm_WristSHJnt
+    100046: Quiet_r_Finger_01_01SHJnt
+    100048: Quiet_r_Finger_01_02SHJnt
+    100050: Quiet_r_Leg_AnkleSHJnt
+    100052: Quiet_r_Leg_BallSHJnt
+    100054: Quiet_r_Leg_HipSHJnt
+    100056: Quiet_r_Leg_KneeSHJnt
+    100058: Quiet_r_Leg_ToeSHJnt
+    100060: Quiet_r_Thumb_01_01SHJnt
+    100062: Quiet_r_Thumb_01_02SHJnt
+    100064: Quiet_ROOTSHJnt
+    100066: Quiet_Spine_01SHJnt
+    100068: Quiet_Spine_02SHJnt
+    100070: Quiet_Spine_TopSHJnt
+    100072: Teacher_mesh
+    100074: Teacher_mesh_MeshPart0
+    100076: Teacher_mesh_MeshPart1
+    100078: Teacher_mesh_MeshPart2
+    100080: Teacher_mesh_MeshPart3
+    400000: Mesh_grp
+    400002: //RootNode
+    400004: Quiet_l_Arm_ClavicleSHJnt
+    400006: Quiet_l_Arm_ElbowSHJnt
+    400008: Quiet_l_Arm_ShoulderSHJnt
+    400010: Quiet_l_Arm_WristSHJnt
+    400012: Quiet_l_Finger_01_01SHJnt
+    400014: Quiet_l_Finger_01_02SHJnt
+    400016: Quiet_l_Leg_AnkleSHJnt
+    400018: Quiet_l_Leg_BallSHJnt
+    400020: Quiet_l_Leg_HipSHJnt
+    400022: Quiet_l_Leg_KneeSHJnt
+    400024: Quiet_l_Leg_ToeSHJnt
+    400026: Quiet_l_Thumb_01_01SHJnt
+    400028: Quiet_l_Thumb_01_02SHJnt
+    400030: Quiet_MAINSHJnt
+    400032: Quiet_Neck_01SHJnt
+    400034: Quiet_Neck_02SHJnt
+    400036: Quiet_Neck_TopSHJnt
+    400038: Quiet_r_Arm_ClavicleSHJnt
+    400040: Quiet_r_Arm_ElbowSHJnt
+    400042: Quiet_r_Arm_ShoulderSHJnt
+    400044: Quiet_r_Arm_WristSHJnt
+    400046: Quiet_r_Finger_01_01SHJnt
+    400048: Quiet_r_Finger_01_02SHJnt
+    400050: Quiet_r_Leg_AnkleSHJnt
+    400052: Quiet_r_Leg_BallSHJnt
+    400054: Quiet_r_Leg_HipSHJnt
+    400056: Quiet_r_Leg_KneeSHJnt
+    400058: Quiet_r_Leg_ToeSHJnt
+    400060: Quiet_r_Thumb_01_01SHJnt
+    400062: Quiet_r_Thumb_01_02SHJnt
+    400064: Quiet_ROOTSHJnt
+    400066: Quiet_Spine_01SHJnt
+    400068: Quiet_Spine_02SHJnt
+    400070: Quiet_Spine_TopSHJnt
+    400072: Teacher_mesh
+    400074: Teacher_mesh_MeshPart0
+    400076: Teacher_mesh_MeshPart1
+    400078: Teacher_mesh_MeshPart2
+    400080: Teacher_mesh_MeshPart3
+    4300000: Teacher_mesh_MeshPart0
+    4300002: Teacher_mesh_MeshPart1
+    4300004: Teacher_mesh_MeshPart2
+    4300006: Teacher_mesh_MeshPart3
+    9500000: //RootNode
+    13700000: Teacher_mesh_MeshPart0
+    13700002: Teacher_mesh_MeshPart1
+    13700004: Teacher_mesh_MeshPart2
+    13700006: Teacher_mesh_MeshPart3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

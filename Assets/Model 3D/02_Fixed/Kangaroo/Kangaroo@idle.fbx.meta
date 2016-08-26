@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: e59cc51b49ac849a0a6b8df3575a882a
+timeCreated: 1472178878
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Kangaroo_l_Arm_ClavicleSHJnt
+    100004: Kangaroo_l_Arm_ElbowSHJnt
+    100006: Kangaroo_l_Arm_ShoulderSHJnt
+    100008: Kangaroo_l_Arm_WristSHJnt
+    100010: Kangaroo_l_HindLeg_AnkleSHJnt
+    100012: Kangaroo_l_HindLeg_BallSHJnt
+    100014: Kangaroo_l_HindLeg_HipSHJnt
+    100016: Kangaroo_l_HindLeg_Knee1SHJnt
+    100018: Kangaroo_l_HindLeg_Knee2SHJnt
+    100020: Kangaroo_l_HindLeg_ToeSHJnt
+    100022: Kangaroo_MAINSHJnt
+    100024: Kangaroo_Neck_01SHJnt
+    100026: Kangaroo_Neck_02SHJnt
+    100028: Kangaroo_Neck_TopSHJnt
+    100030: Kangaroo_r_Arm_ClavicleSHJnt
+    100032: Kangaroo_r_Arm_ElbowSHJnt
+    100034: Kangaroo_r_Arm_ShoulderSHJnt
+    100036: Kangaroo_r_Arm_WristSHJnt
+    100038: Kangaroo_r_HindLeg_AnkleSHJnt
+    100040: Kangaroo_r_HindLeg_BallSHJnt
+    100042: Kangaroo_r_HindLeg_HipSHJnt
+    100044: Kangaroo_r_HindLeg_Knee1SHJnt
+    100046: Kangaroo_r_HindLeg_Knee2SHJnt
+    100048: Kangaroo_r_HindLeg_ToeSHJnt
+    100050: Kangaroo_ROOTSHJnt
+    100052: Kangaroo_Spine_01SHJnt
+    100054: Kangaroo_Spine_02SHJnt
+    100056: Kangaroo_Spine_03SHJnt
+    100058: Kangaroo_Spine_04SHJnt
+    100060: Kangaroo_Spine_TopSHJnt
+    100062: Kangaroo_Tail_01_01SHJnt
+    100064: Kangaroo_Tail_01_02SHJnt
+    100066: Kangaroo_Tail_01_03SHJnt
+    100068: Kangaroo_Tail_01_04SHJnt
+    100070: Kangaroo_Tail_01_05SHJnt
+    400000: //RootNode
+    400002: Kangaroo_l_Arm_ClavicleSHJnt
+    400004: Kangaroo_l_Arm_ElbowSHJnt
+    400006: Kangaroo_l_Arm_ShoulderSHJnt
+    400008: Kangaroo_l_Arm_WristSHJnt
+    400010: Kangaroo_l_HindLeg_AnkleSHJnt
+    400012: Kangaroo_l_HindLeg_BallSHJnt
+    400014: Kangaroo_l_HindLeg_HipSHJnt
+    400016: Kangaroo_l_HindLeg_Knee1SHJnt
+    400018: Kangaroo_l_HindLeg_Knee2SHJnt
+    400020: Kangaroo_l_HindLeg_ToeSHJnt
+    400022: Kangaroo_MAINSHJnt
+    400024: Kangaroo_Neck_01SHJnt
+    400026: Kangaroo_Neck_02SHJnt
+    400028: Kangaroo_Neck_TopSHJnt
+    400030: Kangaroo_r_Arm_ClavicleSHJnt
+    400032: Kangaroo_r_Arm_ElbowSHJnt
+    400034: Kangaroo_r_Arm_ShoulderSHJnt
+    400036: Kangaroo_r_Arm_WristSHJnt
+    400038: Kangaroo_r_HindLeg_AnkleSHJnt
+    400040: Kangaroo_r_HindLeg_BallSHJnt
+    400042: Kangaroo_r_HindLeg_HipSHJnt
+    400044: Kangaroo_r_HindLeg_Knee1SHJnt
+    400046: Kangaroo_r_HindLeg_Knee2SHJnt
+    400048: Kangaroo_r_HindLeg_ToeSHJnt
+    400050: Kangaroo_ROOTSHJnt
+    400052: Kangaroo_Spine_01SHJnt
+    400054: Kangaroo_Spine_02SHJnt
+    400056: Kangaroo_Spine_03SHJnt
+    400058: Kangaroo_Spine_04SHJnt
+    400060: Kangaroo_Spine_TopSHJnt
+    400062: Kangaroo_Tail_01_01SHJnt
+    400064: Kangaroo_Tail_01_02SHJnt
+    400066: Kangaroo_Tail_01_03SHJnt
+    400068: Kangaroo_Tail_01_04SHJnt
+    400070: Kangaroo_Tail_01_05SHJnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

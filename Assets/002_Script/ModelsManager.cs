@@ -100,7 +100,7 @@ public class ModelsManager : MonoBehaviour {
 		do {
 			yield return null;
 		} while(isLastAnimRunning);
-		GUIManager.Instance.ShowWinPnl (3-currentIncorrect);
+		Messenger.Broadcast<int, string> (MyEvents.Game.WIN, 3 - currentIncorrect, letter.ToString());
 	}
 
 	void CalculateTotalCorrect(){

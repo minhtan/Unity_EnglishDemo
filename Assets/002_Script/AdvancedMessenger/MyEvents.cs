@@ -8,6 +8,9 @@ public class MyEvents : MonoBehaviour {
 		TARGETFOUND,
 		MODEL_TAP,
 		TARGETLOST,
-		ANIM_END
+		ANIM_END,
+		START,
+		WIN,
+		FINISH
 	}
 }

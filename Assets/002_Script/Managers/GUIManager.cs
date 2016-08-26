@@ -20,16 +20,23 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 
 	public Text[] letterToShow;
 
+	public GameObject pnlReward;
+	public Image imgMedal;
+	public Text txtTotalStars;
+	public Sprite[] medalSprite;
+
 	void OnEnable(){
 		go = transform.GetChild (0).gameObject;
 		Messenger.AddListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
 		Messenger.AddListener (MyEvents.Game.TARGETLOST, HandleTargetLost);
+		Messenger.AddListener <int> (MyEvents.Game.FINISH, HandleFinishGame);
 		HandleTargetLost ();
 	}
 
 	void OnDisable(){
 		Messenger.RemoveListener <string> (MyEvents.Game.TARGETFOUND, HandleTargetFound);
 		Messenger.RemoveListener (MyEvents.Game.TARGETLOST, HandleTargetLost);
+		Messenger.RemoveListener <int> (MyEvents.Game.FINISH, HandleFinishGame);
 	}
 
 	void HandleTargetFound(string letter){
@@ -56,11 +63,30 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 		SetGUIActive (false);
 	}
 
+	void HandleFinishGame(int totalStars){
+		GameManager.medals medal = GameManager.Instance.CalculateMedal (totalStars);
+		if(medal != GameManager.medals.none){
+			pnlReward.SetActive (true);
+			txtTotalStars.text = totalStars + "";
+			imgMedal.sprite = medalSprite [(int)medal];
+		}
+	}
+
 	public void SetGUIActive(bool state){
 		go.SetActive (state);
 	}
 
 	public void SetActiveBtnback(bool state){
+		StartCoroutine (ActiveBtnBackAndTut (state));
+		pnlReward.SetActive (false);
+	}
+
+	IEnumerator ActiveBtnBackAndTut(bool state){
+		if (!state) {
+			yield return null;	
+		} else {
+			yield return new WaitForSeconds(1.0f);
+		}
 		btnBack.SetActive (state);
 		tut.SetActive (state);
 	}
