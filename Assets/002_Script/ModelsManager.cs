@@ -48,7 +48,8 @@ public class ModelsManager : MonoBehaviour {
 
 		go.GetComponent<Collider> ().enabled = false;
 		if (CompareAnswer(go.name)) {
-			Instantiate (GameManager.Instance.winPrtcl, pos, Quaternion.identity);
+//			Instantiate (GameManager.Instance.winPrtcl, pos, Quaternion.identity);
+			Instantiate (GameManager.Instance.winPrtcl, Vector3.zero, Quaternion.identity);
 
 			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
 			if(clip != null){
