@@ -97,10 +97,11 @@ public class GameManager : UnitySingletonPersistent<GameManager> {
 
 			if (playableLetters.Count <= 0) {
 				Messenger.Broadcast<int> (MyEvents.Game.FINISH, totalStars);
-			} else {
-				GUIManager.Instance.ShowWinPnl (earnedStar);
-			}
+				return;
+			} 
 		}
+		GUIManager.Instance.ShowWinPnl (earnedStar);
+		GUIManager.Instance.UpdateStarEarned (totalStars);
 	}
 
 	public medals CalculateMedal(int totalStars){

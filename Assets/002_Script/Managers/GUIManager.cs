@@ -24,6 +24,7 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	public Image imgMedal;
 	public Text txtTotalStars;
 	public Sprite[] medalSprite;
+	public Text txtStarEarned;
 
 	void OnEnable(){
 		go = transform.GetChild (0).gameObject;
@@ -132,5 +133,9 @@ public class GUIManager : UnitySingletonPersistent<GUIManager> {
 	public void _Reset(){
 		ResetUI ();
 		Messenger.Broadcast (MyEvents.Game.RESET);
+	}
+
+	public void UpdateStarEarned(int currentStar){
+		txtStarEarned.text = currentStar + "/78 star earned";
 	}
 }
