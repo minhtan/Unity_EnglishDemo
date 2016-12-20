@@ -11,6 +11,7 @@ public class ModelsManager : MonoBehaviour {
 	bool gameover;
 	public bool isLastAnimRunning;
 	int currentAnim;
+	IEnumerator task;
 
 	public GameManager.letters letter;
 
@@ -51,10 +52,17 @@ public class ModelsManager : MonoBehaviour {
 //			Instantiate (GameManager.Instance.winPrtcl, pos, Quaternion.identity);
 			Instantiate (GameManager.Instance.winPrtcl, Vector3.zero, Quaternion.identity);
 
-			AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
-			if(clip != null){
-				SoundManager.Instance.PlaySound (clip);
+			if (task != null) {
+				StopCoroutine (task);
+				task = null;
 			}
+			task = SoundManager.Instance.PlayCorrectSound (() => {
+				AudioClip clip = Resources.Load<AudioClip> ("M_Sound/" + go.name);
+				if (clip != null) {
+					SoundManager.Instance.PlaySound (clip);
+				}
+			});
+			StartCoroutine (task);
 
 			go.GetComponentInChildren<Animator> ().SetTrigger ("tap");
 
@@ -65,6 +73,10 @@ public class ModelsManager : MonoBehaviour {
 		} else {
 			Instantiate (GameManager.Instance.losePrtcl, pos, Quaternion.identity);
 
+			if (task != null) {
+				StopCoroutine (task);
+				task = null;
+			}
 			SoundManager.Instance.PlayWrongSound ();
 
 			Renderer[] rd = go.GetComponentsInChildren<Renderer> ();

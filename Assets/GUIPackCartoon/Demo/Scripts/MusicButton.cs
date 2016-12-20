@@ -15,7 +15,7 @@ public class MusicButton : MonoBehaviour
     private void Start()
     {
         m_spriteSwapper = GetComponent<SpriteSwapper>();
-        m_on = PlayerPrefs.GetInt("music_on") == 1;
+		m_on = PlayerPrefs.GetInt("music_on") >= BackgroundMusic.maxVolume;
         if (!m_on)
             m_spriteSwapper.SwapSprite();
     }
@@ -24,7 +24,7 @@ public class MusicButton : MonoBehaviour
     {
         m_on = !m_on;
         var backgroundAudioSource = GameObject.Find("BackgroundMusic").GetComponent<AudioSource>();
-        backgroundAudioSource.volume = m_on ? 1 : 0;
+		backgroundAudioSource.volume = m_on ? BackgroundMusic.maxVolume : 0;
         PlayerPrefs.SetInt("music_on", m_on ? 1 : 0);
     }
 

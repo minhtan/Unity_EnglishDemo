@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 2b8f08132aa72436daf31b5563b8202e
+timeCreated: 1482203568
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: l_Clavicle_AuxSHJnt
+    100002: l_FrontLeg_AnkleSHJnt
+    100004: l_FrontLeg_BallSHJnt
+    100006: l_FrontLeg_HipSHJnt
+    100008: l_FrontLeg_KneeSHJnt
+    100010: l_FrontLeg_ToeSHJnt
+    100012: l_HindLeg_AnkleSHJnt
+    100014: l_HindLeg_BallSHJnt
+    100016: l_HindLeg_HipSHJnt
+    100018: l_HindLeg_Knee1SHJnt
+    100020: l_HindLeg_Knee2SHJnt
+    100022: l_HindLeg_ToeSHJnt
+    100024: MAINSHJnt
+    100026: Neck_01SHJnt
+    100028: Neck_02SHJnt
+    100030: Neck_TopSHJnt
+    100032: r_Clavicle_AuxSHJnt
+    100034: r_FrontLeg_AnkleSHJnt
+    100036: r_FrontLeg_BallSHJnt
+    100038: r_FrontLeg_HipSHJnt
+    100040: r_FrontLeg_KneeSHJnt
+    100042: r_FrontLeg_ToeSHJnt
+    100044: r_HindLeg_AnkleSHJnt
+    100046: r_HindLeg_BallSHJnt
+    100048: r_HindLeg_HipSHJnt
+    100050: r_HindLeg_Knee1SHJnt
+    100052: r_HindLeg_Knee2SHJnt
+    100054: r_HindLeg_ToeSHJnt
+    100056: ROOTSHJnt
+    100058: Spine_01SHJnt
+    100060: Spine_02SHJnt
+    100062: Spine_TopSHJnt
+    100064: Tail_01_01SHJnt
+    100066: Tail_01_02SHJnt
+    100068: //RootNode
+    400000: l_Clavicle_AuxSHJnt
+    400002: l_FrontLeg_AnkleSHJnt
+    400004: l_FrontLeg_BallSHJnt
+    400006: l_FrontLeg_HipSHJnt
+    400008: l_FrontLeg_KneeSHJnt
+    400010: l_FrontLeg_ToeSHJnt
+    400012: l_HindLeg_AnkleSHJnt
+    400014: l_HindLeg_BallSHJnt
+    400016: l_HindLeg_HipSHJnt
+    400018: l_HindLeg_Knee1SHJnt
+    400020: l_HindLeg_Knee2SHJnt
+    400022: l_HindLeg_ToeSHJnt
+    400024: MAINSHJnt
+    400026: Neck_01SHJnt
+    400028: Neck_02SHJnt
+    400030: Neck_TopSHJnt
+    400032: r_Clavicle_AuxSHJnt
+    400034: r_FrontLeg_AnkleSHJnt
+    400036: r_FrontLeg_BallSHJnt
+    400038: r_FrontLeg_HipSHJnt
+    400040: r_FrontLeg_KneeSHJnt
+    400042: r_FrontLeg_ToeSHJnt
+    400044: r_HindLeg_AnkleSHJnt
+    400046: r_HindLeg_BallSHJnt
+    400048: r_HindLeg_HipSHJnt
+    400050: r_HindLeg_Knee1SHJnt
+    400052: r_HindLeg_Knee2SHJnt
+    400054: r_HindLeg_ToeSHJnt
+    400056: ROOTSHJnt
+    400058: Spine_01SHJnt
+    400060: Spine_02SHJnt
+    400062: Spine_TopSHJnt
+    400064: Tail_01_01SHJnt
+    400066: Tail_01_02SHJnt
+    400068: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

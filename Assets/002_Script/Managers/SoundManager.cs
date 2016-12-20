@@ -5,6 +5,7 @@ public class SoundManager : UnitySingletonPersistent<SoundManager>
 {
 	private AudioSource audioSource;
 	public AudioClip wrongSound;
+	public AudioClip[] correctSound;
 
 	public override void Awake()
 	{
@@ -20,6 +21,16 @@ public class SoundManager : UnitySingletonPersistent<SoundManager>
 
 	public void PlayWrongSound(){
 		PlaySound (wrongSound);
+	}
+
+	public IEnumerator PlayCorrectSound(System.Action callback){
+		PlaySound (correctSound [UnityEngine.Random.Range(0, correctSound.Length - 1)] );
+
+		while (audioSource.isPlaying) {
+			yield return null;
+		}
+
+		callback ();
 	}
 
 	public void Stop(){
