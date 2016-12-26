@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: eadaab957aee8457caab4c2d84d796b2
+timeCreated: 1482738350
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: GlobalControl_ctrl
+    100002: Grp_joint_Driver
+    100004: lien_head_01
+    100006: lien_jaw_01
+    100008: lien_l_arm_
+    100010: lien_l_arm_1
+    100012: lien_l_arm_2
+    100014: lien_l_ear_
+    100016: lien_l_ear_1
+    100018: lien_l_ear_2
+    100020: lien_l_knee_
+    100022: lien_l_leg_
+    100024: lien_l_leg_2
+    100026: lien_neck_2
+    100028: lien_r_arm_
+    100030: lien_r_arm_1
+    100032: lien_r_arm_2
+    100034: lien_r_ear_
+    100036: lien_r_ear_1
+    100038: lien_r_ear_2
+    100040: lien_r_knee_
+    100042: lien_r_leg_
+    100044: lien_r_leg_2
+    100046: lien_root
+    100048: lien_spline_1
+    100050: lien_spline_2
+    100052: lien_tail_
+    100054: Main_Control_01
+    100056: //RootNode
+    100058: Rabbit_fix:Body_mesh
+    100060: Rabbit_fix:polySurface1
+    100062: Rabbit_fix:polySurface1 1
+    100064: Rabbit_fix:polySurface2
+    100066: Rabbit_fix:polySurface3
+    100068: Rabbit_fix:polySurface4
+    100070: Rabbit_fix:polySurface5
+    100072: Rabbit_fix:polySurface6
+    100074: Rabbit_fix:polySurface7
+    100076: Rabbit_fix:polySurface8
+    100078: Rabbit_fix:transform1
+    100080: Rabbit_fix:transform10
+    100082: Rabbit_fix:transform11
+    100084: Rabbit_fix:transform12
+    100086: Rabbit_fix:transform13
+    100088: Rabbit_fix:transform14
+    100090: Rabbit_fix:transform8
+    100092: Rabbit_fix:transform9
+    100094: Root
+    400000: GlobalControl_ctrl
+    400002: Grp_joint_Driver
+    400004: lien_head_01
+    400006: lien_jaw_01
+    400008: lien_l_arm_
+    400010: lien_l_arm_1
+    400012: lien_l_arm_2
+    400014: lien_l_ear_
+    400016: lien_l_ear_1
+    400018: lien_l_ear_2
+    400020: lien_l_knee_
+    400022: lien_l_leg_
+    400024: lien_l_leg_2
+    400026: lien_neck_2
+    400028: lien_r_arm_
+    400030: lien_r_arm_1
+    400032: lien_r_arm_2
+    400034: lien_r_ear_
+    400036: lien_r_ear_1
+    400038: lien_r_ear_2
+    400040: lien_r_knee_
+    400042: lien_r_leg_
+    400044: lien_r_leg_2
+    400046: lien_root
+    400048: lien_spline_1
+    400050: lien_spline_2
+    400052: lien_tail_
+    400054: Main_Control_01
+    400056: //RootNode
+    400058: Rabbit_fix:Body_mesh
+    400060: Rabbit_fix:polySurface1
+    400062: Rabbit_fix:polySurface1 1
+    400064: Rabbit_fix:polySurface2
+    400066: Rabbit_fix:polySurface3
+    400068: Rabbit_fix:polySurface4
+    400070: Rabbit_fix:polySurface5
+    400072: Rabbit_fix:polySurface6
+    400074: Rabbit_fix:polySurface7
+    400076: Rabbit_fix:polySurface8
+    400078: Rabbit_fix:transform1
+    400080: Rabbit_fix:transform10
+    400082: Rabbit_fix:transform11
+    400084: Rabbit_fix:transform12
+    400086: Rabbit_fix:transform13
+    400088: Rabbit_fix:transform14
+    400090: Rabbit_fix:transform8
+    400092: Rabbit_fix:transform9
+    400094: Root
+    2300000: Rabbit_fix:polySurface8
+    3300000: Rabbit_fix:polySurface8
+    4300000: Rabbit_fix:polySurface1
+    4300002: Rabbit_fix:polySurface8
+    9500000: //RootNode
+    13700000: Rabbit_fix:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
